@@ -114,9 +114,9 @@ export default function MiniDrawer() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div">
-            Mini variant drawer
-          </Typography>
+          <Typography variant="h5">
+          Lic. Arriola Barbara
+        </Typography>
         </Toolbar>
       </AppBar>
       <Drawer variant="permanent" open={open} sx={{backgroundColor: 'pink'}}>
@@ -148,9 +148,6 @@ export default function MiniDrawer() {
           ))}
         </List>
       </Drawer>
-      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-        <DrawerHeader />
-      </Box>
     </Box>
   );
 }

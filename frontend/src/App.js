@@ -1,19 +1,23 @@
 import MenuAppBar from "./components/NavBar";
-import { Grid, Typography } from "@mui/material";
+import { Grid, Paper } from "@mui/material";
 import { Outlet } from "react-router-dom";
-
 
 export default function App() {
   return (
     <>
-    <MenuAppBar />
-    <Grid container direction="row" justifyContent="center" alignItems="center">
-      <Typography variant="h2" component="div" gutterBottom>
-        Lic. Arriola Barbara
-      </Typography>
-    </Grid>
-    <Outlet />
+      <MenuAppBar />
+      <Grid
+        container
+        direction="row"
+        justifyContent="center"
+        alignItems="center"
+        sx={{width: '100%', height: '100%', p:4}}
+        component={'main'}
+      >
+        <Paper elevation={3} sx={{width: '80%', height: '80%', p: 2}}>
+        <Outlet />
+        </Paper>
+      </Grid>
     </>
   );
 }
-
