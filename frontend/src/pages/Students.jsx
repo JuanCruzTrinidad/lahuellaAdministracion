@@ -1,8 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { DataGrid, GridActionsCellItem } from '@mui/x-data-grid';
 import VisibilityIcon from '@mui/icons-material/Visibility';
+import { Button, Stack } from '@mui/material';
 
-const rows = [
+const Initialrows = [
   { id: 1, nombre: 'Francisco', diagnostico: 'Ejemplo diagnostico', escuela: 'asd-fdas', grado: 'cuarto', acompañante: 'Nombre 1', obraSocial: 'OSDE', observacion: 'Una observacion'},
   { id: 2, nombre: 'Francisco', diagnostico: 'Ejemplo diagnostico', escuela: 'bbb-bbb', grado: 'cuarto', acompañante: 'Nombre 1', obraSocial: 'OSDE', observacion: 'Una observacion'},
 
@@ -18,8 +19,25 @@ const escuelas = [ {
 }]
 
 export default function Students() {    
+
+  const [rows, setrows] = useState(Initialrows)
+
+  const handleAddRow = () => {
+    setrows((prevRows) => [...prevRows, {nombre: "Nuevo", id: 'ejemplo'}]); //Usar random string.
+  };
+
     return (
       <div style={{ height: '100%', width: '100%' }}>
+        <Stack
+        sx={{ width: '100%', mb: 1 }}
+        direction="row"
+        alignItems="flex-end"
+        columnGap={6}
+      >
+        <Button size="small" onClick={handleAddRow}>
+          Añadir niñe
+        </Button>
+      </Stack>
             <DataGrid  editMode="row" rows={rows} columns={[
           { field: 'nombre', headerName: 'Nombre Completo', editable: true, width: 200},
           { field: 'diagnostico', headerName: 'Diagnostico', editable: true, width: 200 },
