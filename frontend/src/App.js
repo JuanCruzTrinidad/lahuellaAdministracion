@@ -14,7 +14,7 @@ export default function App() {
         sx={{width: '100%', height: '100%', p:4}}
         component={'main'}
       >
-        <Paper elevation={3} sx={{width: '80%', height: '80%', p: 2}}>
+        <Paper elevation={3} sx={{width: '90%', height: '90%', p: 2}}>
         <Outlet />
         </Paper>
       </Grid>

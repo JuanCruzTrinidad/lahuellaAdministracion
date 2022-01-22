@@ -11,6 +11,7 @@ import Families from './pages/Families';
 import Students from './pages/Students';
 import Schools from './pages/Schools';
 import Professionals from './pages/Professionals';
+import Student from './components/Student/Student';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -20,6 +21,7 @@ ReactDOM.render(
         <Route path="/students" element={<Students/>}/>
         <Route path="/schools" element={<Schools/>}/>
         <Route path="/professionals" element={<Professionals/>}/>
+        <Route path="/student" element={<Student/>}/>
       </Route>
     </Routes>
   </BrowserRouter>

@@ -1,7 +1,8 @@
-import React, {useState} from 'react'
+import React, { useState} from 'react'
 import { DataGrid, GridActionsCellItem } from '@mui/x-data-grid';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import { Button, Stack } from '@mui/material';
+import { fetchData } from '../helpers/actions';
 
 const Initialrows = [
   { id: 1, nombre: 'Francisco', diagnostico: 'Ejemplo diagnostico', escuela: 'asd-fdas', grado: 'cuarto', acompañante: 'Nombre 1', obraSocial: 'OSDE', observacion: 'Una observacion'},
@@ -21,6 +22,7 @@ const escuelas = [ {
 export default function Students() {    
 
   const [rows, setrows] = useState(Initialrows)
+  fetchData('alumnos').then(data => console.log(data))
 
   const handleAddRow = () => {
     setrows((prevRows) => [...prevRows, {nombre: "Nuevo", id: 'ejemplo'}]); //Usar random string.
@@ -31,8 +33,9 @@ export default function Students() {
         <Stack
         sx={{ width: '100%', mb: 1 }}
         direction="row"
-        alignItems="flex-end"
-        columnGap={6}
+        justifyContent="flex-end"
+        alignItems="center"
+        spacing={2}
       >
         <Button size="small" onClick={handleAddRow}>
           Añadir niñe
