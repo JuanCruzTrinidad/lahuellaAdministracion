@@ -7,10 +7,10 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Families from './components/Families';
-import Students from './components/Students';
-import Schools from './components/Schools';
-import Professionals from './components/Professionals';
+import Families from './pages/Families';
+import Students from './pages/Students';
+import Schools from './pages/Schools';
+import Professionals from './pages/Professionals';
 
 ReactDOM.render(
   <BrowserRouter>
