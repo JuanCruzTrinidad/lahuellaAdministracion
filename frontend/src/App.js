@@ -11,7 +11,7 @@ function App({ signOut, user }) {
   console.log(user)
   return (
     <>
-      <MenuAppBar />
+      <MenuAppBar user={user} signOut={signOut} />
       <Grid
         container
         direction="row"
@@ -21,8 +21,6 @@ function App({ signOut, user }) {
         component={'main'}
       >
         <Paper elevation={3} sx={{width: '90%', height: '90%', p: 2}}>
-        <h1>Hello {user.attributes.name}</h1>
-      <button onClick={signOut}>Sign out</button>
         <Outlet />
         </Paper>
       </Grid>

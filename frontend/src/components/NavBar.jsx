@@ -20,6 +20,8 @@ import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
 import ApartmentIcon from '@mui/icons-material/Apartment';
 import { useNavigate } from "react-router-dom";
+import { Menu, MenuItem } from "@mui/material";
+import { AccountCircle } from "@material-ui/icons";
 
 const drawerWidth = 240;
 
@@ -88,10 +90,11 @@ const Drawer = styled(MuiDrawer, {
   }),
 }));
 
-export default function MiniDrawer() {
+export default function MiniDrawer({user, signOut}) {
   const theme = useTheme();
   const navigate = useNavigate()
   const [open, setOpen] = React.useState(false);
+  const [anchorEl, setAnchorEl] = React.useState(null);
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -101,6 +104,14 @@ export default function MiniDrawer() {
     setOpen(false);
   };
 
+  const handleMenu = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+  
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
@@ -118,7 +129,38 @@ export default function MiniDrawer() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h5">Lic. Arriola Barbara</Typography>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>Lic. Arriola Barbara</Typography>
+          {user && (
+            <div >
+              <IconButton
+                size="large"
+                aria-label="account of current user"
+                aria-controls="menu-appbar"
+                aria-haspopup="true"
+                onClick={handleMenu}
+                color="inherit"
+              >
+                <AccountCircle />
+              </IconButton>
+              <Menu
+                id="menu-appbar"
+                anchorEl={anchorEl}
+                anchorOrigin={{
+                  vertical: 'top',
+                  horizontal: 'right',
+                }}
+                keepMounted
+                transformOrigin={{
+                  vertical: 'top',
+                  horizontal: 'right',
+                }}
+                open={Boolean(anchorEl)}
+                onClose={handleClose}
+              >
+                <MenuItem onClick={signOut}>Sign Out</MenuItem>
+              </Menu>
+            </div>
+          )}
         </Toolbar>
       </AppBar>
       <Drawer variant="permanent" open={open} sx={{ backgroundColor: "pink" }}>
