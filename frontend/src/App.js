@@ -20,7 +20,7 @@ function App({ signOut, user }) {
         sx={{width: '100%', height: '100%', p:4}}
         component={'main'}
       >
-        <Paper elevation={3} sx={{width: '90%', height: '90%', p: 2}}>
+        <Paper elevation={3} sx={{width: '90%', minHeight: '80%', p: 2, marginTop: 8}}>
         <Outlet />
         </Paper>
       </Grid>

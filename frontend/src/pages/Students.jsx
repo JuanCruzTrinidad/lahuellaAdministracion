@@ -22,7 +22,7 @@ const escuelas = [ {
 export default function Students() {    
 
   const [rows, setrows] = useState(Initialrows)
-  fetchData('alumnos').then(data => console.log(data))
+  fetchData('alumnos').then(data => console.log(data)).catch(e => console.log(e))
 
   const handleAddRow = () => {
     setrows((prevRows) => [...prevRows, {nombre: "Nuevo", id: 'ejemplo'}]); //Usar random string.
