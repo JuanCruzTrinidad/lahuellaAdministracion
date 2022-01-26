@@ -11,6 +11,8 @@ import Students from './pages/Students';
 import Student from './components/Student/Student';
 import ObraSociales from './pages/ObraSocial';
 import Personas from './pages/Personas';
+import ObraSocial from './components/ObraSocial/ObraSocialForm';
+import Persona from './components/Personas/AcompañanteForm';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -21,6 +23,10 @@ ReactDOM.render(
         <Route path="/obrasociales" element={<ObraSociales/>}/>
         <Route path="/student/:id" element={<Student/>}/>
         <Route path="/student" element={<Student/>}/>
+        <Route path="/obrasocial/:id" element={<ObraSocial/>}/>
+        <Route path="/obrasocial" element={<ObraSocial/>}/>
+        <Route path="/persona/:id" element={<Persona/>}/>
+        <Route path="/persona" element={<Persona/>}/>
       </Route>
     </Routes>
   </BrowserRouter>

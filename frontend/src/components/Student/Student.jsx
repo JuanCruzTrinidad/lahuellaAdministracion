@@ -1,31 +1,37 @@
 import { Box, Button, Divider, MenuItem, TextField, Typography } from '@mui/material'
 import { useFormik } from 'formik';
-import React, { useEffect } from 'react'
-import { fetchById, putData } from '../../helpers/actions';
+import React, { useEffect, useState } from 'react'
+import { fetchById, fetchData, putData } from '../../helpers/actions';
 import { useParams } from "react-router-dom";
 
-const obraSociales = [
-    {
-        value: 'asdad-asdad',
-        label: 'OSDE'
-    },
-    {
-        value: 'asdad-asdad-dasa',
-        label: 'OSPEP'
-    }
-]
 
-const acompañantes = [
-    {
-        value: 'asdad-asdad-123',
-        label: 'Nombre 1'
-    },
-    {
-        value: 'asdad-asdad-dasa-123',
-        label: 'Nombre 2'
-    }
-]
 const Student = () => {
+    const [obrasSociales, setObrasSociales] = useState([])
+    const [acompañantes, setAcompañantes] = useState([])
+
+    useEffect(() => {
+        fetchData('personas')
+        .then(data => {
+          const dataPersonas = data.map(d => {
+            return {
+              value: d.id,
+              label: d.nombre
+            }
+          })
+          setAcompañantes(dataPersonas);
+        });
+        fetchData('obrasocial')
+        .then(data => {
+          const dataObraSociales = data.map(d => {
+            return {
+              value: d.id,
+              label: d.nombre
+            }
+          })
+          console.log(dataObraSociales)
+          setObrasSociales(dataObraSociales);
+        });
+      }, [])
     const params = useParams();
       const formik = useFormik({
         initialValues: {
@@ -145,7 +151,7 @@ const Student = () => {
                     value={formik.values.obraSocial}
                     onChange={formik.handleChange}
                     >
-                    {obraSociales.map((option) => (
+                    {obrasSociales.map((option) => (
                         <MenuItem key={option.value} value={option.value}>
                         {option.label}
                         </MenuItem>

@@ -5,34 +5,35 @@ import { Button, Stack } from '@mui/material';
 import { fetchData } from '../helpers/actions';
 import { useNavigate } from "react-router-dom";
 
-const obraSociales = [
-  {
-      value: 'asdad-asdad',
-      label: 'OSDE'
-  },
-  {
-      value: 'asdad-asdad-dasa',
-      label: 'OSPEP'
-  }
-]
-
-const acompañantes = [
-  {
-      value: 'asdad-asdad-123',
-      label: 'Nombre 1'
-  },
-  {
-      value: 'asdad-asdad-dasa-123',
-      label: 'Nombre 2'
-  }
-]
-
 
 export default function Students() {    
   const navigate = useNavigate();
   const [rows, setRows] = useState([])
+  const [obrasSociales, setObrasSociales] = useState([])
+  const [acompañantes, setAcompañantes] = useState([])
 
   useEffect(() => {
+    fetchData('personas')
+    .then(data => {
+      const dataPersonas = data.map(d => {
+        return {
+          value: d.id,
+          label: d.nombre
+        }
+      })
+      setAcompañantes(dataPersonas);
+    });
+    fetchData('obrasocial')
+    .then(data => {
+      const dataObraSociales = data.map(d => {
+        return {
+          value: d.id,
+          label: d.nombre
+        }
+      })
+      console.log(dataObraSociales)
+      setObrasSociales(dataObraSociales);
+    });
     fetchData('alumnos')
     .then(data => {
       const dataRows = data.map(s => { 
@@ -72,8 +73,8 @@ export default function Students() {
             valueFormatter: ({value}) =>  acompañantes.find(s => s.value === value)?.label
           },
           { field: 'obraSocial', headerName: 'Obra Social',
-          valueOptions: obraSociales.map(s => s.value), width: 150,
-          valueFormatter: ({value}) =>  obraSociales.find(s => s.value === value)?.label
+          valueOptions: obrasSociales.map(s => s.value), width: 150,
+          valueFormatter: ({value}) =>  obrasSociales.find(s => s.value === value)?.label
           },
           {
             field: 'actions',
