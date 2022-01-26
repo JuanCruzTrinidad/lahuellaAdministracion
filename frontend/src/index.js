@@ -7,20 +7,19 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Families from './pages/Families';
 import Students from './pages/Students';
-import Schools from './pages/Schools';
-import Professionals from './pages/Professionals';
 import Student from './components/Student/Student';
+import ObraSociales from './pages/ObraSocial';
+import Personas from './pages/Personas';
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App/>}>
-        <Route path="/families" element={<Families/>}/>
         <Route path="/students" element={<Students/>}/>
-        <Route path="/schools" element={<Schools/>}/>
-        <Route path="/professionals" element={<Professionals/>}/>
+        <Route path="/personas" element={<Personas/>}/>
+        <Route path="/obrasociales" element={<ObraSociales/>}/>
+        <Route path="/student/:id" element={<Student/>}/>
         <Route path="/student" element={<Student/>}/>
       </Route>
     </Routes>

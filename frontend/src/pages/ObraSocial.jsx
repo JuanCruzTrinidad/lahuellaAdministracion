@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Professionals() {
+export default function obraSociales() {
     return (
         <div>
-            Profesionales
+            Obra social
         </div>
     )
 }

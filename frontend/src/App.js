@@ -8,7 +8,6 @@ import awsExports from './aws-exports';
 Amplify.configure(awsExports);
 
 function App({ signOut, user }) {
-  console.log(user)
   return (
     <>
       <MenuAppBar user={user} signOut={signOut} />
@@ -20,7 +19,7 @@ function App({ signOut, user }) {
         sx={{width: '100%', height: '100%', p:4}}
         component={'main'}
       >
-        <Paper elevation={3} sx={{width: '90%', minHeight: '80%', p: 2, marginTop: 8}}>
+        <Paper elevation={3} sx={{ width: '90%', height: '90%', overflow: 'auto'}}>
         <Outlet />
         </Paper>
       </Grid>

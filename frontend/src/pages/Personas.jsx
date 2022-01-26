@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Schools() {
+export default function Personas() {
     return (
         <div>
-            Escuelas
+            Acomapañante
         </div>
     )
 }

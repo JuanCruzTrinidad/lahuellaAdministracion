@@ -15,14 +15,12 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
-import SchoolIcon from '@mui/icons-material/School';
-import WorkIcon from '@mui/icons-material/Work';
-import ApartmentIcon from '@mui/icons-material/Apartment';
 import { useNavigate } from "react-router-dom";
 import { Menu, MenuItem } from "@mui/material";
 import { AccountCircle } from "@material-ui/icons";
-
+import ChildCareIcon from '@mui/icons-material/ChildCare';
+import EscalatorWarningIcon from '@mui/icons-material/EscalatorWarning';
+import LocalPharmacyIcon from '@mui/icons-material/LocalPharmacy';
 const drawerWidth = 240;
 
 const openedMixin = (theme) => ({
@@ -177,27 +175,21 @@ export default function MiniDrawer({user, signOut}) {
         <List>
           <ListItem button key={'students'} onClick={() => navigate('/students')}>
             <ListItemIcon>
-              <SchoolIcon />
+              <ChildCareIcon />
             </ListItemIcon>
             <ListItemText primary={'Alumnos'} />
           </ListItem>
-          <ListItem button key={'families'} onClick={() => navigate('/families')}>
+          <ListItem button key={'obrasSociales'} onClick={() => navigate('/obrasociales')}>
             <ListItemIcon>
-              <PeopleAltIcon />
+              <LocalPharmacyIcon />
             </ListItemIcon>
-            <ListItemText primary={'Familias'} />
+            <ListItemText primary={'Obras Sociales'} />
           </ListItem>
-          <ListItem button key={'professionals'} onClick={() => navigate('/professionals')}>
+          <ListItem button key={'acompañantes'} onClick={() => navigate('/personas')}>
             <ListItemIcon>
-              <WorkIcon />
+              <EscalatorWarningIcon />
             </ListItemIcon>
-            <ListItemText primary={'Profesionales'} />
-          </ListItem>
-          <ListItem button key={'schools'} onClick={() => navigate('/schools')}>
-            <ListItemIcon>
-              <ApartmentIcon />
-            </ListItemIcon>
-            <ListItemText primary={'Escuelas'} />
+            <ListItemText primary={'Acompañantes'} />
           </ListItem>
         </List>
         <Divider />

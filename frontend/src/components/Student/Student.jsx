@@ -1,7 +1,8 @@
 import { Box, Button, Divider, MenuItem, TextField, Typography } from '@mui/material'
 import { useFormik } from 'formik';
-import React from 'react'
-import { putData } from '../../helpers/actions';
+import React, { useEffect } from 'react'
+import { fetchById, putData } from '../../helpers/actions';
+import { useParams } from "react-router-dom";
 
 const obraSociales = [
     {
@@ -25,30 +26,31 @@ const acompañantes = [
     }
 ]
 const Student = () => {
-
-    const formik = useFormik({
+    const params = useParams();
+      const formik = useFormik({
         initialValues: {
-          nombre: 'foobar@example.com',
-          grado: 'foobar',
-          turno: 'algo',
-          obrasocial: 'asdad-asdad',
-          acompañante: 'asdad-asdad-dasa-123',
-          diagnostico: 'Autismo',
-          familiaDomicilio: "Independencia 185",
-          familiaContacto: "1169678614",
-          escuelaNombre: "EPB N6",
-          escuelaContacto: "42908090",
-          escuelaZona: "Monte Grande",
-          profesionales: "Una profesional",
-          observaciones: "Una observación"
-        },
+            id: '',
+            nombre: '',
+            grado: '',
+            turno: '',
+            obraSocial: '',
+            acompañante: '',
+            diagnostico: '',
+            familiaDomicilio: "",
+            familiaContacto: "",
+            escuelaNombre: "",
+            escuelaContacto: "",
+            escuelaZona: "",
+            profesionales: "",
+            observaciones: ""
+          },
         onSubmit: (values) => {
             putData('alumnos', {
-                id: '',
+                id: values.id,
                 nombre: values.nombre,
                 grado:  values.grado,
                 turno: values.turno,
-                obraSocial: values.obrasocial,
+                obraSocial: values.obraSocial,
                 acompañante: values.acompañante,
                 familia: {
                     domicilio: values.familiaDomicilio,
@@ -60,25 +62,47 @@ const Student = () => {
                     zona: values.escuelaZona
                 },
                 profesionales: values.profesionales,
-                observacion: values.observaciones
-            }).then(data => alert(JSON.stringify(data, null, 1)))
+                observaciones: values.observaciones,
+                diagnostico: values.diagnostico
+            }).then(data => alert("Se guardo correctamente"))
             .catch(e => console.log(e))
         },
       });   
+
+    useEffect(() => {
+        fetchById('alumnos', params.id)
+        .then(data => {
+            formik.setValues({
+                id: data.id,
+                nombre: data.nombre,
+                grado: data.grado,
+                turno: data.turno,
+                obraSocial: data.obraSocial,
+                acompañante: data.acompañante,
+                diagnostico: data.diagnostico,
+                familiaContacto: data.familia.contacto,
+                familiaDomicilio: data.familia.domicilio,
+                escuelaNombre: data.escuela.nombre,
+                escuelaContacto: data.escuela.contacto,
+                escuelaZona: data.escuela.zona,
+                profesionales: data.profesionales,
+                observaciones: data.observaciones
+            })
+        })
+        .catch(e => console.log(e))
+    }, [params?.id])
     
     return (
             <Box
             component="form"
-            // sx={{
-            //     '& .MuiTextField-root': { m: 1, width: '55ch' },
-            // }}
             noValidate
             autoComplete="off"
             alignItems={'center'}
+            sx={{margin: 3}}
             onSubmit={formik.handleSubmit}
             >
-                <div>
-                    <Typography variant={"h6"}> Datos personales</Typography>
+                <div> 
+                    <Typography variant={"h6"}> Datos personales { formik.values.nombre}</Typography>
                     <Divider sx={{marginBottom: 1}} />
                     <TextField
                     margin={"dense"}
@@ -111,13 +135,14 @@ const Student = () => {
                     onChange={formik.handleChange}
                     />
                     <TextField
-                    id="obrasocial"
+                    id="obraSocial"
+                    name="obraSocial"
                     margin={"dense"}
                     select
                     size={"small"}
                     sx={{ m: 1, width: '55ch' }}
                     label="Obra Social"
-                    value={formik.values.obrasocial}
+                    value={formik.values.obraSocial}
                     onChange={formik.handleChange}
                     >
                     {obraSociales.map((option) => (
@@ -128,6 +153,7 @@ const Student = () => {
                     </TextField>
                     <TextField
                     id="acompañante"
+                    name="acompañante"
                     margin={"dense"}
                     select
                     label="Acompañante"
@@ -144,6 +170,7 @@ const Student = () => {
                     </TextField>
                     <TextField
                     id="diagnostico"
+                    name="diagnostico"
                     margin={"dense"}
                     label="Diagnostico"
                     multiline
@@ -156,8 +183,8 @@ const Student = () => {
                     <Typography variant={"h6"}> Familia</Typography>
                     <Divider sx={{marginBottom: 1}} />
                     <TextField
-                    id="familia.contacto"
-                    name="familia.contacto"
+                    id="familiaContacto"
+                    name="familiaContacto"
                     label="Contacto"
                     size={"small"}
                     sx={{ m: 1, width: '55ch' }}
@@ -165,8 +192,8 @@ const Student = () => {
                     onChange={formik.handleChange}
                     />
                     <TextField
-                    id="familia.domicilio"
-                    name="familia.domicilio"
+                    id="familiaDomicilio"
+                    name="familiaDomicilio"
                     label="Domicilio"
                     size={"small"}
                     sx={{ m: 1, width: '55ch' }}
