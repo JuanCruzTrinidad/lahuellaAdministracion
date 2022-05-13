@@ -16,7 +16,9 @@ export default function Personas() {
       const dataRows = data.map(s => { 
         return { 
           id: s.id, 
-          nombre: s.nombre         
+          nombre: s.nombre,
+          disponibilidad: s.disponibilidad,
+          zona: s.zona         
         } })
       console.log(dataRows)
       setRows(dataRows)
@@ -39,6 +41,8 @@ export default function Personas() {
       </Stack>
             <DataGrid  editMode="row" rows={rows} columns={[
           { field: 'nombre', headerName: 'Nombre Completo', width: 500},
+          { field: 'disponibilidad', headerName: 'Disponibilidad', width: 500},
+          { field: 'zona', headerName: 'Zona', width: 500},
           {
             field: 'actions',
             type: 'actions',

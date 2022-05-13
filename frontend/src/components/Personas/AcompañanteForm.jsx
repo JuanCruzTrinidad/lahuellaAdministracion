@@ -9,11 +9,17 @@ const Persona = () => {
       const formik = useFormik({
         initialValues: {
             id: '',
-            nombre: ''          },
+            nombre: '',
+            disponibilidad: '',
+            zona: '' 
+        },
         onSubmit: (values) => {
             putData('personas', {
                 id: values.id,
-                nombre: values.nombre
+                nombre: values.nombre,
+                disponibilidad: values.disponibilidad,
+                zona: values.zona
+
             }).then(data => alert("Se guardo correctamente"))
             .catch(e => console.log(e))
         },
@@ -24,10 +30,12 @@ const Persona = () => {
         .then(data => {
             formik.setValues({
                 id: data.id,
-                nombre: data.nombre            })
+                nombre: data.nombre,
+
+            })
         })
         .catch(e => console.log(e))
-    }, [params?.id])
+    }, [formik, params?.id])
     
     return (
             <Box
@@ -51,7 +59,26 @@ const Persona = () => {
                     value={formik.values.nombre}
                     onChange={formik.handleChange}
                     />
-                   
+                    <TextField
+                    margin={"dense"}
+                    size={"small"}
+                    sx={{ m: 1, width: '100ch' }}
+                    id="disponibilidad"
+                    name="disponibilidad"
+                    label="Disponibilidad"
+                    value={formik.values.disponibilidad}
+                    onChange={formik.handleChange}
+                    />
+                    <TextField
+                    margin={"dense"}
+                    size={"small"}
+                    sx={{ m: 1, width: '100ch' }}
+                    id="zona"
+                    name="zona"
+                    label="Zona"
+                    value={formik.values.zona}
+                    onChange={formik.handleChange}
+                    />
                     <Button color="primary" variant="contained" sx={{alignItems: 'center', width: '100%', marginTop: 3}} type="submit">
                     Guardar
                     </Button>

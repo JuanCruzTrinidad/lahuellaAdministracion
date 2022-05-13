@@ -37,17 +37,11 @@ const Student = () => {
         initialValues: {
             id: '',
             nombre: '',
-            grado: '',
-            turno: '',
+            escuela: '',
+            gradoTurno: '',
             obraSocial: '',
             acompañante: '',
             diagnostico: '',
-            familiaDomicilio: "",
-            familiaContacto: "",
-            escuelaNombre: "",
-            escuelaContacto: "",
-            escuelaZona: "",
-            profesionales: "",
             observaciones: ""
           },
         onSubmit: (values) => {
@@ -58,16 +52,18 @@ const Student = () => {
                 turno: values.turno,
                 obraSocial: values.obraSocial,
                 acompañante: values.acompañante,
-                familia: {
-                    domicilio: values.familiaDomicilio,
-                    contacto: values.familiaContacto
-                },
-                escuela: {
-                    nombre: values.escuelaNombre,
-                    contacto: values.escuelaContacto,
-                    zona: values.escuelaZona
-                },
-                profesionales: values.profesionales,
+                escuela: values.escuela,
+                gradoTurno: values.gradoTurno,
+                // familia: {
+                //     domicilio: values.familiaDomicilio,
+                //     contacto: values.familiaContacto
+                // },
+                // escuela: {
+                //     nombre: values.escuelaNombre,
+                //     contacto: values.escuelaContacto,
+                //     zona: values.escuelaZona
+                // },
+                // profesionales: values.profesionales,
                 observaciones: values.observaciones,
                 diagnostico: values.diagnostico
             }).then(data => alert("Se guardo correctamente"))
@@ -86,17 +82,13 @@ const Student = () => {
                 obraSocial: data.obraSocial,
                 acompañante: data.acompañante,
                 diagnostico: data.diagnostico,
-                familiaContacto: data.familia.contacto,
-                familiaDomicilio: data.familia.domicilio,
-                escuelaNombre: data.escuela.nombre,
-                escuelaContacto: data.escuela.contacto,
-                escuelaZona: data.escuela.zona,
-                profesionales: data.profesionales,
+                escuela: data.escuela,
+                gradoTurno: data.gradoTurno,
                 observaciones: data.observaciones
             })
         })
         .catch(e => console.log(e))
-    }, [params?.id])
+    }, [formik, params?.id])
     
     return (
             <Box
@@ -122,22 +114,22 @@ const Student = () => {
                     />
                     <TextField
                     margin={"dense"}
-                    id="turno"
+                    id="escuela"
                     size={"small"}
                     sx={{ m: 1, width: '55ch' }}
-                    name="turno"
-                    label="Turno"
-                    value={formik.values.turno}
+                    name="escuela"
+                    label="Escuela"
+                    value={formik.values.escuela}
                     onChange={formik.handleChange}
                     />
                     <TextField
                     margin={"dense"}
-                    id="grado"
+                    id="gradoTurno"
                     size={"small"}
                     sx={{ m: 1, width: '55ch' }}
-                    name="grado"
-                    label="Grado"
-                    value={formik.values.grado}
+                    name="gradoTurno"
+                    label="Grado/Turno"
+                    value={formik.values.gradoTurno}
                     onChange={formik.handleChange}
                     />
                     <TextField
@@ -186,73 +178,7 @@ const Student = () => {
                     value={formik.values.diagnostico}
                     onChange={formik.handleChange}
                     />
-                    <Typography variant={"h6"}> Familia</Typography>
-                    <Divider sx={{marginBottom: 1}} />
-                    <TextField
-                    id="familiaContacto"
-                    name="familiaContacto"
-                    label="Contacto"
-                    size={"small"}
-                    sx={{ m: 1, width: '55ch' }}
-                    value={formik.values.familiaContacto}
-                    onChange={formik.handleChange}
-                    />
-                    <TextField
-                    id="familiaDomicilio"
-                    name="familiaDomicilio"
-                    label="Domicilio"
-                    size={"small"}
-                    sx={{ m: 1, width: '55ch' }}
-                    value={formik.values.familiaDomicilio}
-                    onChange={formik.handleChange}
-                    />
-                    <Typography variant={"h6"}> Escuela </Typography>
-                    <Divider sx={{marginBottom: 1}} />
-                    <TextField
-                    id="escuelaNombre"
-                    margin={"dense"}
-                    name="escuelaNombre"
-                    label="Nombre"
-                    size={"small"}
-                    sx={{ m: 1, width: '55ch' }}
-                    value={formik.values.escuelaNombre}
-                    onChange={formik.handleChange}
-                    />
-                    <TextField
-                    id="escuelaContacto"
-                    margin={"dense"}
-                    name="escuelaContacto"
-                    label="Contacto"
-                    size={"small"}
-                    sx={{ m: 1, width: '55ch' }}
-                    value={formik.values.escuelaContacto}
-                    onChange={formik.handleChange}
-                    />
-                    <TextField
-                    id="escuelaZona"
-                    margin={"dense"}
-                    name="escuelaZona"
-                    label="Zona"
-                    size={"small"}
-                    sx={{ m: 1, width: '55ch' }}
-                    value={formik.values.escuelaZona}
-                    onChange={formik.handleChange}
-                    />
-                    <Typography variant={"h6"}> Profesionales </Typography>
-                    <Divider sx={{marginBottom: 1}} />
-                    <TextField
-                    id="profesionales"
-                    margin={"dense"}
-                    multiline
-                    size={"small"}
-                    sx={{ m: 1}}
-                    fullWidth
-                    rows={2}
-                    name="profesionales"
-                    label="Profesionales"
-                    value={formik.values.profesionales}
-                    onChange={formik.handleChange}
-                    />
+                    
                     <Typography variant={"h6"}> Observaciones </Typography>
                     <Divider sx={{marginBottom: 1}} />
                     <TextField
