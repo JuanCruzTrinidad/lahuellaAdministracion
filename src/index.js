@@ -15,7 +15,7 @@ import ObraSocial from './components/ObraSocial/ObraSocialForm';
 import Persona from './components/Personas/AcompañanteForm';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename='lahuellaAdministracion'>
     <Routes>
       <Route path="/" element={<App/>}>
         <Route path="/students" element={<Students/>}/>
