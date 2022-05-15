@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lahuelaAdministracion/static/css/main.d8224b6f.css",
+    "main.js": "/lahuelaAdministracion/static/js/main.89e10575.js",
+    "index.html": "/lahuelaAdministracion/index.html",
+    "main.d8224b6f.css.map": "/lahuelaAdministracion/static/css/main.d8224b6f.css.map",
+    "main.89e10575.js.map": "/lahuelaAdministracion/static/js/main.89e10575.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8224b6f.css",
+    "static/js/main.89e10575.js"
+  ]
+}
