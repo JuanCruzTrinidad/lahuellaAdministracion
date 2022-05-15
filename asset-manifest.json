@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/lahuellaAdministracion/static/css/main.d8224b6f.css",
-    "main.js": "/lahuellaAdministracion/static/js/main.833ef930.js",
+    "main.js": "/lahuellaAdministracion/static/js/main.b7677e84.js",
     "index.html": "/lahuellaAdministracion/index.html",
     "main.d8224b6f.css.map": "/lahuellaAdministracion/static/css/main.d8224b6f.css.map",
-    "main.833ef930.js.map": "/lahuellaAdministracion/static/js/main.833ef930.js.map"
+    "main.b7677e84.js.map": "/lahuellaAdministracion/static/js/main.b7677e84.js.map"
   },
   "entrypoints": [
     "static/css/main.d8224b6f.css",
-    "static/js/main.833ef930.js"
+    "static/js/main.b7677e84.js"
   ]
 }
