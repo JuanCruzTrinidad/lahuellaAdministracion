@@ -2,7 +2,7 @@
   "name": "lahuelaadministracion",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lahuellaadministracion.com",
+  "homepage": "https://juancruztrinidad.github.io/lahuellaadministracion",
   "dependencies": {
     "@aws-sdk/client-dynamodb": "3.48.0",
     "@aws-sdk/lib-dynamodb": "3.48.0",
