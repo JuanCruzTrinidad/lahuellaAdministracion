@@ -5,7 +5,7 @@ export const dynamoDbClient = () => new DynamoDBClient({
   credentials: {
     secretAccessKey: process.env.REACT_APP_ACCESS_KEY || 'prueba123',
     accessKeyId: process.env.REACT_APP_KEY_ID || 'contra123'
-  },
+  }
   // endpoint: 'http://localhost:8000'
 });
  

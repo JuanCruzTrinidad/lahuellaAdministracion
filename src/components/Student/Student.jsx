@@ -181,18 +181,7 @@ const Student = () => {
                     
                     <Typography variant={"h6"}> Observaciones </Typography>
                     <Divider sx={{marginBottom: 1}} />
-                    <TextField
-                    id="observaciones"
-                    margin={"dense"}
-                    multiline
-                    size={"small"}
-                    sx={{ m: 1}}
-                    fullWidth
-                    name="observaciones"
-                    label="Observaciones"
-                    value={formik.values.observaciones}
-                    onChange={formik.handleChange}
-                    />
+
                     <Button color="primary" variant="contained" sx={{alignItems: 'center', width: '100%', marginTop: 3}} type="submit">
                     Guardar
                     </Button>

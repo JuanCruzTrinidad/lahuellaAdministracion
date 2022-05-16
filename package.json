@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://juancruztrinidad.github.io/lahuellaAdministracion",
   "dependencies": {
+    "@auth0/auth0-react": "^1.10.1",
     "@aws-sdk/client-dynamodb": "3.48.0",
     "@aws-sdk/lib-dynamodb": "3.48.0",
     "@aws-sdk/util-dynamodb": "3.48.0",

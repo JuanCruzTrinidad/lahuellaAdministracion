@@ -13,8 +13,14 @@ import ObraSociales from './pages/ObraSocial';
 import Personas from './pages/Personas';
 import ObraSocial from './components/ObraSocial/ObraSocialForm';
 import Persona from './components/Personas/AcompañanteForm';
+import { Auth0Provider } from "@auth0/auth0-react";
 
 ReactDOM.render(
+  <Auth0Provider
+    domain="dev-f0w4a2mb.us.auth0.com"
+    clientId="64FKZCvQ8QZnPB0vLHhCCVekD2XdBaEg"
+    redirectUri={window.location.origin}
+  >
   <BrowserRouter basename='lahuellaAdministracion'>
     <Routes>
       <Route path="/" element={<App/>}>
@@ -30,6 +36,7 @@ ReactDOM.render(
       </Route>
     </Routes>
   </BrowserRouter>
+  </Auth0Provider>
    ,
   document.getElementById('root')
 );
