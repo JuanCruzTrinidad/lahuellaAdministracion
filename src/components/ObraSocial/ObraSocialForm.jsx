@@ -32,7 +32,7 @@ const ObraSocial = () => {
             })
         })
         .catch(e => console.log(e))
-    }, [params?.id])
+    }, [params?.id, formik])
     
     return (
             <Box

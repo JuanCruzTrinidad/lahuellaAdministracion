@@ -15,11 +15,14 @@ import ObraSocial from './components/ObraSocial/ObraSocialForm';
 import Persona from './components/Personas/AcompañanteForm';
 import { Auth0Provider } from "@auth0/auth0-react";
 
+const domainAuth = process.env.REACT_APP_AUTH0_DOMAIN;
+const clientIdAuth = process.env.REACT_APP_AUTH0_CLIENT_ID;
+console.log(process.env.REACT_APP_KEY_ID)
 ReactDOM.render(
   <Auth0Provider
-    domain="dev-f0w4a2mb.us.auth0.com"
-    clientId="64FKZCvQ8QZnPB0vLHhCCVekD2XdBaEg"
-    redirectUri={window.location.origin}
+    domain={domainAuth}
+    clientId={clientIdAuth}
+    redirectUri={'http://localhost:3000/lahuellaAdministracion'}
   >
   <BrowserRouter basename='lahuellaAdministracion'>
     <Routes>
