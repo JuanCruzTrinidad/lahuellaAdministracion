@@ -45,10 +45,10 @@ export default function Personas() {
         alignItems="center"
         spacing={2}
       >
-        <Button size="small" onClick={() => reportAcompañantes(dataToReport)}>
+        <Button size="small" onClick={() => reportAcompañantes(dataToReport)} sx={{color: '#8dd853'}}>
           Descargar reporte
         </Button>
-        <Button size="small" onClick={() => navigate("/persona")}>
+        <Button size="small" onClick={() => navigate("/persona")} sx={{color: '#8dd853'}}>
           Añadir Acompañante
         </Button>
       </Stack>

@@ -33,7 +33,7 @@ export default function ObrasSociales() {
         alignItems="center"
         spacing={2}
       >
-        <Button size="small" onClick={() => navigate('/obrasocial')}>
+        <Button size="small" onClick={() => navigate('/obrasocial')} sx={{color: '#8dd853'}}>
           Añadir obra social
         </Button>
       </Stack>

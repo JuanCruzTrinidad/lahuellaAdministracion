@@ -17,7 +17,6 @@ import { Auth0Provider } from "@auth0/auth0-react";
 
 const domainAuth = process.env.REACT_APP_AUTH0_DOMAIN;
 const clientIdAuth = process.env.REACT_APP_AUTH0_CLIENT_ID;
-console.log(process.env.REACT_APP_KEY_ID)
 ReactDOM.render(
   <Auth0Provider
     domain={domainAuth}

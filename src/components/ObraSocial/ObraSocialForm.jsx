@@ -3,6 +3,7 @@ import { useFormik } from "formik";
 import React, { useEffect } from "react";
 import { fetchById, putData } from "../../helpers/actions";
 import { useParams } from "react-router-dom";
+import { buttonStyle } from "../styles";
 
 const ObraSocial = () => {
   const params = useParams();
@@ -36,7 +37,7 @@ const ObraSocial = () => {
   }, [params?.id]);
 
   return (
-    <div style={{ height: "85%", width: "70%" }}>
+    <div style={{ height: "85%", width: "50%" }}>
       <Box
         component="form"
         noValidate
@@ -51,7 +52,8 @@ const ObraSocial = () => {
           <TextField
             margin={"dense"}
             size={"small"}
-            sx={{ m: 1, width: "100ch" }}
+            sx={{ m: 1 }}
+            fullWidth
             id="nombre"
             name="nombre"
             label="Nombre Obra Social"
@@ -74,9 +76,8 @@ const ObraSocial = () => {
             onChange={formik.handleChange}
           />
           <Button
-            color="primary"
             variant="contained"
-            sx={{ alignItems: "center", width: "100%", marginTop: 3 }}
+            sx={buttonStyle}
             type="submit"
           >
             Guardar

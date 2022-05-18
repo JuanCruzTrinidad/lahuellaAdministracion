@@ -74,10 +74,10 @@ export default function Students() {
         alignItems="center"
         spacing={2}
       >
-        <Button size="small" onClick={() => clickDescargar()}>
+        <Button size="small" onClick={() => clickDescargar()} sx={{color: '#8dd853'}}>
           Descargar reporte
         </Button>
-        <Button size="small" onClick={() => navigate("/student")}>
+        <Button size="small" onClick={() => navigate("/student")} sx={{color: '#8dd853'}}>
           Añadir niñe
         </Button>
       </Stack>

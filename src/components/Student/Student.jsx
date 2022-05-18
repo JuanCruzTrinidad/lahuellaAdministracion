@@ -16,6 +16,7 @@ import React, { useEffect, useState } from "react";
 import { fetchById, fetchData, putData } from "../../helpers/actions";
 import { useParams } from "react-router-dom";
 import CommentIcon from "@mui/icons-material/Comment";
+import { buttonStyle } from "../styles";
 
 const dataPruebaObservaciones = [
   {
@@ -89,7 +90,6 @@ const Student = () => {
         setDataObservaciones(data.observaciones)
       })
       .catch((e) => console.log(e));
-      // setDataObservaciones(dataPruebaObservaciones);
       console.log("Se busca en BD")
   }, [params?.id]);
 
@@ -143,7 +143,7 @@ const Student = () => {
           <TextField
             margin={"dense"}
             size={"small"}
-            sx={{ m: 1, width: "55ch" }}
+            sx={{ m: 1, width: "63ch" }}
             id="nombre"
             name="nombre"
             label="Nombre completo"
@@ -154,7 +154,7 @@ const Student = () => {
             margin={"dense"}
             id="escuela"
             size={"small"}
-            sx={{ m: 1, width: "55ch" }}
+            sx={{ m: 1, width: "63ch" }}
             name="escuela"
             label="Escuela"
             value={formik.values.escuela}
@@ -164,7 +164,7 @@ const Student = () => {
             margin={"dense"}
             id="gradoTurno"
             size={"small"}
-            sx={{ m: 1, width: "55ch" }}
+            sx={{ m: 1, width: "63ch" }}
             name="gradoTurno"
             label="Grado/Turno"
             value={formik.values.gradoTurno}
@@ -176,7 +176,7 @@ const Student = () => {
             margin={"dense"}
             select
             size={"small"}
-            sx={{ m: 1, width: "55ch" }}
+            sx={{ m: 1, width: "63ch" }}
             label="Obra Social"
             value={formik.values.obraSocial}
             onChange={formik.handleChange}
@@ -194,7 +194,7 @@ const Student = () => {
             select
             label="Acompañante"
             size={"small"}
-            sx={{ m: 1, width: "55ch" }}
+            sx={{ m: 1, width: "63ch" }}
             value={formik.values.acompañante}
             onChange={formik.handleChange}
           >
@@ -211,7 +211,7 @@ const Student = () => {
             select
             label="Referente"
             size={"small"}
-            sx={{ m: 1, width: "55ch" }}
+            sx={{ m: 1, width: "63ch" }}
             value={formik.values.referente}
             onChange={formik.handleChange}
           >
@@ -265,7 +265,7 @@ const Student = () => {
           <Button
             color="primary"
             variant="contained"
-            sx={{ width: "100%", marginTop: 3 }}
+            sx={buttonStyle}
             onClick={cargarObservacion}
           >
             Cargar Observacion
@@ -274,7 +274,7 @@ const Student = () => {
           <Button
             color="primary"
             variant="contained"
-            sx={{ width: "100%", marginTop: 3 }}
+            sx={buttonStyle}
             type="submit"
           >
             Guardar

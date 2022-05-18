@@ -10,6 +10,8 @@ import { useFormik } from "formik";
 import React, { useEffect } from "react";
 import { fetchById, putData } from "../../helpers/actions";
 import { useParams } from "react-router-dom";
+import { buttonStyle } from "../styles";
+import { width } from "@mui/system";
 
 const referentesDefault = [
   { value: "Barbara", label: "Barbara" },
@@ -158,7 +160,7 @@ const Persona = () => {
           <Button
             color="primary"
             variant="contained"
-            sx={{ alignItems: "center", width: "100%", marginTop: 3 }}
+            sx={{...buttonStyle, width: '80%'}}
             type="submit"
           >
             Guardar

@@ -16,11 +16,14 @@ import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { useNavigate } from "react-router-dom";
-import { Menu, MenuItem } from "@mui/material";
+import { Menu, MenuItem, Tooltip } from "@mui/material";
 import { AccountCircle } from "@material-ui/icons";
-import ChildCareIcon from '@mui/icons-material/ChildCare';
-import EscalatorWarningIcon from '@mui/icons-material/EscalatorWarning';
-import LocalPharmacyIcon from '@mui/icons-material/LocalPharmacy';
+import ChildCareIcon from "@mui/icons-material/ChildCare";
+import EscalatorWarningIcon from "@mui/icons-material/EscalatorWarning";
+import LocalPharmacyIcon from "@mui/icons-material/LocalPharmacy";
+import LoginIcon from "@mui/icons-material/Login";
+import logo from "../assets/lahuella.png";
+import { useAuth0 } from "@auth0/auth0-react";
 const drawerWidth = 240;
 
 const openedMixin = (theme) => ({
@@ -88,12 +91,14 @@ const Drawer = styled(MuiDrawer, {
   }),
 }));
 
-export default function MiniDrawer({user, signOut}) {
+export default function MiniDrawer({ user, signOut }) {
   const theme = useTheme();
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const [open, setOpen] = React.useState(false);
   const [anchorEl, setAnchorEl] = React.useState(null);
-
+  const {
+    loginWithRedirect
+  } = useAuth0();
   const handleDrawerOpen = () => {
     setOpen(true);
   };
@@ -109,11 +114,11 @@ export default function MiniDrawer({user, signOut}) {
   const handleClose = () => {
     setAnchorEl(null);
   };
-  
+  console.log(user);
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex", backgroundColor: "#f12eaf" }}>
       <CssBaseline />
-      <AppBar position="fixed" open={open} sx={{ backgroundColor: "pink" }}>
+      <AppBar position="fixed" open={open} sx={{ backgroundColor: "#f12eaf" }}>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -127,9 +132,13 @@ export default function MiniDrawer({user, signOut}) {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>Lic. Arriola Barbara</Typography>
-          {user && (
-            <div >
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            {user ? `Lic. ${user.name}` : "Equipo SAIE"}
+          </Typography>
+          <img src={logo} alt="Logo" height={70} />
+
+          {user ? (
+            <div>
               <IconButton
                 size="large"
                 aria-label="account of current user"
@@ -144,13 +153,13 @@ export default function MiniDrawer({user, signOut}) {
                 id="menu-appbar"
                 anchorEl={anchorEl}
                 anchorOrigin={{
-                  vertical: 'top',
-                  horizontal: 'right',
+                  vertical: "top",
+                  horizontal: "right",
                 }}
                 keepMounted
                 transformOrigin={{
-                  vertical: 'top',
-                  horizontal: 'right',
+                  vertical: "top",
+                  horizontal: "right",
                 }}
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
@@ -158,10 +167,32 @@ export default function MiniDrawer({user, signOut}) {
                 <MenuItem onClick={signOut}>Sign Out</MenuItem>
               </Menu>
             </div>
+          ) : (
+            <Tooltip title="Ingresar">
+              <IconButton
+                size="large"
+                aria-label="login"
+                aria-controls="menu-appbar"
+                aria-haspopup="true"
+                onClick={loginWithRedirect}
+                color="inherit"
+              >
+                <LoginIcon />
+              </IconButton>
+            </Tooltip>
           )}
         </Toolbar>
       </AppBar>
-      <Drawer variant="permanent" open={open} sx={{ backgroundColor: "pink" }}>
+      <Drawer
+        variant="permanent"
+        open={open}
+        PaperProps={{
+          sx: {
+            backgroundColor: "#f12eaf",
+            color: "white",
+          },
+        }}
+      >
         <DrawerHeader>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === "rtl" ? (
@@ -173,23 +204,35 @@ export default function MiniDrawer({user, signOut}) {
         </DrawerHeader>
         <Divider />
         <List>
-          <ListItem button key={'students'} onClick={() => navigate('/students')}>
+          <ListItem
+            button
+            key={"students"}
+            onClick={() => navigate("/students")}
+          >
             <ListItemIcon>
-              <ChildCareIcon />
+              <ChildCareIcon sx={{ color: "white" }} />
             </ListItemIcon>
-            <ListItemText primary={'Alumnos'} />
+            <ListItemText primary={"Alumnos"} />
           </ListItem>
-          <ListItem button key={'obrasSociales'} onClick={() => navigate('/obrasociales')}>
+          <ListItem
+            button
+            key={"obrasSociales"}
+            onClick={() => navigate("/obrasociales")}
+          >
             <ListItemIcon>
-              <LocalPharmacyIcon />
+              <LocalPharmacyIcon sx={{ color: "white" }} />
             </ListItemIcon>
-            <ListItemText primary={'Obras Sociales'} />
+            <ListItemText primary={"Obras Sociales"} />
           </ListItem>
-          <ListItem button key={'acompañantes'} onClick={() => navigate('/personas')}>
+          <ListItem
+            button
+            key={"acompañantes"}
+            onClick={() => navigate("/personas")}
+          >
             <ListItemIcon>
-              <EscalatorWarningIcon />
+              <EscalatorWarningIcon sx={{ color: "white" }} />
             </ListItemIcon>
-            <ListItemText primary={'Acompañantes'} />
+            <ListItemText primary={"Acompañantes"} />
           </ListItem>
         </List>
         <Divider />
