@@ -89,7 +89,7 @@ const Student = () => {
         setDataObservaciones(data.observaciones)
       })
       .catch((e) => console.log(e));
-      setDataObservaciones(dataPruebaObservaciones);
+      // setDataObservaciones(dataPruebaObservaciones);
       console.log("Se busca en BD")
   }, [params?.id]);
 
@@ -109,15 +109,13 @@ const Student = () => {
       putData("alumnos", {
         id: values.id,
         nombre: values.nombre,
-        grado: values.grado,
-        turno: values.turno,
         obraSocial: values.obraSocial,
         acompañante: values.acompañante,
         escuela: values.escuela,
         gradoTurno: values.gradoTurno,
         observaciones: dataObservaciones,
         diagnostico: values.diagnostico,
-        referente: values.referente
+          referente: values.referente
       })
         .then((data) => alert("Se guardo correctamente"))
         .catch((e) => console.log(e));

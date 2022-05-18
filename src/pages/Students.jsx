@@ -4,45 +4,68 @@ import VisibilityIcon from "@mui/icons-material/Visibility";
 import { Button, Stack, Tab, Tabs } from "@mui/material";
 import { fetchData } from "../helpers/actions";
 import { useNavigate } from "react-router-dom";
-import { reportStudents } from '../helpers/excel'
-
-const alumnos1 = [{id: "asdads123", nombre: "Juancito", referente: 'Barbara'}, {id: "asdads12341", nombre: "Juancito 2", referente: 'Bahiana'}]
-
+import { reportStudents } from "../helpers/excel";
 
 export default function Students() {
   const navigate = useNavigate();
   const [rows, setRows] = useState([]);
-  const [value, setValue] = useState('Barbara');
+  const [value, setValue] = useState("Barbara");
 
   const handleChange = (event, newValue) => {
-    console.log(newValue)
     setValue(newValue);
-    const data = alumnos1.filter(a=> a?.referente === newValue);
-    if (data) setRows(data)
+    const data = rows.filter((a) => a?.referente === newValue);
+    if (data) setRows(data);
   };
+
+  const clickDescargar = () =>{
+    let obrasSociales = [];
+    let acompañantes = [];
+    fetchData("personas").then((data) => {
+      acompañantes = data.map((d) => {
+        return {
+          value: d.id,
+          label: d.nombre,
+        };
+      });
+      fetchData("obrasocial").then((data) => {
+        obrasSociales = data.map((d) => {
+          return {
+            value: d.id,
+            label: d.nombre,
+          };
+        });
+        const newDataParsed = rows.map((s) => {
+          return {
+            nombre: s.nombre,
+            escuela: s.escuela,
+            gradoTurno: s.gradoTurno,
+            obraSocial: obrasSociales && obrasSociales?.find((o) => o?.value === s?.obraSocial)
+              ?.label,
+            acompañante: acompañantes && acompañantes?.find((a) => a?.value === s?.acompañante)
+              ?.label,
+          };
+        });
+        reportStudents(newDataParsed)
+        console.log(newDataParsed);
+      });
+    });
+  }
+
   useEffect(() => {
-    // fetchData("alumnos")
-    //   .then((data) => {
-    //     const dataRows = data.map((s) => {
-    //       return {
-    //         id: s.id,
-    //         nombre: s.nombre,
-    //       };
-    //     });
-    //     console.log(dataRows);
-    //     setRows(dataRows);
-    //   })
-    //   .catch((e) => console.log(e));
-    const data = alumnos1.filter(a=> a?.referente === value);
-    if (data) setRows(data)
-  }, []);
+    fetchData("alumnos")
+      .then((data) => {
+        const dataReferente = data.filter((a) => a?.referente === value);
+        setRows(dataReferente);
+      })
+      .catch((e) => console.log(e));
+  }, [value]);
 
   return (
     <div style={{ height: "85%", width: "70%" }}>
       <Tabs value={value} onChange={handleChange} centered>
-        <Tab value={'Barbara'} label="Barbara" />
-        <Tab value={'Bahiana'} label="Bahiana" />
-        <Tab value={'Jimena'} label="Jimena" />
+        <Tab value={"Barbara"} label="Barbara" />
+        <Tab value={"Bahiana"} label="Bahiana" />
+        <Tab value={"Jimena"} label="Jimena" />
       </Tabs>
       <Stack
         sx={{ width: "100%", mb: 1 }}
@@ -51,7 +74,7 @@ export default function Students() {
         alignItems="center"
         spacing={2}
       >
-        <Button size="small" onClick={() => reportStudents(rows)}>
+        <Button size="small" onClick={() => clickDescargar()}>
           Descargar reporte
         </Button>
         <Button size="small" onClick={() => navigate("/student")}>
