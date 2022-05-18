@@ -4,10 +4,11 @@ import VisibilityIcon from "@mui/icons-material/Visibility";
 import { Button, Stack } from "@mui/material";
 import { fetchData } from "../helpers/actions";
 import { useNavigate } from "react-router-dom";
-
+import { reportAcompañantes } from '../helpers/excel';
 export default function Personas() {
   const navigate = useNavigate();
   const [rows, setRows] = useState([]);
+  const [dataToReport, setDataToReport] =  useState([]);
 
   useEffect(() => {
     fetchData("personas")
@@ -22,6 +23,15 @@ export default function Personas() {
         });
         console.log(dataRows);
         setRows(dataRows);
+        setDataToReport(data.map(s => {
+          return {
+            nombre: s.nombre,
+            alumno: s.alumno,
+            referente: s.referente,
+            alta: new Date(s.alta),
+            baja: new Date(s.baja),
+          } 
+        }))
       })
       .catch((e) => console.log(e));
   }, []);
@@ -35,6 +45,9 @@ export default function Personas() {
         alignItems="center"
         spacing={2}
       >
+        <Button size="small" onClick={() => reportAcompañantes(dataToReport)}>
+          Descargar reporte
+        </Button>
         <Button size="small" onClick={() => navigate("/persona")}>
           Añadir Acompañante
         </Button>
@@ -64,7 +77,7 @@ export default function Personas() {
             ],
           },
         ]}
-        pageSize={20}
+        pageSize={25}
         rowsPerPageOptions={[25]}
       />
     </div>

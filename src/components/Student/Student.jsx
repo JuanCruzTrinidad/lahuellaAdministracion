@@ -31,6 +31,8 @@ const dataPruebaObservaciones = [
     fecha: new Date().toLocaleString(),
   },
 ];
+
+const referentesDefault = [{value: 'Barbara', label: 'Barbara'}, {value: 'Bahiana', label: 'Bahiana'}, {value: 'Jimena', label: 'Jimena'}]
 const Student = () => {
   const params = useParams();
   const [obrasSociales, setObrasSociales] = useState([]);
@@ -77,13 +79,12 @@ const Student = () => {
         formik.setValues({
           id: data.id,
           nombre: data.nombre,
-          grado: data.grado,
-          turno: data.turno,
           obraSocial: data.obraSocial,
           acompañante: data.acompañante,
           diagnostico: data.diagnostico,
           escuela: data.escuela,
           gradoTurno: data.gradoTurno,
+          referente: data.referente
         });
         setDataObservaciones(data.observaciones)
       })
@@ -101,7 +102,8 @@ const Student = () => {
       obraSocial: "",
       acompañante: "",
       diagnostico: "",
-      observaciones: "",
+      observaciones: [],
+      referente: ""
     },
     onSubmit: (values) => {
       putData("alumnos", {
@@ -115,6 +117,7 @@ const Student = () => {
         gradoTurno: values.gradoTurno,
         observaciones: dataObservaciones,
         diagnostico: values.diagnostico,
+        referente: values.referente
       })
         .then((data) => alert("Se guardo correctamente"))
         .catch((e) => console.log(e));
@@ -204,13 +207,30 @@ const Student = () => {
             ))}
           </TextField>
           <TextField
+            id="referente"
+            name="referente"
+            margin={"dense"}
+            select
+            label="Referente"
+            size={"small"}
+            sx={{ m: 1, width: "55ch" }}
+            value={formik.values.referente}
+            onChange={formik.handleChange}
+          >
+            {referentesDefault.map((option) => (
+              <MenuItem key={option.value} value={option.value}>
+                {option.label}
+              </MenuItem>
+            ))}
+          </TextField>
+          <TextField
             id="diagnostico"
             name="diagnostico"
             margin={"dense"}
             label="Diagnostico"
             multiline
             size={"small"}
-            sx={{ m: 1, width: "55ch" }}
+            fullWidth
             rows={2}
             value={formik.values.diagnostico}
             onChange={formik.handleChange}
