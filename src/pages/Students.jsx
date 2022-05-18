@@ -62,7 +62,7 @@ export default function Students() {
 
   return (
     <div style={{ height: "85%", width: "70%" }}>
-      <Tabs value={value} onChange={handleChange} centered>
+      <Tabs value={value} onChange={handleChange} centered indicatorColor="secondary"  textColor="secondary">
         <Tab value={"Barbara"} label="Barbara" />
         <Tab value={"Bahiana"} label="Bahiana" />
         <Tab value={"Jimena"} label="Jimena" />

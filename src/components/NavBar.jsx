@@ -24,6 +24,7 @@ import LocalPharmacyIcon from "@mui/icons-material/LocalPharmacy";
 import LoginIcon from "@mui/icons-material/Login";
 import logo from "../assets/lahuella.png";
 import { useAuth0 } from "@auth0/auth0-react";
+import HomeIcon from "@mui/icons-material/Home";
 const drawerWidth = 240;
 
 const openedMixin = (theme) => ({
@@ -96,9 +97,7 @@ export default function MiniDrawer({ user, signOut }) {
   const navigate = useNavigate();
   const [open, setOpen] = React.useState(false);
   const [anchorEl, setAnchorEl] = React.useState(null);
-  const {
-    loginWithRedirect
-  } = useAuth0();
+  const { loginWithRedirect } = useAuth0();
   const handleDrawerOpen = () => {
     setOpen(true);
   };
@@ -204,6 +203,12 @@ export default function MiniDrawer({ user, signOut }) {
         </DrawerHeader>
         <Divider />
         <List>
+          <ListItem button key={"home"} onClick={() => navigate("/")}>
+            <ListItemIcon>
+              <HomeIcon sx={{ color: "white" }} />
+            </ListItemIcon>
+            <ListItemText primary={"Inicio"} />
+          </ListItem>
           <ListItem
             button
             key={"students"}
