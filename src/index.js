@@ -24,7 +24,6 @@ ReactDOM.render(
     clientId={clientIdAuth}
     redirectUri={'http://localhost:3000/lahuellaAdministracion'}
   >
-    algos
   <BrowserRouter basename='lahuellaAdministracion'>
     <Routes>
       <Route path="/" element={<App/>}>
