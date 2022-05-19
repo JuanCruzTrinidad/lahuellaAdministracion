@@ -3,6 +3,7 @@ import {
   Box,
   Button,
   Divider,
+  IconButton,
   List,
   ListItem,
   ListItemAvatar,
@@ -13,66 +14,44 @@ import {
 } from "@mui/material";
 import { useFormik } from "formik";
 import React, { useEffect, useState } from "react";
-import { fetchById, fetchData, putData } from "../../helpers/actions";
-import { useParams } from "react-router-dom";
+import { deleteById, fetchById, putData } from "../../helpers/actions";
+import { useNavigate, useParams } from "react-router-dom";
 import CommentIcon from "@mui/icons-material/Comment";
 import { buttonStyle } from "../styles";
+import { useAuth0 } from "@auth0/auth0-react";
+import { useSnackbar } from "notistack";
+import DeleteIcon from '@mui/icons-material/Delete';
 
-const dataPruebaObservaciones = [
-  {
-    texto:
-      "El niño se comparta bien, llame a los padres y esta todo en orden. Puede ser que tenga que escribir cosas más larga.",
-    autor: "JuanC",
-    fecha: new Date().toLocaleString(),
-  },
-  {
-    texto:
-      "El niño se comparta bien, llame a los padres y esta todo en orden. Puede ser que tenga que escribir cosas más larga. No se que más escribir, pero quiero probar que aguante una longitud decente.",
-    autor: "JuanC",
-    fecha: new Date().toLocaleString(),
-  },
+const referentesDefault = [
+  { value: "Barbara", label: "Barbara" },
+  { value: "Bahiana", label: "Bahiana" },
+  { value: "Jimena", label: "Jimena" },
 ];
-
-const referentesDefault = [{value: 'Barbara', label: 'Barbara'}, {value: 'Bahiana', label: 'Bahiana'}, {value: 'Jimena', label: 'Jimena'}]
 const Student = () => {
   const params = useParams();
-  const [obrasSociales, setObrasSociales] = useState([]);
-  const [acompañantes, setAcompañantes] = useState([]);
   const [dataObservaciones, setDataObservaciones] = useState([]);
   const [observacion, setObservacion] = useState([]);
+  const navigate = useNavigate();
+  const { enqueueSnackbar } = useSnackbar();
+  const { user } = useAuth0();
   const handleChange = (event) => {
     setObservacion(event.target.value);
   };
   const cargarObservacion = (e) => {
-    setDataObservaciones(dataObservaciones => [...dataObservaciones, {texto: observacion, autor: 'YO', fecha: new Date().toLocaleString()} ])
-    setObservacion('')
-  }
-
-  useEffect(()=> {
-    console.log("Cambio data observaciones.")
-  }, [dataObservaciones])
+    setDataObservaciones((dataObservaciones) => [
+      ...dataObservaciones,
+      {
+        texto: observacion,
+        autor: user ? user.name : "YO",
+        fecha: new Date().toLocaleString(),
+      },
+    ]);
+    setObservacion("");
+  };
 
   useEffect(() => {
-    fetchData("personas").then((data) => {
-      const dataPersonas = data.map((d) => {
-        return {
-          value: d.id,
-          label: d.nombre,
-        };
-      });
-      setAcompañantes(dataPersonas);
-    });
-    fetchData("obrasocial").then((data) => {
-      const dataObraSociales = data.map((d) => {
-        return {
-          value: d.id,
-          label: d.nombre,
-        };
-      });
-      setObrasSociales(dataObraSociales);
-    });
-    console.log("Se busca en BD")
-  }, []);
+    console.log("Cambio data observaciones.");
+  }, [dataObservaciones]);
 
   useEffect(() => {
     fetchById("alumnos", params.id)
@@ -85,12 +64,12 @@ const Student = () => {
           diagnostico: data.diagnostico,
           escuela: data.escuela,
           gradoTurno: data.gradoTurno,
-          referente: data.referente
+          referente: data.referente,
         });
-        setDataObservaciones(data.observaciones)
+        setDataObservaciones(data.observaciones);
       })
       .catch((e) => console.log(e));
-      console.log("Se busca en BD")
+    console.log("Se busca en BD");
   }, [params?.id]);
 
   const formik = useFormik({
@@ -103,7 +82,7 @@ const Student = () => {
       acompañante: "",
       diagnostico: "",
       observaciones: [],
-      referente: ""
+      referente: "",
     },
     onSubmit: (values) => {
       putData("alumnos", {
@@ -115,14 +94,18 @@ const Student = () => {
         gradoTurno: values.gradoTurno,
         observaciones: dataObservaciones,
         diagnostico: values.diagnostico,
-          referente: values.referente
+        referente: values.referente,
       })
-        .then((data) => alert("Se guardo correctamente"))
-        .catch((e) => console.log(e));
+        .then((data) => console.log("Se guardo correctamente"))
+        .catch((e) => enqueueSnackbar("Ocurrio un error", { 
+          variant: 'error',
+      }));
+        enqueueSnackbar("Se guardo el alumno correctamente", { 
+          variant: 'success',
+      })
+        navigate("/students")
     },
   });
-
-
 
   return (
     <div style={{ height: "85%", width: "70%" }}>
@@ -136,8 +119,19 @@ const Student = () => {
       >
         <div>
           <Typography variant={"h6"}>
-            {" "}
             Datos personales {formik.values.nombre}
+            {
+            params?.id && (
+              <IconButton aria-label="delete" onClick={() => { 
+                deleteById("alumnos", params.id).then(s => navigate("/students"))
+                enqueueSnackbar("Se elimino correctamente el alumno.", { 
+                  variant: 'info',
+              })
+                }}>
+              <DeleteIcon />
+            </IconButton>
+            )
+          }
           </Typography>
           <Divider sx={{ marginBottom: 1 }} />
           <TextField
@@ -171,39 +165,26 @@ const Student = () => {
             onChange={formik.handleChange}
           />
           <TextField
-            id="obraSocial"
-            name="obraSocial"
             margin={"dense"}
-            select
+            id="obraSocial"
             size={"small"}
             sx={{ m: 1, width: "63ch" }}
+            name="obraSocial"
             label="Obra Social"
             value={formik.values.obraSocial}
             onChange={formik.handleChange}
-          >
-            {obrasSociales.map((option) => (
-              <MenuItem key={option.value} value={option.value}>
-                {option.label}
-              </MenuItem>
-            ))}
-          </TextField>
+          />
           <TextField
-            id="acompañante"
-            name="acompañante"
             margin={"dense"}
-            select
-            label="Acompañante"
+            id="acompañante"
             size={"small"}
             sx={{ m: 1, width: "63ch" }}
+            name="acompañante"
+            label="Acompañante"
             value={formik.values.acompañante}
             onChange={formik.handleChange}
-          >
-            {acompañantes.map((option) => (
-              <MenuItem key={option.value} value={option.value}>
-                {option.label}
-              </MenuItem>
-            ))}
-          </TextField>
+          />
+
           <TextField
             id="referente"
             name="referente"

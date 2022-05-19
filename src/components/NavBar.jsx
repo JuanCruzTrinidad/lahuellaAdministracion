@@ -221,16 +221,6 @@ export default function MiniDrawer({ user, signOut }) {
           </ListItem>
           <ListItem
             button
-            key={"obrasSociales"}
-            onClick={() => navigate("/obrasociales")}
-          >
-            <ListItemIcon>
-              <LocalPharmacyIcon sx={{ color: "white" }} />
-            </ListItemIcon>
-            <ListItemText primary={"Obras Sociales"} />
-          </ListItem>
-          <ListItem
-            button
             key={"acompañantes"}
             onClick={() => navigate("/personas")}
           >

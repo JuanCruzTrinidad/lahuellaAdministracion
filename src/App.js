@@ -3,14 +3,9 @@ import { Grid } from "@mui/material";
 import { Outlet } from "react-router-dom";
 import { useAuth0 } from '@auth0/auth0-react';
 
-
 function App() {
   const {
-    isLoading,
-    isAuthenticated,
-    error,
     user,
-    loginWithRedirect,
     logout
   } = useAuth0();
 

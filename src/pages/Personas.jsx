@@ -5,6 +5,7 @@ import { Button, Stack } from "@mui/material";
 import { fetchData } from "../helpers/actions";
 import { useNavigate } from "react-router-dom";
 import { reportAcompañantes } from '../helpers/excel';
+
 export default function Personas() {
   const navigate = useNavigate();
   const [rows, setRows] = useState([]);
@@ -28,8 +29,8 @@ export default function Personas() {
             nombre: s.nombre,
             alumno: s.alumno,
             referente: s.referente,
-            alta: new Date(s.alta),
-            baja: new Date(s.baja),
+            alta: s.alta? new Date(s.alta): '',
+            baja: s.baja ? new Date(s.baja) : '',
           } 
         }))
       })

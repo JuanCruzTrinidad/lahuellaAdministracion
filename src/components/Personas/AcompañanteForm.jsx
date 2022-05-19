@@ -2,16 +2,18 @@ import {
   Box,
   Button,
   Divider,
+  IconButton,
   MenuItem,
   TextField,
   Typography,
 } from "@mui/material";
 import { useFormik } from "formik";
 import React, { useEffect } from "react";
-import { fetchById, putData } from "../../helpers/actions";
-import { useParams } from "react-router-dom";
+import { deleteById, fetchById, putData } from "../../helpers/actions";
+import { useNavigate, useParams } from "react-router-dom";
 import { buttonStyle } from "../styles";
-import { width } from "@mui/system";
+import DeleteIcon from '@mui/icons-material/Delete';
+import { useSnackbar } from 'notistack';
 
 const referentesDefault = [
   { value: "Barbara", label: "Barbara" },
@@ -21,6 +23,8 @@ const referentesDefault = [
 
 const Persona = () => {
   const params = useParams();
+  const navigate = useNavigate();
+  const { enqueueSnackbar } = useSnackbar();
   const formik = useFormik({
     initialValues: {
       id: "",
@@ -43,8 +47,16 @@ const Persona = () => {
         referente: values.referente,
         alumno: values.alumno,
       })
-        .then((data) => alert("Se guardo correctamente"))
-        .catch((e) => console.log(e));
+        .then((data) => console.log("Se guardo correctamente"))
+        .catch((e) => {
+          enqueueSnackbar("Ocurrio un error", { 
+            variant: 'error',
+        })
+        });
+        enqueueSnackbar("Se guardo el acompañante correctamente", { 
+          variant: 'success',
+      })
+        navigate("/personas")
     },
   });
 
@@ -77,6 +89,19 @@ const Persona = () => {
       >
         <div>
           <Typography variant={"h6"}> Datos {formik.values.nombre}</Typography>
+          {
+            params?.id && (
+              <IconButton aria-label="delete" onClick={() => { 
+                deleteById("personas", params.id).then(s => navigate("/personas"))
+                enqueueSnackbar("Se elimino correctamente el acompañante.", { 
+                  variant: 'info',
+              })
+                }}>
+              <DeleteIcon />
+            </IconButton>
+            )
+          }
+
           <Divider sx={{ marginBottom: 1 }} />
           <TextField
             margin={"dense"}

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { DataGrid, GridActionsCellItem } from "@mui/x-data-grid";
-import VisibilityIcon from "@mui/icons-material/Visibility";
 import { Button, Stack, Tab, Tabs } from "@mui/material";
 import { fetchData } from "../helpers/actions";
 import { useNavigate } from "react-router-dom";
 import { reportStudents } from "../helpers/excel";
+import VisibilityIcon from "@mui/icons-material/Visibility";
 
 export default function Students() {
   const navigate = useNavigate();
@@ -16,40 +16,6 @@ export default function Students() {
     const data = rows.filter((a) => a?.referente === newValue);
     if (data) setRows(data);
   };
-
-  const clickDescargar = () =>{
-    let obrasSociales = [];
-    let acompañantes = [];
-    fetchData("personas").then((data) => {
-      acompañantes = data.map((d) => {
-        return {
-          value: d.id,
-          label: d.nombre,
-        };
-      });
-      fetchData("obrasocial").then((data) => {
-        obrasSociales = data.map((d) => {
-          return {
-            value: d.id,
-            label: d.nombre,
-          };
-        });
-        const newDataParsed = rows.map((s) => {
-          return {
-            nombre: s.nombre,
-            escuela: s.escuela,
-            gradoTurno: s.gradoTurno,
-            obraSocial: obrasSociales && obrasSociales?.find((o) => o?.value === s?.obraSocial)
-              ?.label,
-            acompañante: acompañantes && acompañantes?.find((a) => a?.value === s?.acompañante)
-              ?.label,
-          };
-        });
-        reportStudents(newDataParsed)
-        console.log(newDataParsed);
-      });
-    });
-  }
 
   useEffect(() => {
     fetchData("alumnos")
@@ -74,7 +40,7 @@ export default function Students() {
         alignItems="center"
         spacing={2}
       >
-        <Button size="small" onClick={() => clickDescargar()} sx={{color: '#8dd853'}}>
+        <Button size="small" onClick={() => reportStudents(rows)} sx={{color: '#8dd853'}}>
           Descargar reporte
         </Button>
         <Button size="small" onClick={() => navigate("/student")} sx={{color: '#8dd853'}}>
