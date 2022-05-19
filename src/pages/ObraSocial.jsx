@@ -25,15 +25,15 @@ export default function ObrasSociales() {
   }, [])
 
     return (
-      <div style={{ height: '90%', width: '99%' }}>
-        <Stack
+      <div style={{ height: "85%", width: "70%" }}>
+      <Stack
         sx={{ width: '100%', mb: 1 }}
         direction="row"
         justifyContent="flex-end"
         alignItems="center"
         spacing={2}
       >
-        <Button size="small" onClick={() => navigate('/obrasocial')}>
+        <Button size="small" onClick={() => navigate('/obrasocial')} sx={{color: '#8dd853'}}>
           Añadir obra social
         </Button>
       </Stack>
@@ -52,7 +52,9 @@ export default function ObrasSociales() {
               />,
             ],
           },
-        ]} />
+        ]}
+        pageSize={20}
+        rowsPerPageOptions={[25]} />
     </div>
     )
 }

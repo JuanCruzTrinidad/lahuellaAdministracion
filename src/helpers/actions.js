@@ -1,4 +1,4 @@
-import { ScanCommand, GetItemCommand } from '@aws-sdk/client-dynamodb';
+import { ScanCommand, GetItemCommand, DeleteItemCommand } from '@aws-sdk/client-dynamodb';
 import { PutCommand } from "@aws-sdk/lib-dynamodb";
 import { dynamoDbClient } from './DynamoDbClient';
 import { v4 as uuidv4 } from 'uuid';
@@ -23,4 +23,11 @@ export const putData = async(tableName, item) => {
    const client = dynamoDbClient();
    if(!item?.id) item.id = uuidv4();
    return client.send(new PutCommand({TableName: tableName, Item:  item }))
+}
+
+export const deleteById = async (tableName, id) => {
+   const client = dynamoDbClient();
+   await client.send(new DeleteItemCommand({TableName: tableName, Key: {
+      id: { S: id }
+   } }))
 }
