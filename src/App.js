@@ -2,6 +2,14 @@ import MenuAppBar from "./components/NavBar";
 import { Grid } from "@mui/material";
 import { Outlet } from "react-router-dom";
 import { useAuth0 } from '@auth0/auth0-react';
+// import { uploadData } from "./helpers/automation";
+// eslint-disable-next-line no-lone-blocks
+{/* <input type="file" id="input"  onChange={ (e) => { 
+  uploadData(e.target.files[0]).then(data => console.log("Se subio"))
+  // readXlsxFile(e.target.files[0]).then((rows) => {
+  //   console.log(rows)
+  // })
+} }/> */}
 
 function App() {
   const {
@@ -23,6 +31,7 @@ function App() {
         component={'main'}
       >
         <Outlet />
+       
       </Grid>
     </>
   );

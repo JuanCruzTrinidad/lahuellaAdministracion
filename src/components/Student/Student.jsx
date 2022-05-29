@@ -65,6 +65,7 @@ const Student = () => {
           escuela: data.escuela,
           gradoTurno: data.gradoTurno,
           referente: data.referente,
+          dni: data.dni
         });
         setDataObservaciones(data.observaciones);
       })
@@ -83,6 +84,7 @@ const Student = () => {
       diagnostico: "",
       observaciones: [],
       referente: "",
+      dni: 0
     },
     onSubmit: (values) => {
       putData("alumnos", {
@@ -95,6 +97,7 @@ const Student = () => {
         observaciones: dataObservaciones,
         diagnostico: values.diagnostico,
         referente: values.referente,
+        dni: values.dni
       })
         .then((data) => console.log("Se guardo correctamente"))
         .catch((e) => enqueueSnackbar("Ocurrio un error", { 
@@ -184,7 +187,16 @@ const Student = () => {
             value={formik.values.acompañante}
             onChange={formik.handleChange}
           />
-
+          <TextField
+            margin={"dense"}
+            id="dni"
+            size={"small"}
+            sx={{ m: 1, width: "63ch" }}
+            name="dni"
+            label="DNI"
+            value={formik.values.dni}
+            onChange={formik.handleChange}
+          />
           <TextField
             id="referente"
             name="referente"
@@ -218,7 +230,7 @@ const Student = () => {
           <Typography variant={"h6"}> Observaciones </Typography>
           <Divider sx={{ marginBottom: 1 }} />
           <List sx={{ width: "100%", bgcolor: "background.paper" }}>
-            {dataObservaciones.map(({ texto, autor, fecha }) => (
+            {dataObservaciones?.map(({ texto, autor, fecha }) => (
               <ListItem>
                 <ListItemAvatar>
                   <Avatar>
