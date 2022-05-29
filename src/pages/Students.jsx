@@ -29,9 +29,9 @@ export default function Students() {
   return (
     <div style={{ height: "85%", width: "70%" }}>
       <Tabs value={value} onChange={handleChange} centered indicatorColor="secondary"  textColor="secondary">
-        <Tab value={"Barbara"} label="Barbara" />
-        <Tab value={"Bahiana"} label="Bahiana" />
-        <Tab value={"Jimena"} label="Jimena" />
+        <Tab value={"Barbara"} label={`Barbara-${rows.length}`} />
+        <Tab value={"Bahiana"} label={`Bahiana-${rows.length}`} />
+        <Tab value={"Jimena"} label={`Jimena-${rows.length}`}/>
       </Tabs>
       <Stack
         sx={{ width: "100%", mb: 1 }}
