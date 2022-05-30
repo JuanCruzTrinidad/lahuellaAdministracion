@@ -31,7 +31,6 @@ function App() {
         component={'main'}
       >
         <Outlet />
-       
       </Grid>
     </>
   );

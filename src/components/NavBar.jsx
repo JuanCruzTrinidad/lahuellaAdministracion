@@ -113,7 +113,6 @@ export default function MiniDrawer({ user, signOut }) {
   const handleClose = () => {
     setAnchorEl(null);
   };
-  console.log(user);
   return (
     <Box sx={{ display: "flex", backgroundColor: "#f12eaf" }}>
       <CssBaseline />
@@ -167,18 +166,19 @@ export default function MiniDrawer({ user, signOut }) {
               </Menu>
             </div>
           ) : (
-            <Tooltip title="Ingresar">
-              <IconButton
-                size="large"
-                aria-label="login"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
-                onClick={loginWithRedirect}
-                color="inherit"
-              >
-                <LoginIcon />
-              </IconButton>
-            </Tooltip>
+            <></>
+            // <Tooltip title="Ingresar">
+            //   <IconButton
+            //     size="large"
+            //     aria-label="login"
+            //     aria-controls="menu-appbar"
+            //     aria-haspopup="true"
+            //     onClick={loginWithRedirect}
+            //     color="inherit"
+            //   >
+            //     <LoginIcon />
+            //   </IconButton>
+            // </Tooltip>
           )}
         </Toolbar>
       </AppBar>

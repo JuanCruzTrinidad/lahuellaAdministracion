@@ -38,6 +38,7 @@ const Student = () => {
     setObservacion(event.target.value);
   };
   const cargarObservacion = (e) => {
+    console.log("Estoy cargando una observacion")
     setDataObservaciones((dataObservaciones) => [
       ...dataObservaciones,
       {
@@ -46,11 +47,14 @@ const Student = () => {
         fecha: new Date().toLocaleString(),
       },
     ]);
+    console.log("Cargue una observacion")
+
     setObservacion("");
   };
 
   useEffect(() => {
     console.log("Cambio data observaciones.");
+
   }, [dataObservaciones]);
 
   useEffect(() => {
@@ -67,7 +71,7 @@ const Student = () => {
           referente: data.referente,
           dni: data.dni
         });
-        setDataObservaciones(data.observaciones);
+        setDataObservaciones(data?.observaciones || []);
       })
       .catch((e) => console.log(e));
     console.log("Se busca en BD");
