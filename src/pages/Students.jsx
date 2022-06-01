@@ -51,8 +51,9 @@ export default function Students() {
       <DataGrid
         editMode="row"
         rows={rows}
-        pageSize={20}
-        rowsPerPageOptions={[25]}
+        pageSize={50}
+        rowsPerPageOptions={[50]}
+        sortModel={ [{field: 'nombre', sort: 'asc'}]}
         columns={[
           { field: "nombre", headerName: "Nombre Completo", minWidth: 800 },
           {
