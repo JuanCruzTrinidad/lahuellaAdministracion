@@ -12,6 +12,7 @@ import Persona from "./components/Personas/AcompañanteForm";
 import { Auth0Provider } from "@auth0/auth0-react";
 import { SnackbarProvider } from "notistack";
 import  Home  from "./pages/Home";
+import Search from "./pages/Search";
 
 const domainAuth = process.env.REACT_APP_AUTH0_DOMAIN;
 const clientIdAuth = process.env.REACT_APP_AUTH0_CLIENT_ID;
@@ -35,6 +36,7 @@ ReactDOM.render(
             <Route path="/obrasocial" element={<ObraSocial />} />
             <Route path="/persona/:id" element={<Persona />} />
             <Route path="/persona" element={<Persona />} />
+            <Route path="/search" element={<Search />} />
           </Route>
         </Routes>
       </BrowserRouter>

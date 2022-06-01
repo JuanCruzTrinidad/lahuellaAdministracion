@@ -20,11 +20,13 @@ export default function BasicCard({content, fecha, color = "#8dd853", autor = 'Y
       variant: 'info',
   })
   }
-
+  const newColors = {
+    "#8dd853": "#DAF7A6",
+    "#f12eaf": "#F1AEDA"
+  }
   return (
-    <Card sx={{ minWidth: 275, backgroundColor: `${color}` }}>
+    <Card sx={{ minWidth: 275, backgroundColor: `${newColors[color]}` }}>
         <CardHeader
-        sx={{opacity: 0.5}}
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
             {autor.slice(0,1)}

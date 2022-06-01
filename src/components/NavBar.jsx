@@ -20,6 +20,7 @@ import { Menu, MenuItem, Tooltip } from "@mui/material";
 import { AccountCircle } from "@material-ui/icons";
 import ChildCareIcon from "@mui/icons-material/ChildCare";
 import EscalatorWarningIcon from "@mui/icons-material/EscalatorWarning";
+import SearchIcon from '@mui/icons-material/Search';
 import LocalPharmacyIcon from "@mui/icons-material/LocalPharmacy";
 import LoginIcon from "@mui/icons-material/Login";
 import logo from "../assets/lahuella.png";
@@ -229,6 +230,17 @@ export default function MiniDrawer({ user, signOut }) {
             </ListItemIcon>
             <ListItemText primary={"Acompañantes"} />
           </ListItem>
+          <ListItem
+            button
+            key={"search"}
+            onClick={() => navigate("/search")}
+          >
+            <ListItemIcon>
+              <SearchIcon sx={{ color: "white" }} />
+            </ListItemIcon>
+            <ListItemText primary={"Buscar"} />
+          </ListItem>
+          
         </List>
         <Divider />
       </Drawer>

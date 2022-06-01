@@ -74,6 +74,7 @@ const Student = () => {
         setDataObservaciones(data?.observaciones || []);
       })
       .catch((e) => console.log(e));
+    
     console.log("Se busca en BD");
   }, [params?.id]);
 
@@ -92,25 +93,29 @@ const Student = () => {
     },
     onSubmit: (values) => {
       putData("alumnos", {
-        id: values.id,
-        nombre: values.nombre,
-        obraSocial: values.obraSocial,
-        acompañante: values.acompañante,
-        escuela: values.escuela,
-        gradoTurno: values.gradoTurno,
+        id: values?.id,
+        nombre: values?.nombre || "",
+        obraSocial: values?.obraSocial || "",
+        acompañante: values?.acompañante || "",
+        escuela: values?.escuela || "",
+        gradoTurno: values?.gradoTurno || "",
         observaciones: dataObservaciones,
-        diagnostico: values.diagnostico,
-        referente: values.referente,
-        dni: values.dni
+        diagnostico: values?.diagnostico || "",
+        referente: values?.referente || "",
+        dni: values?.dni
       })
-        .then((data) => console.log("Se guardo correctamente"))
-        .catch((e) => enqueueSnackbar("Ocurrio un error", { 
-          variant: 'error',
-      }));
-        enqueueSnackbar("Se guardo el alumno correctamente", { 
-          variant: 'success',
-      })
+        .then((data) => {
+          enqueueSnackbar("Se guardo el alumno correctamente", { 
+            variant: 'success',
+        })
         navigate("/students")
+        })
+        .catch((e) =>  {
+          enqueueSnackbar("Ocurrio un error", { 
+            variant: 'error',
+        })
+        console.log(e)
+        });
     },
   });
 
@@ -234,8 +239,8 @@ const Student = () => {
           <Typography variant={"h6"}> Observaciones </Typography>
           <Divider sx={{ marginBottom: 1 }} />
           <List sx={{ width: "100%", bgcolor: "background.paper" }}>
-            {dataObservaciones?.map(({ texto, autor, fecha }) => (
-              <ListItem>
+            {dataObservaciones?.map(({ texto, autor, fecha }, i) => (
+              <ListItem key={i}>
                 <ListItemAvatar>
                   <Avatar>
                     <CommentIcon />
