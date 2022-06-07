@@ -3,7 +3,7 @@ import { DataGrid, GridActionsCellItem } from "@mui/x-data-grid";
 import { Button, Chip, Stack, Tab, Tabs } from "@mui/material";
 import { fetchData } from "../helpers/actions";
 import { useNavigate } from "react-router-dom";
-import { reportStudents } from "../helpers/excel";
+import { reportOneStudent, reportStudents } from "../helpers/excel";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 
 export default function Students() {
@@ -41,6 +41,9 @@ export default function Students() {
         spacing={2}
       >
         <Chip label={`${rows.length} CASOS ASIGNADOS`} sx={{backgroundColor: '#8dd853', color: 'white' }} />
+        <Button size="small" onClick={() => reportOneStudent(rows)} sx={{color: '#8dd853'}}>
+          Descargar observaciones
+        </Button>
         <Button size="small" onClick={() => reportStudents(rows)} sx={{color: '#8dd853'}}>
           Descargar reporte
         </Button>

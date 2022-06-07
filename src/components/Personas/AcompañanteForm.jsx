@@ -61,7 +61,7 @@ const Persona = () => {
   });
 
   useEffect(() => {
-    fetchById("personas", params.id)
+    params?.id && fetchById("personas", params.id)
       .then((data) => {
         formik.setValues({
           id: data.id,
