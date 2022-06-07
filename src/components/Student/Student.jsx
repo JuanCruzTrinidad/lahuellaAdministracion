@@ -22,8 +22,7 @@ import { buttonStyle } from "../styles";
 import { useAuth0 } from "@auth0/auth0-react";
 import { useSnackbar } from "notistack";
 import DeleteIcon from "@mui/icons-material/Delete";
-import { reportOneStudent } from "../../helpers/excel";
-import DownloadIcon from "@mui/icons-material/Download";
+
 const referentesDefault = [
   { value: "Barbara", label: "Barbara" },
   { value: "Bahiana", label: "Bahiana" },
@@ -39,6 +38,13 @@ const Student = () => {
   const handleChange = (event) => {
     setObservacion(event.target.value);
   };
+
+  const deleteObservacion = (e, texto, fecha) => {
+    e.preventDefault();
+    const array = dataObservaciones.filter(d => d?.texto !== texto && d?.fecha !== fecha);
+    setDataObservaciones(array);
+  }
+
   const cargarObservacion = (e) => {
     console.log("Estoy cargando una observacion");
     setDataObservaciones((dataObservaciones) => [
@@ -59,7 +65,8 @@ const Student = () => {
   }, [dataObservaciones]);
 
   useEffect(() => {
-    fetchById("alumnos", params.id)
+    console.log(params.id)
+    params?.id && fetchById("alumnos", params?.id)
       .then((data) => {
         formik.setValues({
           id: data.id,
@@ -281,7 +288,12 @@ const Student = () => {
           <Divider sx={{ marginBottom: 1 }} />
           <List sx={{ width: "100%", bgcolor: "background.paper" }}>
             {dataObservaciones?.map(({ texto, autor, fecha }, i) => (
-              <ListItem key={i}>
+              <ListItem key={i} 
+              secondaryAction={
+                <IconButton edge="end" aria-label="delete" onClick={e => deleteObservacion(e, texto, fecha)}>
+                  <DeleteIcon />
+                </IconButton>
+              }>
                 <ListItemAvatar>
                   <Avatar>
                     <CommentIcon />
