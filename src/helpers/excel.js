@@ -33,39 +33,85 @@ const schemaStudents = [
   },
 ];
 
-  
+const schemaOneStudent = [
+  // Column #1
+  {
+    column: "Referente",
+    type: String,
+    width: 30,
+    value: (student) => student.referente,
+  },
+  // Column #2
+  {
+    column: "Alumno",
+    type: String,
+    width: 30,
+    value: (student) => student.nombre,
+  },
+  {
+    column: "Escuela",
+    type: String,
+    width: 30,
+    value: (student) => student.escuela,
+  },
+  {
+    column: "Acompañante",
+    type: String,
+    width: 30,
+    value: (student) => student.acompañante,
+  },
+  {
+    column: "Alta",
+    type: String,
+    value: (student) => student.alta
+  },
+  // Column #3
+  {
+    column: "Llamada",
+    type: String,
+    wrap: true,
+    width: 50,
+    height: 30,
+    value: (student) =>  {
+      const data = student?.observaciones?.map((o) => o?.texto).join(". ")
+      console.log(data)
+      return data;
+     },
+  },
+];
+
 const schemaPersonas = [
   // Column #1
   {
     column: "Nombre",
     type: String,
-    value: (ae) => ae.nombre
+    value: (ae) => ae.nombre,
   },
   // Column #2
   {
     column: "Niñe",
     type: String,
-    value: (ae) => ae.alumno
+    value: (ae) => ae.alumno,
   },
   // Column #3
   {
     column: "Referente",
     type: String,
-    value: (ae) => ae.referente
+    value: (ae) => ae.referente,
   },
   // Column #4
   {
     column: "Alta",
     type: Date,
-    format: 'mm/dd/yyyy',
-    value: (ae) => ae.alta
+    format: "mm/dd/yyyy",
+    value: (ae) => ae.alta,
   },
   // Column #5
   {
     column: "Baja",
     type: Date,
-    format: 'mm/dd/yyyy',
-    value: (ae) => ae.baja
+    format: "mm/dd/yyyy",
+    value: (ae) => ae.baja,
   },
 ];
 const reportStudents = (data) =>
@@ -73,23 +119,33 @@ const reportStudents = (data) =>
     schema: schemaStudents,
     fileName: "reporte.xlsx",
     headerStyle: {
-        backgroundColor: '#8DFCA1',
-        fontWeight: 'bold',
-        align: 'center'
-      }
+      backgroundColor: "#8DFCA1",
+      fontWeight: "bold",
+      align: "center",
+    },
+  }).then((s) => console.log("Se guardo"));
+
+const reportOneStudent = (data) =>
+  writeXlsxFile(data, {
+    schema: schemaOneStudent,
+    fileName: "reporte.xlsx",
+    headerStyle: {
+      backgroundColor: "#8DFCA1",
+      fontWeight: "bold",
+      align: "center",
+    },
   }).then((s) => console.log("Se guardo"));
 
 const reportAcompañantes = (data) => {
-    writeXlsxFile(data, {
-        schema: schemaPersonas,
-        fileName: "reporte.xlsx",
-        headerStyle: {
-            backgroundColor: '#8DFCA1',
-            fontWeight: 'bold',
-            align: 'center'
-          }
-      }).then((s) => console.log("Se guardo"))
-}
+  writeXlsxFile(data, {
+    schema: schemaPersonas,
+    fileName: "reporte.xlsx",
+    headerStyle: {
+      backgroundColor: "#8DFCA1",
+      fontWeight: "bold",
+      align: "center",
+    },
+  }).then((s) => console.log("Se guardo"));
+};
 
-
-export { reportStudents, reportAcompañantes };
+export { reportStudents, reportAcompañantes, reportOneStudent };

@@ -10,6 +10,7 @@ import {
   ListItemText,
   MenuItem,
   TextField,
+  Tooltip,
   Typography,
 } from "@mui/material";
 import { useFormik } from "formik";
@@ -20,8 +21,9 @@ import CommentIcon from "@mui/icons-material/Comment";
 import { buttonStyle } from "../styles";
 import { useAuth0 } from "@auth0/auth0-react";
 import { useSnackbar } from "notistack";
-import DeleteIcon from '@mui/icons-material/Delete';
-
+import DeleteIcon from "@mui/icons-material/Delete";
+import { reportOneStudent } from "../../helpers/excel";
+import DownloadIcon from "@mui/icons-material/Download";
 const referentesDefault = [
   { value: "Barbara", label: "Barbara" },
   { value: "Bahiana", label: "Bahiana" },
@@ -38,7 +40,7 @@ const Student = () => {
     setObservacion(event.target.value);
   };
   const cargarObservacion = (e) => {
-    console.log("Estoy cargando una observacion")
+    console.log("Estoy cargando una observacion");
     setDataObservaciones((dataObservaciones) => [
       ...dataObservaciones,
       {
@@ -47,14 +49,13 @@ const Student = () => {
         fecha: new Date().toLocaleString(),
       },
     ]);
-    console.log("Cargue una observacion")
+    console.log("Cargue una observacion");
 
     setObservacion("");
   };
 
   useEffect(() => {
     console.log("Cambio data observaciones.");
-
   }, [dataObservaciones]);
 
   useEffect(() => {
@@ -69,12 +70,14 @@ const Student = () => {
           escuela: data.escuela,
           gradoTurno: data.gradoTurno,
           referente: data.referente,
-          dni: data.dni
+          dni: data.dni,
+          alta: data?.alta,
+          baja: data?.baja
         });
         setDataObservaciones(data?.observaciones || []);
       })
       .catch((e) => console.log(e));
-    
+
     console.log("Se busca en BD");
   }, [params?.id]);
 
@@ -89,10 +92,12 @@ const Student = () => {
       diagnostico: "",
       observaciones: [],
       referente: "",
-      dni: 0
+      dni: 0,
+      alta: "",
+      baja: "",
     },
     onSubmit: (values) => {
-      putData("alumnos", {
+      const item = {
         id: values?.id,
         nombre: values?.nombre || "",
         obraSocial: values?.obraSocial || "",
@@ -102,19 +107,22 @@ const Student = () => {
         observaciones: dataObservaciones,
         diagnostico: values?.diagnostico || "",
         referente: values?.referente || "",
-        dni: values?.dni
-      })
+        dni: values?.dni,
+      };
+      if(values?.alta) item.alta = values.alta;
+      if(values?.baja) item.baja = values.baja;
+      putData("alumnos", item)
         .then((data) => {
-          enqueueSnackbar("Se guardo el alumno correctamente", { 
-            variant: 'success',
+          enqueueSnackbar("Se guardo el alumno correctamente", {
+            variant: "success",
+          });
+          navigate("/students");
         })
-        navigate("/students")
-        })
-        .catch((e) =>  {
-          enqueueSnackbar("Ocurrio un error", { 
-            variant: 'error',
-        })
-        console.log(e)
+        .catch((e) => {
+          enqueueSnackbar("Ocurrio un error", {
+            variant: "error",
+          });
+          console.log(e);
         });
     },
   });
@@ -132,18 +140,24 @@ const Student = () => {
         <div>
           <Typography variant={"h6"}>
             Datos personales {formik.values.nombre}
-            {
-            params?.id && (
-              <IconButton aria-label="delete" onClick={() => { 
-                deleteById("alumnos", params.id).then(s => navigate("/students"))
-                enqueueSnackbar("Se elimino correctamente el alumno.", { 
-                  variant: 'info',
-              })
-                }}>
-              <DeleteIcon />
-            </IconButton>
-            )
-          }
+            {params?.id && (
+              <Tooltip title="Eliminadar">
+                <IconButton
+                  aria-label="delete"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    deleteById("alumnos", params.id).then((s) =>
+                      navigate("/students")
+                    );
+                    enqueueSnackbar("Se elimino correctamente el alumno.", {
+                      variant: "info",
+                    });
+                  }}
+                >
+                  <DeleteIcon />
+                </IconButton>
+              </Tooltip>
+            )}
           </Typography>
           <Divider sx={{ marginBottom: 1 }} />
           <TextField
@@ -186,16 +200,7 @@ const Student = () => {
             value={formik.values.obraSocial}
             onChange={formik.handleChange}
           />
-          <TextField
-            margin={"dense"}
-            id="acompañante"
-            size={"small"}
-            sx={{ m: 1, width: "63ch" }}
-            name="acompañante"
-            label="Acompañante"
-            value={formik.values.acompañante}
-            onChange={formik.handleChange}
-          />
+
           <TextField
             margin={"dense"}
             id="dni"
@@ -223,6 +228,42 @@ const Student = () => {
               </MenuItem>
             ))}
           </TextField>
+          <TextField
+            margin={"dense"}
+            id="acompañante"
+            size={"small"}
+            sx={{ m: 1, width: "63ch" }}
+            name="acompañante"
+            label="Acompañante"
+            value={formik.values.acompañante}
+            onChange={formik.handleChange}
+          />
+          <TextField
+            margin={"dense"}
+            size={"small"}
+            sx={{ m: 1, width: "63ch" }}
+            id="alta"
+            name="alta"
+            label="Alta"
+            placeholder="Alta"
+            helperText="Fecha de alta acompañante"
+            value={formik.values.alta}
+            onChange={formik.handleChange}
+            type="date"
+          />
+          <TextField
+            margin={"dense"}
+            size={"small"}
+            sx={{ m: 1, width: "63ch" }}
+            id="baja"
+            name="baja"
+            label="Baja"
+            value={formik.values.baja}
+            onChange={formik.handleChange}
+            helperText="Fecha de baja acompañante"
+            type="date"
+          />
+
           <TextField
             id="diagnostico"
             name="diagnostico"
