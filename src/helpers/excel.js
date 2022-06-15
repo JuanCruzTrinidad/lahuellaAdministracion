@@ -113,8 +113,10 @@ const schemaPersonas = [
     value: (ae) => ae.baja,
   },
 ];
-const reportStudents = (data) =>
-  writeXlsxFile(data, {
+const reportStudents = (data) => {
+  const dataO = [...data];
+  dataO.sort((a, b) => a !== undefined && b !== undefined && a?.nombre?.localeCompare(b?.nombre))
+  writeXlsxFile(dataO, {
     schema: schemaStudents,
     fileName: "reporte.xlsx",
     headerStyle: {
@@ -123,6 +125,7 @@ const reportStudents = (data) =>
       align: "center",
     },
   }).then((s) => console.log("Se guardo"));
+}
 
 const reportOneStudent = (data) => {
   const dataO = [...data];
