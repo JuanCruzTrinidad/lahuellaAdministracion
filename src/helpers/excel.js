@@ -34,47 +34,46 @@ const schemaStudents = [
 ];
 
 const schemaOneStudent = [
-  // Column #1
+    // Column #2
+    {
+      column: "ALUMNO",
+      type: String,
+      width: 30,
+      value: (student) => student.nombre,
+    },
+      // Column #1
   {
-    column: "Referente",
+    column: "OBRA SOCIAL",
     type: String,
     width: 30,
-    value: (student) => student.referente,
-  },
-  // Column #2
-  {
-    column: "Alumno",
-    type: String,
-    width: 30,
-    value: (student) => student.nombre,
+    value: (student) => student.obraSocial,
   },
   {
-    column: "Escuela",
+    column: "ESCUELA",
     type: String,
     width: 30,
     value: (student) => student.escuela,
   },
   {
-    column: "Acompañante",
+    column: "ACOMPAÑANTE EXTERNO",
     type: String,
     width: 30,
     value: (student) => student.acompañante,
   },
   {
-    column: "Alta",
+    column: "INICIO",
     type: String,
     value: (student) => student.alta
   },
   // Column #3
   {
-    column: "Llamada",
+    column: "SITUACION",
     type: String,
     wrap: true,
     width: 50,
     height: 30,
     value: (student) =>  {
       const data = student?.observaciones?.map((o) => o?.texto).join(". ")
-      console.log(data)
       return data;
      },
   },
@@ -125,8 +124,10 @@ const reportStudents = (data) =>
     },
   }).then((s) => console.log("Se guardo"));
 
-const reportOneStudent = (data) =>
-  writeXlsxFile(data, {
+const reportOneStudent = (data) => {
+  const dataO = [...data];
+  dataO.sort((a, b) => a !== undefined && b !== undefined && a?.nombre?.localeCompare(b?.nombre))
+  writeXlsxFile(dataO, {
     schema: schemaOneStudent,
     fileName: "reporte.xlsx",
     headerStyle: {
@@ -135,7 +136,8 @@ const reportOneStudent = (data) =>
       align: "center",
     },
   }).then((s) => console.log("Se guardo"));
-
+}
+ 
 const reportAcompañantes = (data) => {
   writeXlsxFile(data, {
     schema: schemaPersonas,

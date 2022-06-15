@@ -21,7 +21,7 @@ export default function Students() {
     fetchData("alumnos")
       .then((data) => {
         const dataReferente = data.filter((a) => a?.referente === value);
-        setRows(dataReferente);
+        setRows(value === "todos" ? data : dataReferente);
       })
       .catch((e) => console.log(e));
   }, [value]);
@@ -32,6 +32,7 @@ export default function Students() {
         <Tab value={"Barbara"} label={`Barbara`} />
         <Tab value={"Bahiana"} label={`Bahiana`} />
         <Tab value={"Jimena"} label={`Jimena`}/>
+        <Tab value={"todos"} label={`todos`}/>
       </Tabs>
       <Stack
         sx={{ width: "100%", mb: 1 }}
