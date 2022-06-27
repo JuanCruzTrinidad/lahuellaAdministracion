@@ -21,7 +21,7 @@ export default function Search() {
   const [dataAlumnos, setDataAlumnos] = useState([]);
   const [dataBusqueda, setDataBusqueda] = useState([]);
   const [visible, setVisible] = useState(false);
-  const campos = [{ value: "obraSocial", label: "Obra Social" }, { value: "escuela", label: "Escuela" }, { value: "acompañante", label: "Acompañante" }];
+  const campos = [{ value: "obraSocial", label: "Obra Social" }, { value: "escuela", label: "Escuela" }, { value: "acompañante", label: "Acompañante" },  { value: "nombre", label: "Nombre" }];
   const navigate = useNavigate();
 
   const formik = useFormik({
