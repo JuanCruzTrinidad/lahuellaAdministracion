@@ -31,6 +31,16 @@ const schemaStudents = [
     type: String,
     value: (student) => student.acompañante,
   },
+  {
+    column: "Alta",
+    type: String,
+    value: (student) => student.alta,
+  },
+  {
+    column: "Baja",
+    type: String,
+    value: (student) => student.baja,
+  }
 ];
 
 const schemaOneStudent = [
