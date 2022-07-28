@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { reportOneStudent, reportStudents } from "../helpers/excel";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 
-export default function Students() {
+export default function StudentsDown() {
   const navigate = useNavigate();
   const [rows, setRows] = useState([]);
   const [value, setValue] = useState("Barbara");
@@ -20,8 +20,8 @@ export default function Students() {
   useEffect(() => {
     fetchData("alumnos")
       .then((data) => {
-        const dataReferente = data.filter((a) => a?.referente === value && !a?.bajaAlumno);
-        const dataSinBajas = data.filter((a) => !a?.bajaAlumno);
+        const dataReferente = data.filter((a) => a?.referente === value && a?.bajaAlumno);
+        const dataSinBajas = data.filter((a) => a?.bajaAlumno);
         setRows(value === "todos" ? dataSinBajas : dataReferente);
       })
       .catch((e) => console.log(e));
@@ -48,9 +48,6 @@ export default function Students() {
         </Button>
         <Button size="small" onClick={() => reportStudents(rows)} sx={{color: '#8dd853'}}>
           Descargar reporte
-        </Button>
-        <Button size="small" onClick={() => navigate("/student")} sx={{color: '#8dd853'}}>
-          Añadir niñe
         </Button>
       </Stack>
       <DataGrid

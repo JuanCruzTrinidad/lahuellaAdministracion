@@ -16,13 +16,12 @@ import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { useNavigate } from "react-router-dom";
-import { Menu, MenuItem, Tooltip } from "@mui/material";
+import { Menu, MenuItem } from "@mui/material";
 import { AccountCircle } from "@material-ui/icons";
 import ChildCareIcon from "@mui/icons-material/ChildCare";
 import EscalatorWarningIcon from "@mui/icons-material/EscalatorWarning";
 import SearchIcon from '@mui/icons-material/Search';
-import LocalPharmacyIcon from "@mui/icons-material/LocalPharmacy";
-import LoginIcon from "@mui/icons-material/Login";
+import PersonOffIcon from '@mui/icons-material/PersonOff';
 import logo from "../assets/lahuella.png";
 import { useAuth0 } from "@auth0/auth0-react";
 import HomeIcon from "@mui/icons-material/Home";
@@ -240,7 +239,16 @@ export default function MiniDrawer({ user, signOut }) {
             </ListItemIcon>
             <ListItemText primary={"Buscar"} />
           </ListItem>
-          
+          <ListItem
+            button
+            key={"bajas"}
+            onClick={() => navigate("/studentsDown")}
+          >
+            <ListItemIcon>
+              <PersonOffIcon sx={{ color: "white" }} />
+            </ListItemIcon>
+            <ListItemText primary={"Bajas"} />
+          </ListItem>
         </List>
         <Divider />
       </Drawer>
