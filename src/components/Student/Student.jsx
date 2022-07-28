@@ -28,6 +28,11 @@ const referentesDefault = [
   { value: "Bahiana", label: "Bahiana" },
   { value: "Jimena", label: "Jimena" },
 ];
+
+const estadosSituacionObraSocial = [
+  { value: "Aprobado", label: "Aprobado" },
+  { value: "A la espera", label: "A la espera" },
+];
 const Student = () => {
   const params = useParams();
   const [dataObservaciones, setDataObservaciones] = useState([]);
@@ -41,9 +46,11 @@ const Student = () => {
 
   const deleteObservacion = (e, texto, fecha) => {
     e.preventDefault();
-    const array = dataObservaciones.filter(d => d?.texto !== texto && d?.fecha !== fecha);
+    const array = dataObservaciones.filter(
+      (d) => d?.texto !== texto && d?.fecha !== fecha
+    );
     setDataObservaciones(array);
-  }
+  };
 
   const cargarObservacion = (e) => {
     console.log("Estoy cargando una observacion");
@@ -60,30 +67,51 @@ const Student = () => {
     setObservacion("");
   };
 
+  const darDeBaja = (e) => {
+    e.preventDefault();
+    const alumno = formik.values;
+    alumno.bajaAlumno = true;
+    if(!alumno?.baja) delete alumno.baja;
+    if(!alumno?.alta) delete alumno.alta;
+    console.log(alumno)
+    putData("alumnos", alumno)
+    .then((data) => {
+      enqueueSnackbar("Se dio de baja al alumno correctamente", {
+        variant: "success",
+      });
+      navigate("/students");
+    })
+    .catch((e) => {
+      enqueueSnackbar("Ocurrio un error", {
+        variant: "error",
+      });
+      console.log(e);
+    });
+  }
   useEffect(() => {
-    console.log("Cambio data observaciones.");
   }, [dataObservaciones]);
 
   useEffect(() => {
-    console.log(params.id)
-    params?.id && fetchById("alumnos", params?.id)
-      .then((data) => {
-        formik.setValues({
-          id: data.id,
-          nombre: data.nombre,
-          obraSocial: data.obraSocial,
-          acompañante: data.acompañante,
-          diagnostico: data.diagnostico,
-          escuela: data.escuela,
-          gradoTurno: data.gradoTurno,
-          referente: data.referente,
-          dni: data.dni,
-          alta: data?.alta,
-          baja: data?.baja
-        });
-        setDataObservaciones(data?.observaciones || []);
-      })
-      .catch((e) => console.log(e));
+    params?.id &&
+      fetchById("alumnos", params?.id)
+        .then((data) => {
+          formik.setValues({
+            id: data.id,
+            nombre: data.nombre,
+            obraSocial: data.obraSocial,
+            acompañante: data.acompañante,
+            diagnostico: data.diagnostico,
+            escuela: data.escuela,
+            gradoTurno: data.gradoTurno,
+            referente: data.referente,
+            dni: data.dni,
+            alta: data?.alta,
+            baja: data?.baja,
+            obraSocialSituacion: data?.obraSocialSituacion || "Aprobado",
+          });
+          setDataObservaciones(data?.observaciones || []);
+        })
+        .catch((e) => console.log(e));
 
     console.log("Se busca en BD");
   }, [params?.id]);
@@ -102,6 +130,7 @@ const Student = () => {
       dni: 0,
       alta: "",
       baja: "",
+      obraSocialSituacion: "Aprobado",
     },
     onSubmit: (values) => {
       const item = {
@@ -115,9 +144,10 @@ const Student = () => {
         diagnostico: values?.diagnostico || "",
         referente: values?.referente || "",
         dni: values?.dni,
+        obraSocialSituacion: values?.obraSocialSituacion || "",
       };
-      if(values?.alta) item.alta = values.alta;
-      if(values?.baja) item.baja = values.baja;
+      if (values?.alta) item.alta = values.alta;
+      if (values?.baja) item.baja = values.baja;
       putData("alumnos", item)
         .then((data) => {
           enqueueSnackbar("Se guardo el alumno correctamente", {
@@ -197,16 +227,6 @@ const Student = () => {
             value={formik.values.gradoTurno}
             onChange={formik.handleChange}
           />
-          <TextField
-            margin={"dense"}
-            id="obraSocial"
-            size={"small"}
-            sx={{ m: 1, width: "63ch" }}
-            name="obraSocial"
-            label="Obra Social"
-            value={formik.values.obraSocial}
-            onChange={formik.handleChange}
-          />
 
           <TextField
             margin={"dense"}
@@ -218,6 +238,34 @@ const Student = () => {
             value={formik.values.dni}
             onChange={formik.handleChange}
           />
+          <TextField
+            margin={"dense"}
+            id="obraSocial"
+            size={"small"}
+            sx={{ m: 1, width: "63ch" }}
+            name="obraSocial"
+            label="Obra Social"
+            value={formik.values.obraSocial}
+            onChange={formik.handleChange}
+          />
+          <TextField
+            id="obraSocialSituacion"
+            name="obraSocialSituacion"
+            margin={"dense"}
+            select
+            label="Obra Social Situación"
+            defaultValue={"Aprobado"}
+            size={"small"}
+            sx={{ m: 1, width: "63ch" }}
+            value={formik.values.obraSocialSituacion}
+            onChange={formik.handleChange}
+          >
+            {estadosSituacionObraSocial.map((option) => (
+              <MenuItem key={option.value} value={option.value}>
+                {option.label}
+              </MenuItem>
+            ))}
+          </TextField>
           <TextField
             id="referente"
             name="referente"
@@ -288,12 +336,18 @@ const Student = () => {
           <Divider sx={{ marginBottom: 1 }} />
           <List sx={{ width: "100%", bgcolor: "background.paper" }}>
             {dataObservaciones?.map(({ texto, autor, fecha }, i) => (
-              <ListItem key={i} 
-              secondaryAction={
-                <IconButton edge="end" aria-label="delete" onClick={e => deleteObservacion(e, texto, fecha)}>
-                  <DeleteIcon />
-                </IconButton>
-              }>
+              <ListItem
+                key={i}
+                secondaryAction={
+                  <IconButton
+                    edge="end"
+                    aria-label="delete"
+                    onClick={(e) => deleteObservacion(e, texto, fecha)}
+                  >
+                    <DeleteIcon />
+                  </IconButton>
+                }
+              >
                 <ListItemAvatar>
                   <Avatar>
                     <CommentIcon />
@@ -333,6 +387,14 @@ const Student = () => {
             type="submit"
           >
             Guardar
+          </Button>
+          <Divider sx={{ marginBottom: 1 }} />
+          <Button
+            variant="contained"
+            sx={{ ...buttonStyle, backgroundColor: "red" }}
+            onClick={e => darDeBaja(e)}
+          >
+            Dar de baja
           </Button>
         </div>
       </Box>
