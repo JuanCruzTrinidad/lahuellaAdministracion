@@ -3,11 +3,13 @@ import { PutCommand } from "@aws-sdk/lib-dynamodb";
 import { dynamoDbClient } from './DynamoDbClient';
 import { v4 as uuidv4 } from 'uuid';
 import { unmarshall } from '@aws-sdk/util-dynamodb';
+// import fs  from 'fs';
 
 export const fetchData = async (tableName) => {
    const client = dynamoDbClient();
    const data =  await client.send(new ScanCommand({TableName: tableName}))
    const dataTransform = data.Items.map(i => unmarshall(i))
+   // fs.writeFileSync('data.json', JSON.stringify(dataTransform) )
    console.log("Se busca en base de datos")
    return dataTransform;
 }
