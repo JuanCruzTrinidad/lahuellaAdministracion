@@ -71,6 +71,7 @@ const Student = () => {
     e.preventDefault();
     const alumno = formik.values;
     alumno.bajaAlumno = true;
+    alumno.observaciones = dataObservaciones;
     if(!alumno?.baja) delete alumno.baja;
     if(!alumno?.alta) delete alumno.alta;
     console.log(alumno)
