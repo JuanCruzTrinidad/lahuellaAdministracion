@@ -50,6 +50,7 @@ export default function Renovaciones() {
       <DataGrid
         editMode="row"
         rows={rows}
+        sortModel={ [{field: 'nombre', sort: 'asc'}]}
         columns={[
           { field: "nombre", headerName: "Nombre Completo", minWidth: 200 },
           {
@@ -62,7 +63,6 @@ export default function Renovaciones() {
           {
             field: "enviado",
             headerName: "Enviado",
-            minWidth: 200,
             renderCell: (d) => (d.value ? <CheckIcon /> : <ClearIcon />),
           },
           {
