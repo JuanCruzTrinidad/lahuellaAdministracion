@@ -25,6 +25,7 @@ import PersonOffIcon from '@mui/icons-material/PersonOff';
 import logo from "../assets/lahuella.png";
 import { useAuth0 } from "@auth0/auth0-react";
 import HomeIcon from "@mui/icons-material/Home";
+import ArticleIcon from '@mui/icons-material/Article';
 const drawerWidth = 240;
 
 const openedMixin = (theme) => ({
@@ -248,6 +249,16 @@ export default function MiniDrawer({ user, signOut }) {
               <PersonOffIcon sx={{ color: "white" }} />
             </ListItemIcon>
             <ListItemText primary={"Bajas"} />
+          </ListItem>
+          <ListItem
+            button
+            key={"relevamientos"}
+            onClick={() => navigate("/relevamientos")}
+          >
+            <ListItemIcon>
+              <ArticleIcon sx={{ color: "white" }} />
+            </ListItemIcon>
+            <ListItemText primary={"Relevamientos"} />
           </ListItem>
         </List>
         <Divider />
