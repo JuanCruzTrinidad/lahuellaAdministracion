@@ -1,11 +1,21 @@
-import { Box, Button, Divider, IconButton, MenuItem, TextField, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Checkbox,
+  Divider,
+  FormControlLabel,
+  IconButton,
+  MenuItem,
+  TextField,
+  Typography,
+} from "@mui/material";
 import { useFormik } from "formik";
 import React, { useEffect } from "react";
 import { deleteById, fetchById, putData } from "../../helpers/actions";
 import { useNavigate, useParams } from "react-router-dom";
 import { buttonStyle } from "../styles";
 import { useSnackbar } from "notistack";
-import DeleteIcon from '@mui/icons-material/Delete';
+import DeleteIcon from "@mui/icons-material/Delete";
 
 const referentesDefault = [
   { value: "Barbara", label: "Barbara" },
@@ -13,7 +23,7 @@ const referentesDefault = [
   { value: "Jimena", label: "Jimena" },
 ];
 
-const RelevamientoForm = () => {
+const ReneovacionForm = () => {
   const params = useParams();
   const navigate = useNavigate();
   const { enqueueSnackbar } = useSnackbar();
@@ -25,6 +35,7 @@ const RelevamientoForm = () => {
       documentacion: "",
       obraSocial: "",
       referente: "",
+      enviado: false
     },
     onSubmit: (values) => {
       putData("relevamiento", {
@@ -33,13 +44,14 @@ const RelevamientoForm = () => {
         fechaOrden: values.fechaOrden,
         obraSocial: values.obraSocial,
         documentacion: values.documentacion,
-        referente: values.referente
+        referente: values.referente,
+        enviado: values.enviado
       })
         .then((data) => {
-          enqueueSnackbar("Se creo el relevamiento correctamente.", {
+          enqueueSnackbar("Se creo la renovación correctamente.", {
             variant: "success",
           });
-          navigate("/relevamientos");
+          navigate("/renovaciones");
         })
         .catch((e) => {
           enqueueSnackbar("Ocurrio un error", {
@@ -59,8 +71,10 @@ const RelevamientoForm = () => {
           fechaOrden: data.fechaOrden,
           obraSocial: data.obraSocial,
           documentacion: data.documentacion,
-          referente: data.referente
+          referente: data.referente,
+          enviado: data.enviado
         });
+        console.log(data)
       })
       .catch((e) => console.log(e));
   }, [params?.id]);
@@ -79,18 +93,21 @@ const RelevamientoForm = () => {
           <Typography variant={"h6"}>
             {" "}
             Relevamiento {formik.values.nombre}
-            {
-            params?.id && (
-              <IconButton aria-label="delete" onClick={() => { 
-                deleteById("relevamiento", params.id).then(s => navigate("/relevamientos"))
-                enqueueSnackbar("Se elimino correctamente el relevamiento.", { 
-                  variant: 'info',
-              })
-                }}>
-              <DeleteIcon />
-            </IconButton>
-            )
-          }
+            {params?.id && (
+              <IconButton
+                aria-label="delete"
+                onClick={() => {
+                  deleteById("relevamiento", params.id).then((s) =>
+                    navigate("/renovaciones")
+                  );
+                  enqueueSnackbar("Se elimino correctamente la renovacion.", {
+                    variant: "info",
+                  });
+                }}
+              >
+                <DeleteIcon />
+              </IconButton>
+            )}
           </Typography>
           <Divider sx={{ marginBottom: 1 }} />
           <TextField
@@ -117,7 +134,7 @@ const RelevamientoForm = () => {
             onChange={formik.handleChange}
           />
 
-         <TextField
+          <TextField
             id="documentacion"
             margin={"dense"}
             multiline
@@ -131,7 +148,7 @@ const RelevamientoForm = () => {
             onChange={formik.handleChange}
           />
 
-        <TextField
+          <TextField
             id="referente"
             name="referente"
             margin={"dense"}
@@ -139,7 +156,7 @@ const RelevamientoForm = () => {
             select
             label="Referente"
             size={"small"}
-            sx={{ m: 1}}
+            sx={{ m: 1 }}
             value={formik.values.referente}
             onChange={formik.handleChange}
           >
@@ -163,6 +180,19 @@ const RelevamientoForm = () => {
             onChange={formik.handleChange}
             type="date"
           />
+          <FormControlLabel
+            sx={{ m: 1 }}
+            control={
+              <Checkbox
+                checked={formik.values?.enviado}
+                name="enviado"
+                id="enviado"
+                onChange={formik.handleChange}
+              />
+            }
+            label="Enviado"
+          />
+
           <Divider sx={{ marginBottom: 1 }} />
           <Button variant="contained" sx={buttonStyle} type="submit">
             Guardar
@@ -173,4 +203,4 @@ const RelevamientoForm = () => {
   );
 };
 
-export default RelevamientoForm;
+export default ReneovacionForm;
