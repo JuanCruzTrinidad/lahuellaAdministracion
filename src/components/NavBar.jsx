@@ -212,6 +212,16 @@ export default function MiniDrawer({ user, signOut }) {
           </ListItem>
           <ListItem
             button
+            key={"renovaciones"}
+            onClick={() => navigate("/renovaciones")}
+          >
+            <ListItemIcon>
+              <ArticleIcon sx={{ color: "white" }} />
+            </ListItemIcon>
+            <ListItemText primary={"Renovaciones"} />
+          </ListItem>
+          <ListItem
+            button
             key={"students"}
             onClick={() => navigate("/students")}
           >
@@ -250,16 +260,7 @@ export default function MiniDrawer({ user, signOut }) {
             </ListItemIcon>
             <ListItemText primary={"Bajas"} />
           </ListItem>
-          <ListItem
-            button
-            key={"relevamientos"}
-            onClick={() => navigate("/relevamientos")}
-          >
-            <ListItemIcon>
-              <ArticleIcon sx={{ color: "white" }} />
-            </ListItemIcon>
-            <ListItemText primary={"Relevamientos"} />
-          </ListItem>
+
         </List>
         <Divider />
       </Drawer>

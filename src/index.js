@@ -14,8 +14,8 @@ import { SnackbarProvider } from "notistack";
 import  Home  from "./pages/Home";
 import Search from "./pages/Search";
 import StudentsDown from "./pages/StudentsDown";
-import Relevamiento from "./pages/Relevamiento";
-import RelevamientoForm from "./components/Relevamiento/RelevamientoForm";
+import ReneovacionForm from "./components/Renovacion/RenovacionForm";
+import Renovaciones from "./pages/Renovaciones";
 
 const domainAuth = process.env.REACT_APP_AUTH0_DOMAIN;
 const clientIdAuth = process.env.REACT_APP_AUTH0_CLIENT_ID;
@@ -33,14 +33,14 @@ ReactDOM.render(
             <Route path="/students" element={<Students />} />
             <Route path="/personas" element={<Personas />} />
             <Route path="/obrasociales" element={<ObraSociales />} />
-            <Route path="/relevamientos" element={<Relevamiento />} />
+            <Route path="/renovaciones" element={<Renovaciones />} />
             <Route path="/student/:id" element={<Student />} />
             <Route path="/student" element={<Student />} />
             <Route path="/obrasocial/:id" element={<ObraSocial />} />
             <Route path="/obrasocial" element={<ObraSocial />} />
             <Route path="/persona/:id" element={<Persona />} />
-            <Route path="/relevamiento" element={<RelevamientoForm />} />
-            <Route path="/relevamiento/:id" element={<RelevamientoForm />} />
+            <Route path="/renovacion" element={<ReneovacionForm />} />
+            <Route path="/renovacion/:id" element={<ReneovacionForm />} />
             <Route path="/persona" element={<Persona />} />
             <Route path="/search" element={<Search />} />
             <Route path="/studentsDown" element={<StudentsDown />} />

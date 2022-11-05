@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { DataGrid, GridActionsCellItem } from "@mui/x-data-grid";
 import VisibilityIcon from "@mui/icons-material/Visibility";
-import { Button, Stack } from "@mui/material";
+import { Button, Stack, Typography } from "@mui/material";
 import { fetchData } from "../helpers/actions";
 import { useNavigate } from "react-router-dom";
+import CheckIcon from "@mui/icons-material/Check";
+import ClearIcon from "@mui/icons-material/Clear";
 
-export default function Relevamiento() {
+export default function Renovaciones() {
   const navigate = useNavigate();
   const [rows, setRows] = useState([]);
 
@@ -18,7 +20,8 @@ export default function Relevamiento() {
             nombre: s.nombre,
             fechaOrden: s.fechaOrden,
             obraSocial: s.obraSocial,
-            referente: s.referente
+            referente: s.referente,
+            enviado: s.enviado,
           };
         });
         setRows(dataRows);
@@ -28,6 +31,7 @@ export default function Relevamiento() {
 
   return (
     <div style={{ height: "85%", width: "70%" }}>
+      <Typography variant={"h6"}> Renovaciones 2023</Typography>
       <Stack
         sx={{ width: "100%", mb: 1 }}
         direction="row"
@@ -35,8 +39,12 @@ export default function Relevamiento() {
         alignItems="center"
         spacing={2}
       >
-        <Button size="small" onClick={() => navigate("/relevamiento")} sx={{color: '#8dd853'}}>
-          Añadir Relevamiento
+        <Button
+          size="small"
+          onClick={() => navigate("/renovacion")}
+          sx={{ color: "#8dd853" }}
+        >
+          Añadir Renovación
         </Button>
       </Stack>
       <DataGrid
@@ -50,7 +58,13 @@ export default function Relevamiento() {
             minWidth: 200,
           },
           { field: "obraSocial", headerName: "Obra Social", minWidth: 200 },
-          { field: "referente", headerName: "referente", minWidth: 200 },
+          { field: "referente", headerName: "Referente", minWidth: 200 },
+          {
+            field: "enviado",
+            headerName: "Enviado",
+            minWidth: 200,
+            renderCell: (d) => (d.value ? <CheckIcon /> : <ClearIcon />),
+          },
           {
             field: "actions",
             type: "actions",
@@ -60,7 +74,7 @@ export default function Relevamiento() {
                 icon={<VisibilityIcon />}
                 label="Ver"
                 key={`Button action ${params.id}`}
-                onClick={() => navigate(`/relevamiento/${params.id}`)}
+                onClick={() => navigate(`/renovacion/${params.id}`)}
               />,
             ],
           },
