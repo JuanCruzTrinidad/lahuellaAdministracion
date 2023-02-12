@@ -33,6 +33,8 @@ export default function Students() {
         <Tab value={"Barbara"} label={`Barbara`} />
         <Tab value={"Bahiana"} label={`Bahiana`} />
         <Tab value={"Jimena"} label={`Jimena`}/>
+        <Tab value={"Agustina"} label={`Agustina`}/>
+        <Tab value={"ingresos2023"} label={`ingresos2023`}/>
         <Tab value={"todos"} label={`todos`}/>
       </Tabs>
       <Stack

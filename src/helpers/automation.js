@@ -1,6 +1,8 @@
 // import { putData } from './actions'
 // import readXlsxFile from 'read-excel-file'
 
+import { fetchData } from "./actions";
+
 // // const map = {
 // //     'NOMBRE Y APELLIDO': 'nombre',
 // //     'DIAGNOSTICO': 'diagnostico',
@@ -36,3 +38,6 @@
 //          putData('alumnos', a).then(a => "Se subio")
 //         } )
 //   })
+
+const getByDNI = (dni) => fetchData("alumnos").then(data => data.find(a => a.dni === dni));
+

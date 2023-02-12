@@ -1,0 +1,3372 @@
+[
+    {
+        "referente": "Bahiana",
+        "acompañante": "",
+        "escuela": "JARDÍN N°904 SPEGAZZINI",
+        "diagnostico": "",
+        "obraSocial": "PFA",
+        "gradoTurno": "2° SECCIÓN",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "aaea6269-de0d-4e17-a472-d03cfc9e74b7",
+        "nombre": "BIANCO BORAN EDIN ANGEL",
+        "dni": "56.888.475"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Ricardo Chumpitas Mendoza",
+        "alta": "2022-09-16",
+        "escuela": "ESCUELA PRIMARIA N° 11 ",
+        "obraSocial": "GALENO PLATA/ OSPETELCO",
+        "diagnostico": "Retraso mental leve, deterioro del comportamiento de grado no especificado. Perturbación de la actividad y de la atención. Otros trastornos de la conducta. Trastorno opositor desafiante.",
+        "gradoTurno": "5° GRADO/ TURNO MAÑANA/ EZEIZA ",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [
+            {
+                "texto": "Presentación con la familia, aviso de que estamos en busqueda de AE",
+                "fecha": "29/7/2022, 9:31:17",
+                "autor": "YO"
+            }
+        ],
+        "id": "1cf5c2ae-ad96-474b-b76a-b475170cd395",
+        "nombre": "LUCERO ALEJANDRO",
+        "dni": "52.429.872"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "",
+        "alta": "2022-03-14",
+        "escuela": "NUEVA ESCUELA Spegazzini",
+        "obraSocial": "GALENO",
+        "diagnostico": "Trastorno Generalizado del Desarrollo",
+        "gradoTurno": "3º Grado TM",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [
+            {
+                "texto": "Se le realiza el llamado correspondiente a la madre y se le comenta el fin del mismo, con respecto al acompañamiento cuenta que esta conforme con Leila ya que desde que comenzó, lo nota a Matheo más organizado y ordenado, también comenta que la docente le contó que tampoco deambula como antes lo hacia, tampoco intenta escaparse del aula, ya que esto lo hacia de manera recurrente, escribe solo y participa de un modo activo en las actividades que la docente le propone, entonces esto la deja contenta al saber que esta bien en el colegio y acompañado de una persona responsable como Leila. ",
+                "fecha": "14/6/2022, 17:05:13",
+                "autor": "YO"
+            }
+        ],
+        "id": "5dc647da-99ab-4f5b-a327-897fc635b8c5",
+        "nombre": "Arce Amarillo Matheo Agustin",
+        "dni": 54230779
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Daniela Lazaro",
+        "alta": "2022-08-29",
+        "escuela": "Ntra. Sra. de Monte Grande",
+        "obraSocial": "OSPIL",
+        "diagnostico": "",
+        "gradoTurno": "3° SECC/TT",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "La mamá refiere que el niño tuvo un cambio de acompañante este ultimo mes, el vinculo super bien, ya no llaman mas para que lo retiren antes, paso un mes mas o menos pero estan muy conformes, no hay tanta confianza sin embargo tienen contacto por wpp, esta feliz de que se quede la jornada completa en la escuela, el cambio fue muy positivo, ",
+                "fecha": "13/6/2022, 11:39:31",
+                "autor": "YO"
+            },
+            {
+                "texto": "Melanie Legstra da aviso de que no va a continuar, se entrevista a nueva AE (Daniela Lazaro) y se plantea a la mamá la posibilidad de que los martes asista a partir de las 15.",
+                "fecha": "10/8/2022, 10:38:52",
+                "autor": "YO"
+            }
+        ],
+        "id": "fe449a58-e4af-4a8b-b826-2ce3f11fee18",
+        "nombre": "BARRETO NOAH VALENTINO",
+        "dni": "55.493.617"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "BRAVO PAOLA",
+        "alta": "2022-03-21",
+        "escuela": "EPN° 2 DE EZEIZA",
+        "diagnostico": "",
+        "obraSocial": "ELEVAR",
+        "gradoTurno": "2 AÑO PRIMARIO/TM",
+        "observaciones": [
+            {
+                "texto": "La madre refiere que estan hace 3 años con Paola, estan yendo muy bien. La ayuda en relación con las tareas, no tienen ningún problema, en relación al vinculo sigue sosteniendo bien más allá del tiempo. Francesca se adaptó a la nueva docente de manera correcta como así tambien su AE. hasta el momento no tienen cuestiones para ajustar, el trabajo se lleva acabo de manera correcta y los padres se encuentran conformes.  ",
+                "fecha": "14/6/2022, 15:51:09",
+                "autor": "YO"
+            }
+        ],
+        "id": "02276eab-cc2d-406d-be6b-251dcb89c993",
+        "nombre": "QUAGLIA FRANCESCA",
+        "dni": "54,190,077"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "SUSANA OTERO",
+        "alta": "2022-03-28",
+        "escuela": "EPN° 12 DE EL JAGUEL",
+        "diagnostico": "",
+        "obraSocial": "OSPOCE",
+        "gradoTurno": "6 AÑO PRIMARIO/TM",
+        "observaciones": [
+            {
+                "texto": "Llamado mamá BISBAL FRANCISCO La madre refiere estar contenta con la nueva acompañante, comenta que ya han podido generar un vínculo con Francisco pudiendo comprenderlo frente a sus particularidades, y a nivel pedagogico incluso ahora puede copiar desde el pizarrón. A su vez, la madre menciona que si llega a haber algún inconveniente o consulta lo informara inmediatamente con la referente.",
+                "fecha": "1/6/2022, 8:27:06",
+                "autor": "YO"
+            },
+            {
+                "texto": "La madre asiste al centro muy enojada ya que la AE se retiró antes sin avisar debido a un problema personal. La llame luego de la reunión de equipo el día viernes. Acordamos con la madre que iba a reunirme o comunicarme con la AE para solicitar que esté en todo momento con el niño, y que no lo deje solo. Que no se retire sin avisar aunque este LA MAI.\n\nEl día lunes 13/06 me comunique con la AE Susana Otero, le solicitamos que por favor no se retire cuando está la MAI y que todo acto dentro de la institución que competa a dejarlo solo al niño nos avise a nosotros y a la familia. ",
+                "fecha": "15/6/2022, 11:00:17",
+                "autor": "YO"
+            },
+            {
+                "texto": [],
+                "fecha": "11/7/2022, 10:58:06",
+                "autor": "YO"
+            },
+            {
+                "texto": "La AE no asiste con regularidad. La mamá está enojada, espero hasta 8:35. Hoy firmaron el pase a escuela especial. La madre refiere que salía llorando su hijo. Refiere que la AE tuvo faltas. En el llamado a la AE refiere que no es como dice la madre. Se observa que tienen una mala relación, la familia esta conforme con la coordinación pero no con el acompañamiento. ",
+                "fecha": "11/7/2022, 10:58:28",
+                "autor": "YO"
+            }
+        ],
+        "id": "b7f70276-1dcf-4455-a844-1e995f5f6d0c",
+        "nombre": "BISBAL FRANCISCO SANTINO",
+        "dni": "50,360,829"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "ANDREA RAMIREZ",
+        "alta": "2022-09-07",
+        "escuela": "COLEGIO PALABRAS/ EZEIZA",
+        "obraSocial": "OSPIA",
+        "diagnostico": "Trastornos generalizados del desarrollo Trastorno del lenguaje expresivo",
+        "gradoTurno": "2°/TT/primaria",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Me comunique con la familia para informar que nos encontramos en la busqueda de acompañante.",
+                "fecha": "31/5/2022, 14:35:35",
+                "autor": "YO"
+            },
+            {
+                "texto": "ya tenemos AE. hable con la escuela",
+                "fecha": "2/6/2022, 15:40:48",
+                "autor": "YO"
+            },
+            {
+                "texto": "07/06 se realiza encuentro con la familia. 08/06 la obra social aprueba la prestación",
+                "fecha": "8/6/2022, 11:46:04",
+                "autor": "YO"
+            },
+            {
+                "texto": "09/06 inicio de la AE",
+                "fecha": "9/6/2022, 13:53:05",
+                "autor": "YO"
+            },
+            {
+                "texto": "La mama manifiesta que hace muy poco comenzo pero les esta yendo muy bien, el esta tranquilo porque tambien esta medicado. La ve muy predispuesta a Raquel. en el colegio le dijeron que esta muy preparada, el tuvo unas crisis y ella lo sabe llevar.",
+                "fecha": "14/6/2022, 14:41:21",
+                "autor": "YO"
+            },
+            {
+                "texto": "23/06 Hablo con el colegio Palabras para avisar que la AE estara de reposo por 72 horas. 24/7 hablo con la mamá, está muy enojada porque desde el colegio no pueden contener al niño",
+                "fecha": "24/6/2022, 10:34:44",
+                "autor": "YO"
+            },
+            {
+                "texto": "hoy 05/07 la familia solicita cambio de ae por las ausencias, se pacta cambiar la AE a la vuelta del receso invernal",
+                "fecha": "5/7/2022, 14:05:44",
+                "autor": "YO"
+            },
+            {
+                "texto": "Comunicación con la familia que solicita cambio de AE,Comunicacion con Raquel Teliz, aviso de que no continúa con el acompañamiento. Ya tiene nueva AE, el dia de hoy 29/07 se realizara el encuentro.",
+                "fecha": "29/7/2022, 9:30:00",
+                "autor": "YO"
+            },
+            {
+                "texto": "02/08 la AE retira la documenetación, la presenta en la escuela y comienza ocn la prestacion el mismo dia",
+                "fecha": "2/8/2022, 14:14:24",
+                "autor": "YO"
+            },
+            {
+                "texto": "SE DA DE BAJA LA AE FLORENCIA CONTRERAZ QUE SOLO ASISTIO 7 DIAS DE AGOSTO",
+                "fecha": "7/9/2022, 10:31:14",
+                "autor": "YO"
+            },
+            {
+                "texto": "HOY 7/9 LA AE ANDREA RAMIREZ INICIA EL ACOMPAÑAMIENTO",
+                "fecha": "7/9/2022, 10:31:33",
+                "autor": "YO"
+            }
+        ],
+        "id": "e7646bfd-419f-4769-87e1-80895f53ab97",
+        "nombre": "INSFRAIN SANTINO",
+        "dni": "54.230.003"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Maria Florencia Jara",
+        "alta": "2022-05-10",
+        "escuela": "Escuela Primaria Nº 2",
+        "obraSocial": "SPF",
+        "diagnostico": "Autismo en la niñez",
+        "gradoTurno": "2º Grado TT",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se le realiza el llamado correspondiente a Yanina, la mamá de Octavio, la cual comenta que desde que realizó el cambio de acompañante y comenzó Florencia, se encuentra super conforme puesto que comenzó a ver avances en él desde ese comienzo. Agrega que Octavio logra permanecer las jornada escolar completa dentro del aula, esto era algo que el niño no toleraba con anterioridad y tampoco se logro con su anterior AE, la madre agrega que ella se encontraba ''enojada'' por este asunto, pero que hoy en día la situación es totalmente diferente. Y el hecho de permanecer dentro del aula genera que Octavio permanezca más dentro de las propuestas brindadas por la docente de nivel. Cierra diciendo que se encuentra muy conforme y agradece el llamado. ",
+                "fecha": "14/6/2022, 18:34:57",
+                "autor": "YO"
+            }
+        ],
+        "id": "5c7a8711-8985-495a-ac18-d1c6b038dfed",
+        "nombre": "Gomez Octavio",
+        "dni": "55.325.476"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "MARTINEZ FLAVIA",
+        "alta": "2022-03-07",
+        "escuela": "EPN° 1 CAÑUELAS",
+        "diagnostico": "",
+        "obraSocial": "OSDE",
+        "gradoTurno": "1° GRADO/PRIMARIO/TM",
+        "observaciones": [
+            {
+                "texto": "31/5 fue el primer contacto con la familia. Presentación como nueva coordinadora, y nuevo telefono disponible para comunicarnos. Luego se solicitó de parte de la madre la documentación faltante de la AE, el acompañamiento comenzó virtual en MARZO. Por lo cual, al ser la nueva referente me comuniqué con Flavia, y se solucionó el tema de la documentación. \nLlamado 15/06 de relevamiento. La madre se encuentra enojada, continua de este modo VIRTUAL, la escuela no aprobó el ingreso. Refiere que no hay tanta continuidad y al no iniciar de manera presencial el niño está teniendo dificultades académicas. A su vez refiere que hubo desprolijidad en la entrega del legajo, y en los  papeles de Flavia. Es la primera vez que tiene el acompañamiento y ya estamos en junio y no comenzó presencial. Menciona que tiene problemas de adaptación. La escuela le avisó que el día jueves estaba a punto de entregarse el legajo. Se acordó estar en comunicación constante, se envía un mail al equipo de orientación en copia de la madre para consultar por el estado de la aprobación. Se consulta a la AE el paso a paso del inicio del acompañamiento, entrega de legajo. Previamente me había presentado con la escuela y consultado sobre la documentación pero no había recibido información sobre la prestación. ",
+                "fecha": "15/6/2022, 10:04:35",
+                "autor": "YO"
+            },
+            {
+                "texto": "La AE Flavia refiere que: (15/6) El encuentro fue con Laura en febrero, la siguiente semana se entregó en la escuela el legajo completo. \nLa escuela lo recibió, pero lo enviaron como renovación y tenían que tener un periodo de evaluación del niño ya que era su primera vez con AE. \nEn el siguiente mes tuvieron que esperar a la aprobación de la obra social, y cuando esta aprobó la escuela comenzó a tardar. \nLuego la escuela perdió documentación, volvieron a pedir el Plan de trabajo, le volvieron a solicitar sus seguros ya que se vencían. \nHasta que luego volvieron a pedir documentación de estudios de la AE.\nHasta el día de la fecha está toda la doc. entregada y a la espera de la aprobación. ",
+                "fecha": "15/6/2022, 10:22:11",
+                "autor": "YO"
+            }
+        ],
+        "id": "1e75cdc5-3c5a-405e-9ba0-35bbaa618d65",
+        "nombre": "RODRIGUEZ MENA BRUNO IGNACIO",
+        "dni": "55,480,316"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "GONZALEZ SILVIA",
+        "alta": "2022-03-02",
+        "escuela": "E.P. N°6 DE MÁXIMO PAZ",
+        "diagnostico": "",
+        "obraSocial": "OSPECON",
+        "gradoTurno": "6° AÑO/TM/ PRIMARIA",
+        "observaciones": [
+            {
+                "texto": "La mamá manifiesta que la AE y el niño ya estan trabajando juntos hace unos años, ella esta super conforme, la acompañante no interviene en lo pedagogico sino en lo social, lo ve mejor y más desenvuelto, Leandro está contento. La familia está conforme con el acompañamiento.",
+                "fecha": "14/6/2022, 16:18:53",
+                "autor": "YO"
+            }
+        ],
+        "id": "aaa5e119-89eb-4005-a18c-7f6d4132b3be",
+        "nombre": "MONGELOS LASTRA LEANDRO AGUSTIN",
+        "dni": "50.417.410"
+    },
+    {
+        "referente": "Jimena",
+        "escuela": "instituto niño de Belén- Spegazzini",
+        "obraSocialSituacion": "Aprobado",
+        "nombre": "Cos Bianca Thais",
+        "acompañante": "Ariana Tano",
+        "alta": "2022-04-05",
+        "obraSocial": "OSPEP",
+        "diagnostico": "Autismo en la niñez",
+        "gradoTurno": "primario 5° (T)",
+        "baja": "2022-02-03",
+        "observaciones": [
+            {
+                "texto": "Se envía un mensaje a la madre de Bianca preguntando si era posible llamarla, pero no se obtuvo nunca una respuesta. ",
+                "fecha": "16/6/2022, 13:35:33",
+                "autor": "YO"
+            }
+        ],
+        "id": "3ccb5640-be86-4fb9-afc6-4b420b437620",
+        "dni": 51248485
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "CARO VALERIA",
+        "alta": "2022-03-11",
+        "escuela": "NTRA.SRA. DE LUJAN/MAXIMO PAZ",
+        "diagnostico": "",
+        "obraSocial": "SPF",
+        "gradoTurno": "1° AÑO/TM/Secundario",
+        "observaciones": [
+            {
+                "texto": "La mama dice que la ae es exelente es muy firme y le exige pero a la vez es muy amable con él, es muy responsable, esta siempre pendiente, lo acompaña y siempre avisa lo que tiene que hacer, le da su espacio para que sea independiente, el pudo establecer un muy buen vinculo. Mantiene a los papas al tanto de lo pedagogico. Estan muy conformes. ",
+                "fecha": "14/6/2022, 15:46:52",
+                "autor": "YO"
+            }
+        ],
+        "id": "343f1369-230c-4427-9c33-e269a225f47f",
+        "nombre": "PAREDES IGNACIO",
+        "dni": 49331021
+    },
+    {
+        "referente": "",
+        "acompañante": "",
+        "escuela": "COLEGIO SAN IGNACIO",
+        "diagnostico": "",
+        "obraSocial": "",
+        "gradoTurno": "3° SECCIÓN",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "845c382e-2ac7-4502-a871-1f73cd631959",
+        "nombre": "GANDINI LUCIANO",
+        "dni": 0
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Florencia Gomez",
+        "bajaAlumno": true,
+        "escuela": "Instituto Educacional ''Norma Gatti''",
+        "obraSocial": "Unión Personal ",
+        "diagnostico": "",
+        "gradoTurno": "2º Sección TT",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "20f2f652-c09a-4741-b0fa-2ce0e7dd70ee",
+        "nombre": "Flores Lopez Benicio Caleb ",
+        "dni": "56.992.765"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "ROCIO SIGEL",
+        "escuela": "Vicente Francisco Sapero",
+        "diagnostico": "Deficit de atención con hiperactividad. Trastorno de conducta. Trastorno opositor desafiante.",
+        "obraSocial": "OSPIA",
+        "gradoTurno": "2° AÑO / TM/ MONTE GRANDE",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Presentación con la familia, aviso de que estamos en busqueda de AE",
+                "fecha": "29/7/2022, 9:30:32",
+                "autor": "YO"
+            }
+        ],
+        "id": "ccf6910c-0374-451f-a21a-d8c877427abd",
+        "nombre": "SIBAU MATEO",
+        "dni": "49431060"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "GOMEZ PAMELA",
+        "alta": "2022-03-02",
+        "escuela": "Ntra. Sra. de Monte Grande",
+        "diagnostico": "",
+        "obraSocial": "OSPIL",
+        "gradoTurno": "6° Año/ TT/Primario",
+        "observaciones": [
+            {
+                "texto": "La madre refiere que el acompañamiento viene super bien, es el segundo año que el niño asiste con Pamela y están muy conformes, no tienen inconvenientes.",
+                "fecha": "13/6/2022, 11:40:49",
+                "autor": "YO"
+            }
+        ],
+        "id": "f0800f12-2014-42f5-8a4d-21ca2956c8e1",
+        "nombre": "BARRETO RAMIRO NEHUEN",
+        "dni": "51.062.823"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Julia Cacacci",
+        "escuela": "Escuela Primaria Nº 11 ''Ejercito de los Andes''",
+        "diagnostico": "Retinopatía de la Prematuridad",
+        "obraSocial": "MAESTRANZA",
+        "gradoTurno": "6º grado TT",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [],
+        "id": "866dcc72-22be-4be0-b7ae-33ddaa4db292",
+        "nombre": "Denegris Alma Madelaine",
+        "dni": "52.039.643"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Camila Rodriguez",
+        "alta": "2022-08-03",
+        "escuela": "LA ESCUELA DE HOY",
+        "obraSocial": "OSPIA",
+        "diagnostico": "Trastorno de la recepción del lenguaje.Retraso  mental leve. Asfixia del nacimiento.",
+        "gradoTurno": "5° / MAÑANA",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "27/07 ENCUENTRO CON AE CAMILA RODRIGUEZ",
+                "fecha": "29/7/2022, 9:35:46",
+                "autor": "YO"
+            }
+        ],
+        "id": "3ea96f84-9721-4008-9feb-b98b5626da90",
+        "nombre": "GARAZA EZEQUIEL MAURICIO",
+        "dni": "45.738.375"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "MARGARITA BORDEAU",
+        "alta": "2022-04-06",
+        "escuela": "SECUNDARIA N°21 JAGUEL",
+        "obraSocial": "PFA",
+        "diagnostico": "",
+        "gradoTurno": "1 AÑO SECUNDARIA/TT",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "llamado 13/06\nfaltan mucho los profesores en todas las semanas faltan mucho. Lo retiran cuando hay ausencias. Hay días que no va, porque el no necesita ayuda. En prácticas del lenguaje, lo llama para terminar las tareas de manera virtual. \nLograron llevarse bien. Lo ayuda y organiza bastante. Tiene algunas faltas por enfermedad. Decepcionada con la institución escolar.",
+                "fecha": "13/6/2022, 11:19:35",
+                "autor": "YO"
+            },
+            {
+                "texto": "*La AE refiere que el chico sin comida, con hambre, desabrigado. A veces puedo estar en el salón a veces no. Los docentes le dicen que en X materias es mejor que no esté. El padre parece que es violento. Hay cuestiones sociales que se encuadran en el caso. Dice que el director dijo que el tocó a unas chicas. Logró organizar un poco lo academico. ",
+                "fecha": "16/6/2022, 9:37:17",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se conversa con la madre, ya que Margarita se da de BAJA la ultima semana de vacaciones. \n\nSe le asigna nueva AE, Maria Castrillón. ",
+                "fecha": "29/7/2022, 9:35:09",
+                "autor": "YO"
+            }
+        ],
+        "id": "0db3d7cf-b077-47d2-9901-f2440a516750",
+        "nombre": "OCAMPO MATIAS",
+        "dni": 47964951
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "LAILA MARRACO",
+        "alta": "2022-08-10",
+        "escuela": "INSTITUTO NUEVA GENTE/ T. SUAREZ",
+        "obraSocial": "ANDAR",
+        "diagnostico": "Trastornos generalizados del desarrollo",
+        "gradoTurno": "2° SECCION/T.M/INICIAL",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Me comunique con la familia para informar que nos encontramos en la busqueda de acompañante.",
+                "fecha": "31/5/2022, 14:38:15",
+                "autor": "YO"
+            },
+            {
+                "texto": "Hoy 13/06 se le asigna el caso a Laila Marraco",
+                "fecha": "13/6/2022, 11:54:04",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se da aviso a la familia que el niño ya tiene acompañante, se programa encuentro para la semana que viene.",
+                "fecha": "15/6/2022, 8:43:35",
+                "autor": "YO"
+            },
+            {
+                "texto": "22/06 En el dia de hoy se realiza el encuentro entre la acompañante y la familia, Laila retiro la documentacion y lleva el acta acuerdo de ANDAR para traerla con urgencia, ya avise a la escuela",
+                "fecha": "22/6/2022, 11:25:39",
+                "autor": "YO"
+            },
+            {
+                "texto": "La AE ya acerco el acta acuerdo",
+                "fecha": "24/6/2022, 8:17:29",
+                "autor": "YO"
+            },
+            {
+                "texto": "el 11/07/2022 Me comunico con la familia del niño. Llanos Ramirez y con la AE Laila Marroco para consultar si hay alguna novedad sobre la aprobacion del legajo escolar, ya que el legajo de la O,S ya se encuentraba aprobado, el papá del niño manifiesta que la directora se habia comunicado con el la semana pasada y no tenian novedades.",
+                "fecha": "11/7/2022, 9:26:25",
+                "autor": "YO"
+            },
+            {
+                "texto": "10/08 la AE asiste junto a la tia del niño ya que aun no autorizaron su ingreso desde inspeccion",
+                "fecha": "10/8/2022, 10:55:40",
+                "autor": "YO"
+            }
+        ],
+        "id": "476bf5bb-4d84-4205-a2d5-331c83a16880",
+        "nombre": "LLANOS RAMIREZ ALEXANDER",
+        "dni": "56.706.292"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "GONZALEZ SILVIA",
+        "alta": "2022-03-02",
+        "escuela": "J.I. N°906/CAÑUELAS",
+        "diagnostico": "AUTISMO EN LA NIÑEZ. TRASTORNOS ESPECIFICADOS DEL DESARROLLO DEL HABLA\nY DEL LENGUAJE",
+        "obraSocial": "SWISS MEDICAL",
+        "gradoTurno": "3° SECC/TT/INICIAL",
+        "observaciones": [
+            {
+                "texto": "En el llamado con la madre refiere que con Silvia no hay ningún problema, se encuentra muy comprometida. Hay comunicación entre las partes. Hay un buen vínculo entre ellos dos. En relación a las faltas y llegadas tardes, ella siempre llega antes y lo espera adentro del jardin. La entrada es lo que más le cuesta a Ciro. Se entienden y sabe como llevarlo. Se nota una gran diferencia entre el año pasado y este año ella lo ayuda y guia en cada actividad, ahora logra hacer las actividades gracias a su acompañamiento, logra sentarse. Empezó a saludar a sus compañeros, suele tener crisis pero ya saben como manejarse. ",
+                "fecha": "16/6/2022, 10:09:19",
+                "autor": "YO"
+            }
+        ],
+        "id": "a0a0cdc7-c00f-4661-8787-008373813734",
+        "nombre": "ROMERO CIRO",
+        "dni": "55.865.970"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "ALEJANDRO BULACIO",
+        "alta": "2022-05-06",
+        "escuela": "EPN°10 EZEIZA",
+        "diagnostico": "",
+        "obraSocial": "CENTRO MEDICO MONTE GRANDE",
+        "gradoTurno": "2 AÑO PRIMARIO TT",
+        "observaciones": [
+            {
+                "texto": "El día 03/06/22 hubo comunicación vía llamado telefónico con el padre de Noah, consultando por el acompañamiento. El padre refiere que en el día de ayer (2/6) se aprobó el acompañamiento en la institución escolar, y previamente se trabajó a domicilio. Por ese motivo no tiene muchos comentarios para aportar sobre el acompañamiento institucional, pero que en la casa estuvo muy bien y por ahora no tienen quejas ni cuestiones para ajustar con el acompañamiento. Refieren estar conformes y que hay muy buen trabajo y vínculo con Noah y Alejandro Bulacio. ",
+                "fecha": "3/6/2022, 10:23:24",
+                "autor": "YO"
+            }
+        ],
+        "id": "22fdca63-c2c8-4e3e-b875-9178149acad9",
+        "nombre": "AVILA NOAH JOAQUIN",
+        "dni": 54184733
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Sofia Diez (N)",
+        "alta": "2022-03-03",
+        "escuela": "Instituto nuestra Señora de Luján - Maximo Paz",
+        "diagnostico": "TGD no especificado",
+        "obraSocial": "SPF",
+        "gradoTurno": "primario/3° (T)",
+        "observaciones": [
+            {
+                "texto": "Se le manda un mensaje a la madre para saber si se encontraba disponible para realizarle la llamada correspondiente, comenta que se encuentra trabajando y cual era el motivo de la llamada, se le comenta brevemente el motivo y se le aclara que cuando se encuentre libre, lo comunique así se le realiza la llamada, luego de no responder se le insiste preguntando si se la podía llamar pero no se obtuvo respuesta. ",
+                "fecha": "16/6/2022, 13:29:53",
+                "autor": "YO"
+            }
+        ],
+        "id": "bd76196c-9fd7-41d7-8da9-2718fedf7ea5",
+        "nombre": "Avellaneda Portillo Renata Berenice",
+        "dni": 53816951
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "OSUNA MICHELLE",
+        "alta": "2022-03-09",
+        "escuela": "COLEGIO SAPERI DE MG",
+        "diagnostico": "",
+        "obraSocial": "ASE",
+        "gradoTurno": "5° AÑO SECUNDARIA/TM",
+        "observaciones": [
+            {
+                "texto": "Se llamó a la madre en el día lunes 13/06, para conversar sobre los aspectos del acompañamiento. Michelle asistirá por una suplencia dos días a la semana e irá reforzando el trabajo de manera virtual. La madre refiere que tienen un buen vínculo y que lo ayuda a Joaquín en todo lo que puede, tambien habla con sus profesores y no está todo el tiempo dentro del aula pegada a el, ya que el necesita ese espacio de independencia de manera paulatina. ",
+                "fecha": "13/6/2022, 10:42:42",
+                "autor": "YO"
+            },
+            {
+                "texto": "El mismo día del llamado me comunique con Silvia, la dueña de la institución la cual me refirió que no estará disponible durante estos días y me enviará un contacto de la dirección o equipo de secundaria. Aún no fue enviado ese contacto (15/06). ",
+                "fecha": "15/6/2022, 8:40:18",
+                "autor": "YO"
+            },
+            {
+                "texto": [],
+                "fecha": "15/6/2022, 11:01:48",
+                "autor": "YO"
+            }
+        ],
+        "id": "dd82baf5-4820-4491-bac4-2de17580495d",
+        "nombre": "CARDONA JOAQUIN",
+        "dni": "46,443,091"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Paola Salvatierra",
+        "alta": "2022-03-14",
+        "escuela": "Escuela Primaria Nº 9",
+        "obraSocial": "UNION PERSONAL",
+        "diagnostico": "TGD. Epilepsia. Hipotiroidismo no especificado.",
+        "gradoTurno": "3º Grado TT",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se realiza la llamada pertinente a la madre de la estudiante, la cual comenta que la semana pasada Antonella no estuvo asistiendo al colegio debido a que se encuentra con Bronquiolitis, en el día de hoy iba a realizar la reincorporación. Debido a esta situación, acordaron con Paola realizar videollamadas para no perder el hilo del colegio, puesto que la adaptación a Antonella es algo que se le dificulto. Al hablar del rol de Paola, ella se encuentra conforme con el mismo ya que comenta que es una persona comprometida en su labor. Se despide agradeciendo por el llamado. ",
+                "fecha": "13/6/2022, 14:16:08",
+                "autor": "YO"
+            }
+        ],
+        "id": "d16a11cc-8ff5-461b-9022-e83d3a0d06b0",
+        "nombre": "Vargas Carmona Antonella",
+        "dni": "95.999.389"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "MACARENA MARTINEZ",
+        "bajaAlumno": true,
+        "alta": "2022-03-02",
+        "escuela": "E.P. N°23 / CAÑUELAS",
+        "obraSocial": "OSPATCA",
+        "diagnostico": "Trastorno generalizado del desarrollo no especificado.",
+        "gradoTurno": "5°/TM/Primario",
+        "obraSocialSituacion": "Aprobado",
+        "id": "a0145ae1-66d0-43dc-9fb1-6e00288e2e82",
+        "nombre": "MARTÍNEZ MEDINA CALEB ISRAEL",
+        "dni": 51242066
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "VILLALON LORENA",
+        "alta": "2022-06-15",
+        "escuela": "JI N° 906 EZEIZA",
+        "diagnostico": "Ataxia hereditaria Retraso mental leve Paralisis cerebral infantil",
+        "obraSocial": "OSUTLA/MEDICUS",
+        "gradoTurno": "1° SECC/TT/INICIAL",
+        "observaciones": [
+            {
+                "texto": "Todavia no comenzo,porque la obra social no aprobo.",
+                "fecha": "15/6/2022, 9:39:59",
+                "autor": "YO"
+            },
+            {
+                "texto": "Me comunique con la familia y nos manifestaron que ya esta aprobada la prestación. Se da aviso a la acompañante para que pueda iniciar.",
+                "fecha": "15/6/2022, 9:56:10",
+                "autor": "YO"
+            },
+            {
+                "texto": "el 15/07 la familia manifiesta que estan muy contentos con el acompañamiento, se encuentran conformes con Lorena.",
+                "fecha": "15/7/2022, 9:56:57",
+                "autor": "YO"
+            }
+        ],
+        "id": "60d3a43d-4698-48cb-aa99-f0bcbd20c246",
+        "nombre": "OPAZO BAGNASCO MATEO",
+        "dni": 57657749
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "",
+        "alta": "2022-10-04",
+        "escuela": "Jardin de Infantes Nº 917",
+        "obraSocial": "OSPOCE",
+        "diagnostico": "Trastorno Generalizado del Desarrollo ",
+        "gradoTurno": "3º Sección / TT",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "53010460-d923-4e4a-90bd-e2c918dd7c68",
+        "nombre": "Sardan Chocata Erik Benjamin",
+        "dni": "56.867.701"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Silvia Godoy",
+        "alta": "2022-08-08",
+        "escuela": "E.P Nº 7 ''Guillermo Hudson''",
+        "obraSocial": "Maestranza",
+        "diagnostico": "Trastorno Generalizado del Desarrollo",
+        "gradoTurno": "3 º Grado Turno Mañana",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Debido a que la familia cancela el encuentro pactado para el día 15/06 se le plantea una nueva fecha para el día 22/06 para realizar el encuentro y la entrega de la documentación. Estamos a la espera de la confirmación. ",
+                "fecha": "16/6/2022, 13:31:55",
+                "autor": "YO"
+            }
+        ],
+        "id": "7473a894-d54d-4efb-8f86-5d7dfd266e85",
+        "nombre": "Castillo Fretes Jairo",
+        "dni": "54.360.269"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Genesis Peláez ",
+        "alta": "2022-06-21",
+        "escuela": "E.P Nº 26",
+        "obraSocial": "MAESTRANZA",
+        "diagnostico": "TGD no especificado. RM leve. Deterioro del comportamiento de grado no especificado.",
+        "gradoTurno": "6º Grado TM",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [
+            {
+                "texto": "Se plantea encuentro con la AE el día viernes 03/06 a las 10 am. ",
+                "fecha": "1/6/2022, 8:47:13",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se charla con el padre de Zaida acerca de la aprobación del acompañamiento ya que pregunta porque tarda tanto. Se le comenta que los plazos de aprobación del legajo ya exceden al centro porque es algo propio de inspección, también se le comenta que se estuvo charlando con el equipo de orientación sobre el tema y que ellas saben de la urgencia por la necesidad de Zaida de tener el acompañante con ella, ya que en la actualidad sigue asistiendo dos horas por día. Se le comunica al padre que cualquier novedad que haya, se lo iba a poner al tanto de inmediato. ",
+                "fecha": "16/6/2022, 12:55:44",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se comunica Ana del equipo de orientación para avisar que el acompañamiento ya se encuentra aprobado, por lo tanto la semana entrante ya podrian comenzar. ",
+                "fecha": "16/6/2022, 14:51:06",
+                "autor": "YO"
+            }
+        ],
+        "id": "b7080be2-67a6-4eab-b111-18bec52b07da",
+        "nombre": "Ignacio Zaida Fernanda",
+        "dni": 51434349
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Evangelina Montenegro",
+        "escuela": "SOUTH CREEK SCHOOL",
+        "diagnostico": "S/D",
+        "obraSocial": "OSDE 410",
+        "gradoTurno": "2°SECCION/ TURNO MAÑANA",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se trabajara de manera particular, no hacer informe. Gabriela ya se comunico con la escuela.",
+                "fecha": "1/7/2022, 9:45:56",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se realiza el encuentro con la AE Nora lobo y la familia",
+                "fecha": "29/7/2022, 9:36:39",
+                "autor": "YO"
+            },
+            {
+                "texto": "hoy 2/8 comenzo la AE",
+                "fecha": "2/8/2022, 15:47:22",
+                "autor": "YO"
+            }
+        ],
+        "id": "6fd09808-b267-4bb3-bc0d-9bff777b9a42",
+        "nombre": "DELL ARCIPRETE CATALINA",
+        "dni": "56.666.062"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "BARRAGAN PRISCILA",
+        "alta": "2022-04-25",
+        "escuela": "E.P.N°15 / EZEIZA",
+        "obraSocial": "OSMECON",
+        "diagnostico": "Epilepsia Trastorno generalizado del desarrollo no especificado",
+        "gradoTurno": "5°/TM/ Primario",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "la mamá menciona que ellos comenzaron a trabajar juntos este año, no tuvo muchas dificultades para simpatizar con el, estan conformes, antes el nene no llegaba a copiar y ahora lleva toda la tarea, se esta concentrando , ella lo incentiva a trabajar.La mamá esta muy alegre de que este avanzando. Hay buena comunicación con la acompañante.",
+                "fecha": "14/6/2022, 14:22:22",
+                "autor": "YO"
+            },
+            {
+                "texto": "La AE da aviso de que se reincorporará el dia 8/08, ya dio aviso a la mamá",
+                "fecha": "1/8/2022, 8:14:35",
+                "autor": "YO"
+            },
+            {
+                "texto": "La mamá da cuenta de que desde el colegio le informan que el año que viene el niño no necesitara la figura de AE",
+                "fecha": "22/9/2022, 15:55:34",
+                "autor": "YO"
+            }
+        ],
+        "id": "6a5f4eff-6212-4c21-bb2b-77cfc6132191",
+        "nombre": "CAZENAVE JEREMÍAS JOSÉ",
+        "dni": 51456158
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "SAN MARTÍN IRIS",
+        "alta": "2022-03-02",
+        "escuela": "E. DE OSSO/El Jagüel",
+        "diagnostico": "Trastornos especificos del desarrollo del habla y del lenguaje Autismo en la niñez",
+        "obraSocial": "OSPATCA",
+        "gradoTurno": "2°/TT/Primario",
+        "observaciones": [
+            {
+                "texto": "La mamá manifiesta que les esta yendo super bien, ella lo ayuda un montón, es muy eficiente, trata de acompañarlo en sus crisis. Tienen un buen vinculo, la espera siempre, esta pendiente de ella, entran agarrados de la mano, estan muy conformes, lo ven contento a Joaquin. Ya se conocen desde la pandemia en virtualidad. Hay buena y fluida comunicación.",
+                "fecha": "13/6/2022, 12:27:56",
+                "autor": "YO"
+            }
+        ],
+        "id": "0eefe976-e125-44fd-82d2-f00e8c3f1c1f",
+        "nombre": "DOMINGUEZ JOAQUÍN LEONEL VALENTÍN",
+        "dni": 54292416
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "MARIA PALAVECINO",
+        "alta": "2022-08-12",
+        "escuela": "EPN 9 CANNING",
+        "obraSocial": "OSMATA",
+        "diagnostico": "",
+        "gradoTurno": "2° GRADO/TM",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Legajo presentado.\n\nA espera de aprobación de la aprobación ESCOLAR. ",
+                "fecha": "1/6/2022, 10:33:18",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se le informa a la familia el nuevo medio de comunicación, en estos dias se le consulto a la escuela, hoy a la AE y a la familia sobre novedades de inspección. Aún no hay. ",
+                "fecha": "8/6/2022, 9:03:12",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se consulta con la AE y Familia sobre novedades de inspección, hasta el momento no hay novedades. ",
+                "fecha": "14/6/2022, 16:03:00",
+                "autor": "YO"
+            },
+            {
+                "texto": "La AE comienza el día 12 de agosto.\n\nEl día 25/8 refiere que está yendo muy bien es un nene muy bueno dulce es re inteligente no tiene problemas de aprendizaje solo guiarlo por qué se pierde y implementación de límites por qué le cuesta la rutina escolar y la organización y el orden",
+                "fecha": "25/8/2022, 10:23:25",
+                "autor": "YO"
+            }
+        ],
+        "id": "7e4666cb-0d40-4968-81eb-b9f177f258e9",
+        "nombre": "TORANZA BRIAN NAHUEL",
+        "dni": "53,973,883"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Ricardo Chumpitaz",
+        "alta": "2022-09-12",
+        "escuela": "Escuela Primaria Nº 24 ''Gabriela Mistral''",
+        "obraSocial": "OSPF (Personal de Farmacia)",
+        "diagnostico": "Trastorno Específicos del Desarrollo del Habla y del Lenguaje. ",
+        "gradoTurno": "2º Grado TT",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [],
+        "id": "f31cdb0a-2786-44ad-bd9e-11e062608c3b",
+        "nombre": "Gonzalez Dante Tewel Alejandro ",
+        "dni": "055.030.251"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Matías Barcala ",
+        "alta": "2022-03-02",
+        "escuela": "Escuela Primaria ''Enrique de Ossó''",
+        "obraSocial": "OSPOCE",
+        "diagnostico": "TGD",
+        "gradoTurno": "1° Grado (TT)",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "En el día de la fecha se envía a la mamá informe semestral para la renovación de la o.s ya que posee prestación hasta Junio.",
+                "fecha": "31/5/2022, 14:30:43",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se le realiza el llamado correspondiente a la madre, la cual comenta que en el día de ayer tuvieron una reunión con los directivos del colegio, en la cual hablaron sobre los avances que esta teniendo Benjamín en este ultimo periodo con respecto al acompañamiento. Me comenta que observaron muchos avances ya que de a poco comienza a relacionarse con sus compañeros, a participar más de las actividades que la docente de nivel le propone. También la madre comenta que desde el colegio están evaluando la posibilidad de pedir MAI para el niño, por esto mismo le pidieron informes de sus diferentes terapeutas para ver que decisión tomar al respecto. Con respecto al acompañamiento la madre comenta que se encuentra conforme porque ella también puede ver los avances en él ya que permanece en el aula, reconoce su nombre, las letras, los colores e incluso se encuentra más charlatán y cree que es gracias a las diferentes intervenciones realizadas por Matías. ",
+                "fecha": "15/6/2022, 11:36:16",
+                "autor": "YO"
+            }
+        ],
+        "id": "1668c080-3ac5-46d4-bead-6a07745083d3",
+        "nombre": "Fonseca Ayrton Benjamín Ezequiel",
+        "dni": "55.187.261"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Candela Gonzalez",
+        "alta": "2022-11-25",
+        "escuela": "Jardin de Infantes Nº 928",
+        "obraSocial": "OSPOCE ",
+        "diagnostico": "Trastorno opositor desafiante. Trastorno de la conducta, no especificado. Trastorno de la recepción del lenguaje. Autismo en la niñez. ",
+        "gradoTurno": "3º Sección",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [],
+        "id": "476ef9b6-12fd-4da2-b60a-c4c3e9851252",
+        "nombre": "Carles Felipe ",
+        "dni": "56.930.026"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "GISELA DI FONZO",
+        "bajaAlumno": true,
+        "escuela": "Canale/ TRISTAN SUAREZ",
+        "diagnostico": "Retraso mental leve, deterioro del comportamiento  de grado no especificado. Hidrocéfalo congénito.",
+        "obraSocial": "OSCHOCA",
+        "gradoTurno": "5° AÑO/ TT/ PRIMARIO",
+        "obraSocialSituacion": "Aprobado",
+        "id": "788e87a8-13a1-4a82-8ee4-a2130d1ba7eb",
+        "nombre": "MACIEL NAZARENO",
+        "dni": "51.124.6222"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "",
+        "escuela": "Escuela Primaria Nº 11 ''Ejercito de los Andes'' ",
+        "diagnostico": "Retraso Madurativo",
+        "obraSocial": "UOM",
+        "gradoTurno": "2º Grado",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "1bd9cf09-39e3-4d67-8e76-3d851f2e37c5",
+        "nombre": "Gonzalez Jara Mateo Nicolas",
+        "dni": "54.665.321"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Ayelen Ceneviva",
+        "alta": "2022-08-26",
+        "escuela": "Escuela ''San Ignacio''",
+        "obraSocial": "OSPOCE",
+        "diagnostico": "Trastorno especifico del desarrollo del lenguaje y del habla.",
+        "gradoTurno": "1º Grado",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [
+            {
+                "texto": "Se habla con la madre para comentarle que ya tenemos una acompañante por lo tanto se plantea como fecha de encuentro el día miércoles 22 a las 15 horas.",
+                "fecha": "16/6/2022, 14:58:43",
+                "autor": "YO"
+            }
+        ],
+        "id": "f432d310-8ffe-4e04-8107-46d46a003611",
+        "nombre": "Alvarez Ibarra Faustino",
+        "dni": "56.264.683"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "GISELA CASAS",
+        "alta": "2022-06-14",
+        "escuela": "EPN7  spegazzini",
+        "diagnostico": "",
+        "obraSocial": "OSPL",
+        "gradoTurno": "6AÑO PRIMARIO TM",
+        "observaciones": [
+            {
+                "texto": "La obra social aprobó la prestación, y el legajo fue enviado hace 2 semanas. Estamos a la espera de la aprobación escolar, aún no recibimos novedades. Se consultó a la AE, familia y escuela. 08/06.",
+                "fecha": "8/6/2022, 8:54:34",
+                "autor": "YO"
+            },
+            {
+                "texto": "El acompañamiento comenzó el día 14/06, la niña no contaba con escolaridad desde el año pasado debido a que no tenía el acompañamiento. Hubo comunicación con la familia, la cual refiere que han comenzado muy bien.  ",
+                "fecha": "15/6/2022, 8:48:54",
+                "autor": "YO"
+            }
+        ],
+        "id": "b0b3e493-c7aa-4789-aa2d-eb229ce40c76",
+        "nombre": "GOMEZ OCAMPO ROCIO",
+        "dni": 49533710
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Natalia Díaz",
+        "alta": "2022-10-26",
+        "escuela": "INS. INTI HUASI/Mte Gde",
+        "obraSocial": "OSPECON",
+        "diagnostico": "Autismo en la niñez",
+        "gradoTurno": "2°/ TT/ Primario",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "El papá dice que les esta yendo exelente , muy buen vinculo, se llevan bien. Muy buena predisposicion por parte de la acompañante, todos los días a la salida les cuenta como estuvo en el dia. Estan muy conformes.",
+                "fecha": "14/6/2022, 14:28:16",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se realiza cambio de acompañante",
+                "fecha": "26/10/2022, 11:56:40",
+                "autor": "YO"
+            }
+        ],
+        "id": "4d07e8d5-9254-4662-8896-83360dcfe6ef",
+        "nombre": "ARIAS ZABALA ETHAN R.",
+        "dni": 54457476
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "MARIELA LEYVA",
+        "escuela": "JI N°    904   / SPEGAZZINI",
+        "diagnostico": "Autismo en la niñez",
+        "obraSocial": "HOMINIS",
+        "gradoTurno": "2°S/T M/ Inicial",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "La mamá dice que se adapto muy bien, al principio no queria quedarse, la ae la espera y entran juntas al jardín, estaba haciendo horario reducido pero ahora le estan incrementando las horas, no tiene quejas, cumple bien con el horario.Todos los dias hablan y le cuenta como le fue, ven cambios muy positivo en Agostina.",
+                "fecha": "14/6/2022, 14:54:33",
+                "autor": "YO"
+            },
+            {
+                "texto": "SE ASIGNA EL ACOMPAÑAMIENTO A mARIELA lEYVA, RETIRARA LA DOCUMENTACION EL 11/11",
+                "fecha": "10/11/2022, 13:59:13",
+                "autor": "YO"
+            }
+        ],
+        "id": "1bb0a5d3-b2f9-4e94-b9fb-206191b0124a",
+        "nombre": "MENDEZ AGOSTINA AYELÉN",
+        "dni": 57033113
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "PAJARO VALERIA",
+        "alta": "2022-03-02",
+        "escuela": "SEC. N° 18 MG",
+        "diagnostico": "",
+        "obraSocial": "UOM",
+        "gradoTurno": "4° AÑO/TT",
+        "observaciones": [
+            {
+                "texto": "Llamado con la familia luego de varios intentos de comunicación el día 15/06/2022. La madre refiere que  con Valeria estan trabajando \"excelente\", trabajan la comprensión de textos, el trabajo es de manera virtual y están muy conformes. La escuela no quiere la aprobación ya  que el no tiene consistencia de manera presencial. Trabaja siempre, esta muy predispuesta, siempre está atenta y responde a las demandas \n\nEstán trabajando en la escuela sobre el pase a la escuela ESPECIAL. ",
+                "fecha": "15/6/2022, 11:42:23",
+                "autor": "YO"
+            }
+        ],
+        "id": "84952677-028e-4558-8aa0-c3aae2fd4d32",
+        "nombre": "LEZCANO OSIAS NEHUEN",
+        "dni": "47.083.803"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "RODRIGUEZ PAMELA VIVIANA",
+        "alta": "2022-04-06",
+        "escuela": "EPN° 7 SPEGAZZINI",
+        "diagnostico": "",
+        "obraSocial": "OSPEDYC",
+        "gradoTurno": "5° AÑO PRIMARIO/TT",
+        "observaciones": [
+            {
+                "texto": "La madre refiere que asiste bien, en punto, no falta. Pero lo vincular aún no han logrado establecerlo en profundidad, es medio \"seco\", pero entre la madre y la AE hay muy buena comunicación. Asistencia motriz, la labor esta bien. Aun Luciano no se adaptó bien a la acompañante. También el estuvo enfermo y quizás no hubo una continuidad. El cuando no le cae bien alguien es así. Trabajar la CONFIANZA.",
+                "fecha": "13/6/2022, 11:52:32",
+                "autor": "YO"
+            }
+        ],
+        "id": "7e1f07cc-06be-4e5e-b332-c4fa1be8f213",
+        "nombre": "OLIVERA LUNA LUCIANO IVAN",
+        "dni": "52,775,937"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "",
+        "escuela": "Escuela Primaria Nº 53",
+        "diagnostico": "Trastorno Generalizado del Desarrollo",
+        "obraSocial": "OSPETAX",
+        "gradoTurno": "1º Grado",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "77ca2307-b7fe-472f-9d11-b137f58b75fa",
+        "nombre": "Martinez Joaquín Ignacio",
+        "dni": "56.335.872"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Elizabeth Montenegro",
+        "alta": "2022-08-01",
+        "escuela": "Escuela Primaria Nº 7",
+        "obraSocial": "PFA",
+        "diagnostico": "Otros trastornos emocionales y del comportamiento que aparecen habitualmente en la niñez y en la adolescencia. Trastornos específicos del desarrollo del habla y del lenguaje. ",
+        "gradoTurno": "2º Grado / TT",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se llama a la familia para comentarles que aún nos encontramos en búsqueda de acompañante para Benicio, que nos encontramos realizando entrevistas y que ni bien tengamos a una posible acompañante nos estaremos comunicando. Aguardan a las novedades.",
+                "fecha": "16/6/2022, 14:37:42",
+                "autor": "YO"
+            }
+        ],
+        "id": "85a26fed-5fb5-4bbb-b1ca-880679ac0b16",
+        "nombre": "Zanotti Benicio Gael",
+        "dni": "55.572.843"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Ana Laura Dominguez",
+        "alta": "2022-08-09",
+        "escuela": "San Ignacio",
+        "obraSocial": "OSPEDYC",
+        "diagnostico": "Autismo en la niñez",
+        "gradoTurno": "Sala de 5/ turno mañana",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Ya esta firmada el acta acuerdo para la OS\nYO - 4/7/2022, 9:05:34\n\nYa se realizo el encuentro con la AE Ana Laura Dominguez, y se retiro la documentación.\nYO - 29/7/2022, 9:33:39\n\nYa esta autorizado el ingreso en la escuela\nYO - 2/8/2022, 13:42:31\n\n9/08 inicio de la prestacion\nYO - 9/8/2022, 15:12:29",
+                "fecha": "31/8/2022, 10:30:22",
+                "autor": "YO"
+            }
+        ],
+        "id": "faa451a7-23ad-4a26-b64f-4041a506cf8e",
+        "nombre": "VILLALVA MONZON IAN GENARO",
+        "dni": "56.283.587"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "",
+        "escuela": "Jardin de Infantes Nº 922",
+        "diagnostico": "Trastorno generalizado del Desarrollo, no especificado. Trastorno de la recepción del Lenguaje. Trastorno de la Conducta, no especificado. ",
+        "obraSocial": "OSPACA",
+        "gradoTurno": "3º Sección",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "855a4c82-1b63-4280-b3e3-238932b9e364",
+        "nombre": "Ojeda Luca Ian",
+        "dni": "56.413.535"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "DAIANA CABALLERO",
+        "alta": "2022-03-03",
+        "escuela": "E. SEC N° 23 EL JAGUEL",
+        "diagnostico": "",
+        "obraSocial": "PODER JUDICIAL",
+        "gradoTurno": "5 AÑO SECUNDARIO/TM",
+        "observaciones": [
+            {
+                "texto": "Se realizó la llamada correspondiente con la familia, la cual refiere que están muy contentos con Daiana. La AE queda por fuera del salón ya que el equipo de orientación lo solicitó, pero la madre está evaluando en qué situaciones el hijo lo necesita más y probablemente vaya a la escuela a hablar porque algunas materias le están costando más. La AE tiene contacto con todos los profesores apenas termina la clase le pregunta como va Pablo y está muy atenta y en constante comunicación. ",
+                "fecha": "16/6/2022, 9:18:28",
+                "autor": "YO"
+            }
+        ],
+        "id": "141c4962-07a4-442d-96b5-6bb3e5c2399a",
+        "nombre": "SAURA PABLO MANUEL DANIEL",
+        "dni": "47,146,906"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "NOELIA MOLINA",
+        "alta": "2022-05-02",
+        "escuela": "JI N°907 EL JAGUEL",
+        "diagnostico": "",
+        "obraSocial": "OSPILM",
+        "gradoTurno": "3 SECCION TM",
+        "observaciones": [
+            {
+                "texto": "El día 30/05 hubo comunicación con la familia, la cual informa que el acompañamiento comenzó presencial el lunes anterior debido a que faltaba la aprobación de la escuela. Refiere que el trabajo virtual con Noelia Molina funcionaba y se trabajaba en conjunto con la madre ya que es un niño muy pequeño. Comenta que esta muy contenta porque Tiziano se adaptó muy bien con la AT. ",
+                "fecha": "3/6/2022, 10:15:14",
+                "autor": "YO"
+            }
+        ],
+        "id": "12a12122-b46c-4f81-801b-34f5c1026379",
+        "nombre": "AGUIRRE TIZIANO",
+        "dni": 56074828
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "NATALIA MANFREDY",
+        "alta": "2022-05-02",
+        "escuela": "JARDIN SAGRADA FAMILIA DE CAÑUELAS",
+        "diagnostico": "TRASTORNOS GENERALIZADOS DEL DESARROLLO",
+        "obraSocial": "ASE",
+        "gradoTurno": "1° SECCION /TM",
+        "observaciones": [
+            {
+                "texto": "Se realizó el llamado con la familia el día 15/06. Hubo comunicación con la madre, ella nos cuenta que esta muy contenta con Natalia, trabajan con pictogramas desde antes pero ella trajo incluso más opciones, esta muy predispuesta al trabajo y trabaja de manera conjunta con la docente. Menciona que están logrando un buen vínculo, y que siempre trae nuevas ideas para trabajar con el alumno y que si bien es poco el tiempo el que está están muy contentos con su labor. ",
+                "fecha": "15/6/2022, 8:52:27",
+                "autor": "YO"
+            },
+            {
+                "texto": "",
+                "fecha": "15/6/2022, 8:53:57",
+                "autor": "YO"
+            }
+        ],
+        "id": "15f0dd6e-a5c7-418c-a250-746809ecfaf7",
+        "nombre": "MIGUEZ BRUNO THOMAS",
+        "dni": "56.482.698"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "GONZALEZ CAMILA",
+        "alta": "2022-03-22",
+        "escuela": "JI SOUTH CREEK SCHOOL",
+        "obraSocial": "OSDE",
+        "diagnostico": "Trastorno generalizado del desarrollo no especificado",
+        "gradoTurno": "2° SEC./TM/CANNING",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "La mamá manifiesta que es espectacular como lo maneja, como lo quiere y lo cuida, estan super conformes, se manejan super bien, esta siempre pendiente, trabaja en conjunto con la docente y las otras terapias, estan todas comunicadas, hace poco realizaron una reunion en el jardín, desde el colegio tambien estan muy contentos con el trabajo de la ae, de a poquito el se esta integrando e interactuando con los otros niños. El se hace entender pero no tiene vocabulario, estan trabajando en conjunto colegio-ae-terapias -familia. ",
+                "fecha": "14/6/2022, 15:57:16",
+                "autor": "YO"
+            },
+            {
+                "texto": "En el día de la fecha la AE se comunica para comentar que se esguinzo, y requiere 3 semanas de reposo. Me comunico con la mamá y pautamos esperar una semana, en caso de que la ae no se pueda recuperar, buscaremos un reemplazo.",
+                "fecha": "28/7/2022, 16:37:16",
+                "autor": "YO"
+            }
+        ],
+        "id": "d9cf9b51-1d2f-4dcd-a499-1b4ece07c284",
+        "nombre": "PYTEL BAUTISTA",
+        "dni": 56670043
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "BARCALA MATIAS",
+        "alta": "2022-03-15",
+        "escuela": "ES N° 18/ MONTE GRANDE",
+        "diagnostico": "Otros trastornos afectivos bipolares. Trastornos hipercinéticos.",
+        "obraSocial": "OSECAC",
+        "gradoTurno": "secundaria 6°/ TM",
+        "observaciones": [
+            {
+                "texto": "La mamá manifiesta que tiene mucha comunicación con el acompañante, Mateo no esta queriendo asistir a la escuela, estan buscando estrategias para convencerlo a Mateo de que pueda ir . La mamá y Matias hablan todo el tiempo.El alumno todavia no tiene un vinculo ya que asiste muy poco,va dos veces a la semana. Estan intentando trabajar en conjunto con el colegio y los terapeutas, ve que Matias tiene muchas ganas y voluntad, se esta forzando por establecer el vinculo. Sugiere que quizas Mateo no acepta a Matias porque tenia un vinculo muy fuerte con el anterior acompañante, se propone hacer un encuentro donde esten ambos para charlar.",
+                "fecha": "15/6/2022, 9:33:28",
+                "autor": "YO"
+            },
+            {
+                "texto": "06/07 La mamá envia un certificado dando cuenta de que el niño ha sido internado por una descompensación y será proximamente evaluado",
+                "fecha": "11/7/2022, 10:27:45",
+                "autor": "YO"
+            },
+            {
+                "texto": "11/07 el alumno continua internado, no asiste a la escuela.",
+                "fecha": "11/7/2022, 10:47:39",
+                "autor": "YO"
+            },
+            {
+                "texto": "comunicación con la familia para conocer la evolucion del niño,la mamá manifiesta que el dia viernes le daran el alta y comenzara las clases nuevamente el lunes. Luego me comunique con el acompañante",
+                "fecha": "28/7/2022, 15:26:27",
+                "autor": "YO"
+            }
+        ],
+        "id": "69b9cfe9-3f17-48cc-8d8c-fbc2b302fbb1",
+        "nombre": "TARANTINO MATEO",
+        "dni": "45.152.088"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "KATHERINE KUSMELUK",
+        "alta": "2022-06-13",
+        "escuela": "ESCUELA DE HOY-INICIAL-",
+        "diagnostico": "",
+        "obraSocial": "OSCHOCA",
+        "gradoTurno": "1° SECCION/TT",
+        "observaciones": [
+            {
+                "texto": "Se le asigna una nueva AE, Katherine. Realizamos el encuentro en el centro, y se entregó la documentación. Comenzó hace 2 días la Ae refiere que es un niño muy tranquilo y que van muy bien. La madre refiere vía audios que por ahora estan trabajando muy bien y pareciera que van a tener buen vínculo, en los próximos días consultará a la docente de nivel incial para saber como están yendo. ",
+                "fecha": "15/6/2022, 11:53:27",
+                "autor": "YO"
+            }
+        ],
+        "id": "4e0fc1d4-80e9-4816-9f25-1afd4d04043f",
+        "nombre": "LUNA ENZO ROMEO",
+        "dni": "57,304,274"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "MARIELA AQUINO",
+        "alta": "2022-05-10",
+        "escuela": "JARDIN PEUMAYEN CASA DE CHICOS",
+        "diagnostico": "",
+        "obraSocial": "OSMECOM",
+        "gradoTurno": "3 SECCIÓN/TT",
+        "observaciones": [
+            {
+                "texto": "El llamado fue con la madre, refiere que empezaron hace poco y que esta yendo todo bien. La ae le informa la situación de la escuela, al principio a Lucas le costó el vinculo pero ahora ya van bien. No tienen tanto tanto contacto. ",
+                "fecha": "13/6/2022, 11:34:12",
+                "autor": "YO"
+            }
+        ],
+        "id": "281d9faf-20d3-423f-9dbb-84086c0ff2b0",
+        "nombre": "SANTA CRUZ LUCAS ROMAN",
+        "dni": 55888989
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "SILVIA TULA",
+        "alta": "2022-09-06",
+        "escuela": "JARDIN 914 CANNING",
+        "obraSocial": "OSCTP",
+        "diagnostico": "",
+        "gradoTurno": "1ER SECCIÓN/TT",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "2/06\n\nSe llama a la mamá Valentino y se consulta por la calidad del acompañamiento. La madre refiere estar contenta con la acompañante, refiere que se estableció un vínculo ya con el niño y que trabajan en la asistencia motriz para las actividades. La madre a su vez comenta, que tenía miedo anteriormente de quien iba a acompañar a su hijo, de no conocerla, pero que ahora se encuentra tranquila y que esta muy contenta con el modo de trabajo de la AE. Menciona que Paola es muy predispuesta, y que están trabajando muy bien. ",
+                "fecha": "2/6/2022, 9:44:03",
+                "autor": "YO"
+            }
+        ],
+        "id": "ecca997e-8e18-4af1-a20a-432ef17f0dd5",
+        "nombre": "BORDON VALENTINO DOMINIC",
+        "dni": 57167388
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Gabriela Frette",
+        "alta": "2022-11-30",
+        "escuela": "Jardin de Infantes Nº 907 ''Rosario Vera Peñalosa''",
+        "obraSocial": "PFA",
+        "diagnostico": "Autismo en la niñez",
+        "gradoTurno": "3º Sección / TM",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "07a42225-a26a-4bb6-82ec-e4748a0d73b3",
+        "nombre": "Bailez Pedro Benjamin",
+        "dni": "56.813.908"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "GRIPPO MICAELA",
+        "alta": "2022-03-29",
+        "escuela": "JI N° 917 / Ezeiza",
+        "diagnostico": "Trastorno de la recepcion del lenguaje. Autismo en la niñez",
+        "obraSocial": "OSMEDICA",
+        "gradoTurno": "3°S/TT/ Inicial",
+        "observaciones": [
+            {
+                "texto": "13/06 La mamá manifiesta que esta super conforme con la  acompañante, no la quieren cambiar nunca porque les gusta mucho como trabaja, pego buena onda con Marcos, el tema de la asistencia esta bien, solo se ausenta los días de supervisión. Se sienten comodos, hay buena comunicación.",
+                "fecha": "13/6/2022, 12:10:54",
+                "autor": "YO"
+            }
+        ],
+        "id": "1a4f635d-a3c9-46d0-9d1f-b712d0acb159",
+        "nombre": "GOMEZ MURILLO MARCOS",
+        "dni": 55671519
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "SEQUEYRA NADIA",
+        "alta": "2022-03-02",
+        "escuela": "NTRA. SRA. DE LUJÁN/ MAXIMO PAZ",
+        "diagnostico": "Trastornos musculares primarios.",
+        "obraSocial": "ANDAR",
+        "gradoTurno": "2° AÑO/TT/PRIMARIO",
+        "observaciones": [
+            {
+                "texto": "La mamá manifiesta que la AE es impecable y estan muy conforme, ellos ya se conocen desde el año pasado. Tienen una comunicacion continua, todos los dias le cuenta como le fue, siempre le avisa cuando sucede algo,",
+                "fecha": "15/6/2022, 11:20:13",
+                "autor": "YO"
+            }
+        ],
+        "id": "7168203a-d35b-4097-867f-012f87f4cea0",
+        "nombre": "PEREZ SILVA MARIANO",
+        "dni": "53.081.968"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "VELAZQUEZ GABRIELA",
+        "alta": "2022-03-07",
+        "escuela": "E.P. N° 1 / EZEIZA",
+        "diagnostico": "Autismo en la niñez Retraso mental moderado",
+        "obraSocial": "MAESTRANZA",
+        "gradoTurno": "3°/TT/Primario",
+        "observaciones": [
+            {
+                "texto": "Comenzo este año con la nueva acompañante, ve que el vinculo es bueno y que esta todo bien! estan conformes con la asistencia y con el trabajo, Gabriela le avisa cosas sobre el cole, está atenta a todo lo que va surgiendo. ",
+                "fecha": "13/6/2022, 9:17:59",
+                "autor": "YO"
+            }
+        ],
+        "id": "42e9bc42-ecf4-4574-9744-2184de636446",
+        "nombre": "AVALOS LUCAS FIDEL",
+        "dni": 54039339
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "ZURITA BELÉN",
+        "alta": "2022-03-31",
+        "escuela": "E.P. N° 7 / 9 de Abril",
+        "diagnostico": "Trastornos de adaptación. Trastornos especificos del desarrollo de las habilidades escolares Trastornos del desarrollo del habla y del lenguaje no especificado. Retraso mental leve, deterioro del comportamiento de grado no especificado.",
+        "obraSocial": "OSMEDICA",
+        "gradoTurno": "4°/TM/ Primario",
+        "observaciones": [
+            {
+                "texto": "13/06 Me comunique con la mamá, manifiesta que el niño y la acompañante trabajan super bien, van de 10, ya se coonocen desde primer grado. El esta super adaptado a Belén. Con el tema de la asistencia, el nene tiene MAI, la escuela le pidio a Belen que los dias que esta la MAI, no asista. La mama no esta muy conforme con que la AE no asista siempre porque los doctores dicen que Benjamín tiene que estar siempre con la acompañante. Se desenvuelve mejor de manera autonoma, comenzo a estar medicado.Estan conformes con el acompañamiento.",
+                "fecha": "13/6/2022, 9:40:33",
+                "autor": "YO"
+            },
+            {
+                "texto": "1/07 reunion con psicologa y equipo de orientacion",
+                "fecha": "1/7/2022, 8:20:24",
+                "autor": "YO"
+            },
+            {
+                "texto": " REUNION: la mai trabaja 2 horas en el uno a uno. Desde la escuela dicen que no deambula mas; El equipo terapeutico no ve avances significativos como para retirarle el acompañamiento, la psicologa no puede dar cuenta de que necesite menos a Belen ya que en los espacios terapeuticos no se queda solo, hay que convocarlo, la mama coincide en la escuela no estan de acuerdo.En el cole fue logrando autonomia y no necesita que uno este permanentemente.La psicologa propone que belen este pero haga intervenciones en los social, que se pueda correr y que la seño sea figura de referencia. Belen va a estar de lunes a viernes exepto las horas de la MAI, para despegar la simbiosis.",
+                "fecha": "1/7/2022, 10:35:10",
+                "autor": "YO"
+            }
+        ],
+        "id": "40ca35f4-d2e6-447f-b9bd-724e2cb2ed16",
+        "nombre": "AYALA BENJAMÍN LIONEL",
+        "dni": 52920533
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "",
+        "alta": "2022-09-19",
+        "escuela": "COLEGIO SAN IGNACIO",
+        "obraSocial": "OSPOCE",
+        "diagnostico": "",
+        "gradoTurno": "3° SECCIÓN",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "d137744b-e20a-49e6-b19e-d77453e57543",
+        "nombre": "GANDINI LUCIANO",
+        "dni": "55.671.512"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Silvia Zarate",
+        "alta": "2022-03-07",
+        "escuela": "COMPLEJO EDUCATIVO LA ANUNCIACION",
+        "obraSocial": "OSPE",
+        "diagnostico": "TGD",
+        "gradoTurno": "6º Grado TM",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se le realiza el llamado correspondiente a la madre de Ariana, la cual comenta que con respecto al acompañamiento se encuentra conforme ya que aún la estudiante se encuentra sin MAI y tanto el colegio  en conjunto con Silvia se pusieron en marcha para poder realizar un Proyecto Pedagógico Individual en el cual se plantean las diferentes estrategias de intervención para que Ariana tenga un mejor acceso a los contenidos. Con respecto a la MAI aclara que se esta solicitando por el estado pero le comunicaron que están en faltantes, que lo que pueden realizar es una especie de intervención indirecta brindando herramientas y orientaciones generales pero que por el momento no pueden enviar la figura de la MAI a la institución. Ella comenta que habló con la jefa distrital comentándole la situación pero que aún no tuvo respuesta al respecto. Volviendo al acompañamiento comenta que Silvia es super predispuesta en su trabajo, que logro formar un vinculo hermoso con Ariana y que se la ve muy comprometida en su labor. ",
+                "fecha": "15/6/2022, 12:22:57",
+                "autor": "YO"
+            }
+        ],
+        "id": "49167a6c-65a7-4c87-bf7d-e4fe5139e681",
+        "nombre": "Orliacq Ariana Belen",
+        "dni": 52395115
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "",
+        "escuela": "Jardin de Infantes Nucleado C de 04 (CABA)",
+        "diagnostico": "Autismo en la Niñez.",
+        "obraSocial": "HOMINIS - OSMMEDET",
+        "gradoTurno": "2º Sección",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "1fc73d02-1aa7-4625-aad8-6a98b1ef3bb7",
+        "nombre": "Pereira Ayllón Gabriel",
+        "dni": "57.182.593"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "TELIS RAQUEL",
+        "alta": "2022-05-06",
+        "escuela": "EPN N°26 BERNARDO HOUSSAY JAGUEL",
+        "diagnostico": "",
+        "obraSocial": "OSPATCA",
+        "gradoTurno": "1 AÑO PRIMARIO/ TM",
+        "observaciones": [
+            {
+                "texto": "13/06\n\nSe llamó a la familia, y se le consulta sobre el vínculo, el trabajo pedagógico y que puede llamar cuando surja alguna cuestión. La madre refiere que esta todo ok, están conformes que el vínculo ya se estableció desde el primer momento y que Lisandro todo lo que se propone lo esta logrando realizar. ",
+                "fecha": "13/6/2022, 10:29:06",
+                "autor": "YO"
+            }
+        ],
+        "id": "784b2e2f-a97a-41d1-a617-ba624f04c559",
+        "nombre": "VILLALBA DELGADO LISANDRO JEREMIAS",
+        "dni": "55,343,675"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Eliana Ayatini",
+        "alta": "2022-10-18",
+        "escuela": "JI N° 903 / EZEIZA",
+        "obraSocial": "OSME",
+        "diagnostico": "Trastorno generalizado del desarrollo no especificado. Epilepsia",
+        "gradoTurno": "3°S./TT/ Inicial",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "La acompañante venia trabajando desde el año pasado, vienen trabajando muy de a poquito, Joaquin tiene horario reducido porque no aguanta estar más tiempo, la familia ve que Gabriela trabaja bien, lleva nuevas ideas, el nene se lleva muy bien con ella. Estan conformes con la acompañante, ella cumple con todo, asiste siempre.Las veces que falta, avisa con tiempo.",
+                "fecha": "13/6/2022, 12:44:40",
+                "autor": "YO"
+            },
+            {
+                "texto": "El papá del alumno solicita cambio de acompañante, se da aviso a Gabriela Maidana",
+                "fecha": "10/8/2022, 10:36:55",
+                "autor": "YO"
+            }
+        ],
+        "id": "9625143f-0bb1-4d76-8d16-4aadc97a8049",
+        "nombre": "LEDESMA JOAQUÍN LEON",
+        "dni": 56032401
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Hilda Escobar",
+        "alta": "2022-03-02",
+        "escuela": "Escuela de Hoy",
+        "diagnostico": "Otros problemas relacionados con la educación y la alfabetización. Trastornos específicos del desarrollo del habla y del lenguaje.",
+        "obraSocial": "PFA",
+        "gradoTurno": "primario/5° (T)",
+        "observaciones": [
+            {
+                "texto": "Se le realiza el llamado correspondiente a la madre (la cual se encontraba en la calle, por eso el llamado fue breve) y se le pregunta acerca del acompañamiento de Jonás, comenta que se encuentra muy conforme con Hilda, que si bien Jonás se encuentra un poco más ''rebelde'' Hilda lo sabe manejar perfectamente, por eso mismo desea que siga un año más con él. ",
+                "fecha": "14/6/2022, 16:40:25",
+                "autor": "YO"
+            }
+        ],
+        "id": "84342647-9f59-40d6-9bb8-4f926dec2ca0",
+        "nombre": "Díaz Jonás",
+        "dni": 52159033
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "",
+        "escuela": "Nueva Escuela Guernica",
+        "diagnostico": "",
+        "obraSocial": "OSPAT/ VIA SANO",
+        "gradoTurno": "2º Grado/ TT",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "daa80b70-ad4e-4fcb-859d-2c49c5168145",
+        "nombre": "Gutierrez Lisandro",
+        "dni": "55.276.489"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Maria Palavecino",
+        "alta": "2022-05-26",
+        "escuela": "Jardin de Infantes Nº 928",
+        "obraSocial": "SANIDAD",
+        "diagnostico": "Retraso mental, no especificado, deterioro del comportamiento de grado no\nespecificado. Síndrome de Down.",
+        "gradoTurno": "3º Sección TT",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [
+            {
+                "texto": "Se le realiza el llamado correspondiente a Melina, la mamá de Sol. Comenta que esta muy conforme con el acompañamiento ya que antes ella era quien asistía con Sol y permanecía en el aula con ella y como tiene otros hijos, a veces se le dificultaba asistir por lo tanto generaba que la niña tenga inasistencias. Ahora con María pudo ver avances ya que la docente le comenta que Sol permanece sentada gran parte del tiempo, participando de manera activa en las propuestas. Esto la pone contenta a ella porque vio cambios al poco tiempo de que María ingrese, entonces espera que avance mucho más con ella. Comenta que a la salida Sol sale con su mochila puesta, respetando su lugar en la fila. Esto antes no lo realizaba ya que quería salir únicamente a upa de su madre.",
+                "fecha": "14/6/2022, 15:50:34",
+                "autor": "YO"
+            }
+        ],
+        "id": "cfc21b9d-83c3-409f-802c-5387664bbf07",
+        "nombre": "Leon Romero Ailin Sol",
+        "dni": 56886264
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "VELAZQUEZ CANDELA AGUSTINA",
+        "alta": "2022-03-02",
+        "escuela": "E.P. N°25/EZEIZA",
+        "diagnostico": "",
+        "obraSocial": "OSECAC",
+        "gradoTurno": "3°AÑO/TM/PRIMARIO",
+        "observaciones": [
+            {
+                "texto": "La mama manifiesta que están muy contentos, vienen trabajando hace tres años, a Ian le gusta trabajar con ella. La AE lo acompaña a moverse dentro de la escuela, esta trabajando con el en la autonomia, se lleva muy bien con el nene y con la familia, tienen una buena comunicación sobre como le va en el colegio.",
+                "fecha": "14/6/2022, 16:51:02",
+                "autor": "YO"
+            }
+        ],
+        "id": "cd22a432-451a-4829-873b-84dd1b1119f9",
+        "nombre": "RAMIREZ IAN BAUTISTA",
+        "dni": 53081968
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "GIMENA FERREIRA ",
+        "alta": "2022-08-04",
+        "escuela": "INSTITUTO NUESTRA SEÑORA DE LUJAN ",
+        "obraSocial": "OSDE ",
+        "diagnostico": "",
+        "gradoTurno": "3° SECCIÓN/TT",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [],
+        "id": "eedd7075-9fc3-4845-aacb-d2e6629df44b",
+        "nombre": "MERINO RENZO BAUTISTA",
+        "dni": "57.108.745"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Laila Marraco",
+        "alta": "2022-08-01",
+        "escuela": "ESCUELA PRIMARIA N° 1/ EZEIZA",
+        "obraSocial": "OSPECON",
+        "diagnostico": "Trastorno de la recepción del lenguaje. Trastornos generalizados del desarrollo.",
+        "gradoTurno": "3° / TURNO TARDE",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "El dia de la admision la mamá retira el acta de la O.S",
+                "fecha": "5/7/2022, 15:48:08",
+                "autor": "YO"
+            },
+            {
+                "texto": "la AE Laila confirma que toma el acompañamiento",
+                "fecha": "14/7/2022, 14:15:28",
+                "autor": "YO"
+            },
+            {
+                "texto": "Presentación con la familia, aviso de que estamos en la busqueda de AE",
+                "fecha": "14/7/2022, 14:40:34",
+                "autor": "YO"
+            },
+            {
+                "texto": "comunicación con familia y AE para reprogramación de encuentro.",
+                "fecha": "29/7/2022, 9:28:34",
+                "autor": "YO"
+            }
+        ],
+        "id": "044d4af2-0402-4632-a684-f00a514752b9",
+        "nombre": "GARCIA MATEO TIZIANO",
+        "dni": "53.724.453"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "CARINA BLAIN",
+        "alta": "2022-03-07",
+        "escuela": "EPN°20 EZEIZA LA UNIÓN",
+        "diagnostico": "",
+        "obraSocial": "OSPECON",
+        "gradoTurno": "1 AÑO PRIMARIA TT",
+        "observaciones": [
+            {
+                "texto": "En el relevamiento de la familia, la madre nos informa que esta conforme con el acompañamiento de Carina, que la INSPECCIÓN DE ESCUELA aún no autorizó el ingreso de la acompañante pero el directivo de la institución EPN°20 autorizó el ingreso de la AE firmando siempre sus planillas de asistencia. La comunicación con la AE es fluída, y con la familia tambien. La AE en el día de la fecha (14/06) informa que la madre se acercará a inspección de escuela para la aprobación del mismo. Se solicita desde ambas partes reiteradas veces el pedido de un número de contacto de algún directivo de la institución pero no hubo resultado. Hasta el momento no logramos tener comunicación con la dirección de escuela.",
+                "fecha": "14/6/2022, 16:01:48",
+                "autor": "YO"
+            }
+        ],
+        "id": "e8e6809e-f991-49c6-917e-ae1801316947",
+        "nombre": "GIMENEZ CACERES JESUS",
+        "dni": "55,418,721"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "BARBARA DI GIULIO",
+        "alta": "2022-06-06",
+        "escuela": "EPN°5 RICARDO ROJAS EZEIZA LA UNION",
+        "diagnostico": "",
+        "obraSocial": "OSPECON",
+        "gradoTurno": "1 AÑO PRIMARIO/TT",
+        "observaciones": [
+            {
+                "texto": "En un comienzo la AE Benitez Mariana deja el acompañamiento sin haber aprobado la prestación. Por ese motivo se asigna nueva AE Aldana Caporale que debido a la demora de inspección dejó el caso. Se informa a la madre de la situación y se habla con el equipo de la EPN5 el cual presenta quejas por los cambios de AE, se explica el accionar del centro y que el problema en cuestión eran los tiempos de inspección. \nSe propone una busqueda activa y rapida para el acompañamiento donde el equipo escolar propone comunicarse rapido con inspeccion para aprobar.\n\nSe asigna la AE Barbara Di Giulio, se hace el encuentro en la ultima semana de mayo y se aprueba su ingreso el día 3/6 la AE comenzará el día lunes 6/6",
+                "fecha": "3/6/2022, 11:27:44",
+                "autor": "YO"
+            },
+            {
+                "texto": "comenzó el acompañamiento el día lunes, pero se cortó la luz en la escuela así que fue poco tiempo solo lo pudo ver. Los dos días siguientes también sin luz así que no pudieron verse mucho tiempo. Aún no se ha podido trabajar de manera continúa y consistente. ",
+                "fecha": "8/6/2022, 9:12:22",
+                "autor": "YO"
+            },
+            {
+                "texto": "Comunicación con la madre en el día 14/06; La madre refiere que recién hoy comenzaron de manera continua ya que hace mas de una semana la escuela estaba sin agua.  Pero estuvieron en comunicación con Barbara. La familia cuenta con escasos recursos económicos, mientras que la escuela cuenta no cuenta tampoco con demasiados recursos que apoyen y fomenten el aprendizaje del alumno. ",
+                "fecha": "14/6/2022, 14:28:48",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se deja asentado con la familia estar al tanto de cada progreso de Jonás y la disposición del equipo ante cualquier duda o inconveniente.  Estamos en contacto todas las semanas con la misma, y con la acompañante Barbara. ",
+                "fecha": "14/6/2022, 14:39:24",
+                "autor": "YO"
+            }
+        ],
+        "id": "3722eb29-8b0d-435b-90a9-a4b790a14ba9",
+        "nombre": "SANCHEZ JONAS",
+        "dni": 55498193
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "",
+        "escuela": "Escuela Primaria Nº 23 ''René Favaloro''",
+        "diagnostico": "Trastorno Generalizado del Desarrollo, no especificado. ",
+        "obraSocial": "OSPEA",
+        "gradoTurno": "4º Grado",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "c7a8a5ff-1408-4c58-92ae-d871ee2fd15e",
+        "nombre": "Flores Isaías Exequiel",
+        "dni": "53.683.366"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "JULIA CACACCI",
+        "escuela": "EPN°27 EZEIZA",
+        "diagnostico": "",
+        "obraSocial": "OSPE",
+        "gradoTurno": "1° AÑO",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "0b258bb6-22e8-4586-98a2-33edf3ed6670",
+        "nombre": "CARLES OLGUIN GENARO",
+        "dni": "55.164.779"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "NAZER BELEN",
+        "alta": "2022-03-29",
+        "escuela": "COLEGIO LATINOAMERICANO T. SUAREZ",
+        "diagnostico": "",
+        "obraSocial": "SPF",
+        "gradoTurno": "3° AÑO PRIMARIO/TT",
+        "observaciones": [
+            {
+                "texto": "Hubo comunicación con la familia, la cual menciona que el llamado debe ser por la tarde debido a su trabajo, pero al mismo tiempo comenta que estan muy contentos y conformes con  la AE \"su hija la adora\". ",
+                "fecha": "8/6/2022, 8:55:58",
+                "autor": "YO"
+            }
+        ],
+        "id": "cf1db67b-2b62-4dae-bd0f-1e4526ea52e0",
+        "nombre": "GARCIA CELESTE DANIELA",
+        "dni": "52,117,227"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Mariela Gonzalez",
+        "alta": "2022-08-24",
+        "escuela": "SAN IGNACIO",
+        "obraSocial": "SPF",
+        "diagnostico": "Trastorno generalizado del desarrollo no especificado. Trastornos especificos del desarrollo del habla y del lenguaje. Otros trastornos hipercinéticos",
+        "gradoTurno": "3 SECCIÓN / TM",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "presentacion con la familia, aviso de que estamos en busqueda de AE",
+                "fecha": "14/7/2022, 14:39:58",
+                "autor": "YO"
+            },
+            {
+                "texto": "Hoy se da inicio a la prestación!",
+                "fecha": "24/8/2022, 8:08:38",
+                "autor": "YO"
+            }
+        ],
+        "id": "c70cbaa7-f4a6-497e-ac6a-7037ef514497",
+        "nombre": "MEDINA JULIÁN MARTÍN",
+        "dni": "56.072.303"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Evangelina Montenegro",
+        "alta": "2022-09-08",
+        "escuela": "SOUTH CREEK SCHOOL",
+        "obraSocial": "OSDE 410",
+        "diagnostico": "S/D",
+        "gradoTurno": "2°SECCION/ TURNO MAÑANA",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [],
+        "id": "5bd117c5-796e-4536-9f71-fe9cf04bf789",
+        "nombre": "DELL ARCIPRETE CATALINA ",
+        "dni": "56.666.062"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "",
+        "escuela": "Jardin de Infantes Nº 912",
+        "diagnostico": "Autismo en la Niñez",
+        "obraSocial": "OSPECON (Construir Salud)",
+        "gradoTurno": "2º Sección",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "b7f16828-2f01-4773-956a-fe276e30e77e",
+        "nombre": "Potel Matheo Valentino",
+        "dni": "57.110.816"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "QUINTANA GARAY ROMINA",
+        "alta": "2022-03-02",
+        "escuela": "E.S. N° 18 MONTE GRANDE",
+        "diagnostico": "",
+        "obraSocial": "OSPIA",
+        "gradoTurno": "1° AÑO/SEC/Secundario/TM",
+        "observaciones": [
+            {
+                "texto": "La mamá menciona que está todo perfecto con Romina, hace varios años vienen trabajando con ella. Ahora a Juan le redujeron los dias que asiste a la escula,esta muy desfazado en lo pedagogico, no lograba comprender consignas y eso lo frustraba,  va dos dias presencial en la escuela y ademas se conectan con Romina por videollamada para realizar las actividades. La reduccion horaria fue sugerida por el equipo de orientacion, tiene una MAI que va una vez por mes. Estan conformes con Romina. Sugieren pase a escuela especial, no estan consiguiendo bacante, hasta el año que viene va a tener la reduccion, los dos dias que va, asiste 4 horas.",
+                "fecha": "13/6/2022, 13:03:28",
+                "autor": "YO"
+            }
+        ],
+        "id": "f18c5361-4044-4542-a586-20300d8b714a",
+        "nombre": "FAZZALARI JUAN IGNACIO",
+        "dni": "49.889.353"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "BENAVIDEZ NATALI",
+        "alta": "2022-08-02",
+        "escuela": "EP N°1 / EZEIZA",
+        "obraSocial": "OSFE",
+        "diagnostico": "Trastornos especificos del desarollo del habla y del lenguaje. Perturbacion de la actividad y de la atención. Trastorno generalizado del desarrollo no especificado.",
+        "gradoTurno": "2° AÑO / TM/PRIMARIA",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Me comunique con la familia para informar que nos encontramos en la busqueda de acompañante.",
+                "fecha": "31/5/2022, 14:33:47",
+                "autor": "YO"
+            },
+            {
+                "texto": "MANDAR VIRTUAL eoeepunoezeiza@gmail.com (ya hable a la escuela)",
+                "fecha": "3/6/2022, 10:55:19",
+                "autor": "YO"
+            },
+            {
+                "texto": "22/06 se realiza encuentro entre la familia y la acompañante, la AE se lleva el acta acuerdo para la obra social de manera fisica para traerla con urgencia. el resto del legajo se enviara de manera virtual",
+                "fecha": "22/6/2022, 11:27:11",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se envio el legajo vitual a la escuela",
+                "fecha": "1/7/2022, 9:39:00",
+                "autor": "YO"
+            },
+            {
+                "texto": "07/07/2022 La familia de Rota Jonatan Tiziano se comunica manifestando que la OS ya aprobo la prestación. 08/07/2022 Me comunico con la escuela para consultar el estado del legajo escolar. Marcelo Garavaglia integrante del Equipo de Orientación me manifiesta que el mismo fue elevado el 30/06 y se encuentra a la espera de la aprobación.",
+                "fecha": "11/7/2022, 9:30:43",
+                "autor": "YO"
+            },
+            {
+                "texto": "El dia de hoy 2/08 comienza la prestacion",
+                "fecha": "2/8/2022, 15:11:27",
+                "autor": "YO"
+            },
+            {
+                "texto": "22/11 comienza AT Eilyn Mechan ",
+                "fecha": "23/11/2022, 8:55:03",
+                "autor": "YO"
+            }
+        ],
+        "id": "66812f6f-afe0-41e1-a69a-bfb006045e49",
+        "nombre": "ROTA JONATAN TIZIANO",
+        "dni": 54911220
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "ROMEO CARINA",
+        "alta": "2022-02-03",
+        "escuela": "COMPLEJO EDUCATIVO NUESTRA TIERRA DE CANNING",
+        "diagnostico": "",
+        "obraSocial": "UP",
+        "gradoTurno": "2 AÑO PRIMARIA/TT",
+        "observaciones": [
+            {
+                "texto": "Se intentó comunicar con la familia, la misma no respondió al llamado. Respondió via mensaje de texto, refiriendo a que están trabajando, que están conformes con el acompañamiento.\n\nEn el día 14/06 me volví a comunicar para intentar llamarlos, siguen sin responder. Les explico para qué es el relevamiento y solicito audio. La familia no responde. ",
+                "fecha": "15/6/2022, 9:03:10",
+                "autor": "YO"
+            }
+        ],
+        "id": "711240cb-1262-4ef2-a332-b6a22d1a86a0",
+        "nombre": "ARELLANO FELIPE NAHUEL",
+        "dni": "54,825,730"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Camila Mansilla",
+        "alta": "2022-06-01",
+        "escuela": "Colegio Latinoamericano",
+        "obraSocial": "OSPIT",
+        "diagnostico": "TGD no especificado",
+        "gradoTurno": "5º Grado TT",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se le realiza el llamado correspondiente a la madre para saber como estuvo el comienzo del acompañamiento con Aldana, ella comenta que se encuentra super conforme ya que Dante se adapto desde el primer día con ella, que se nota que se encuentra cómodo y se divierte. Así mismo ella comenta que pensó que le iba a costar ya que estaba acostumbrado a María pero como Aldana es tan predispuesta a Dante eso le gusta entonces congeniaron rápido. Agrega que desde el colegio plantearon un acompañamiento indirecto para poder darle a Dante el espacio necesario de autonomía y que la AE se acerque a él en los momentos en donde precise de ayuda, o sino que le de el espacio para que resuelva solo. ",
+                "fecha": "15/6/2022, 12:01:53",
+                "autor": "YO"
+            }
+        ],
+        "id": "07f89251-633e-47c4-8375-e96d39d21acd",
+        "nombre": "Ruiz Diaz Samaniego Dante",
+        "dni": 52929966
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "BRAVO PAOLA",
+        "alta": "2022-03-21",
+        "escuela": "EPN° 2 CANALE",
+        "diagnostico": "",
+        "obraSocial": "OSPICHA",
+        "gradoTurno": "1 AÑO PRIMARIO/TT",
+        "observaciones": [
+            {
+                "texto": "2/06\n\nMe comunique con la familia anteriormente para pasarles el número nadie respondió. Les hablé para llamarlos cuando esten disponibles y respondieron distantes, refiriendo que estan ocupados, trabajando pero que estan conformes con el acompañamiento. agradecen la consulta. ",
+                "fecha": "2/6/2022, 11:16:31",
+                "autor": "YO"
+            },
+            {
+                "texto": "Me volví a comunicar con la familia (15/06) y le solicite un llamado, pero no respondieron por lo cual le pedí un audio comentando la situación del acompañamiento con Paola, refiriendo hacia lo vincular, lo pedagógico y lo laboral a lo cual la madre refiere que : están muy conformes con Paola, como ella lo estimula para trabajar en mejorar los intereses en  sus actividades, tienen gran afinidad y motivación en lo pedagógico, la deja muy tranquila que esté ella, esta muy contenta con lo trabajado. ",
+                "fecha": "15/6/2022, 8:43:43",
+                "autor": "YO"
+            }
+        ],
+        "id": "1b9af3f7-581a-4461-a977-859d3239b62b",
+        "nombre": "FERRAGUT LEDESMA ALEXANDER",
+        "dni": "55,291,431"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Veronica Marain",
+        "alta": "2022-05-19",
+        "escuela": "Escuela Primaria Nº 31",
+        "obraSocial": "OSPOCE",
+        "diagnostico": "Trastornos específicos del desarrollo del Habla y del Lenguaje. TDG",
+        "gradoTurno": "5º Grado TT",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "El día lunes 30/05 me comunico con el equipo de orientación para preguntarles acerca de la aprobación del legajo y me comenta que ese mismo día la directora se lo recordó al inspector pero aún no tienen novedad. Ese mismo día se lo comunico al padre de Milo. ",
+                "fecha": "1/6/2022, 8:19:29",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se le realiza la llamada correspondiente a la madre de Milo para hablar acerca del acompañamiento que aún no se ha obtenido la aprobación por parte del colegio pero que Verónica comenzó trabajando de manera virtual con Milo. Comenta que Verónica se la nota con mucha predisposición y ganas en las diferentes videollamadas que se van realizando, pero sucede a veces que como realizan las llamadas por fuera del horario escolar, el niño se encuentra agotado por las terapias y el colegio, por lo tanto Vero envía un video proponiéndole a Milo determinada actividad o contándole algún cuento, el cual la madre se lo muestra cuando el esta más descansado. También la madre agrega que el día martes se acerco al consejo escolar preguntando sobre la aprobación del legajo porque ya van casi dos meses de espera, el inspector le comentó que para que el legajo se apruebe no solo es necesario su firma, sino también se precisan de las firmas de varias personas y que es difícil coincidir, pero que lo va a ubicar como urgente para que se resuelva en la brevedad. ",
+                "fecha": "16/6/2022, 14:22:57",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se comienza de manera presencial el día 7/7",
+                "fecha": "7/7/2022, 13:57:40",
+                "autor": "YO"
+            }
+        ],
+        "id": "105f7975-2992-4e4f-8930-9acf399c7d8d",
+        "nombre": "Baigorre del Puerto Milo",
+        "dni": "52.920.559"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Julieta Tabares",
+        "alta": "2022-04-14",
+        "escuela": "Escuela Primaria Nº 28",
+        "obraSocial": "SPF",
+        "diagnostico": "T. de la recepción del lenguaje. T. de la conducta, no especificado.",
+        "gradoTurno": "6º Grado TM",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "En el día de hoy la acompañante se comunica para comentar que el estudiante esta teniendo muchas conductas disruptivas, dentro de las cuales podría haber salido herido (Pegó un portazo de una puerta de vidrio que se podía haber roto) comentó que la escuela no acompaña con las puestas de limites que si realiza la AE. ",
+                "fecha": "2/6/2022, 14:14:06",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se realiza comunicación con la OE del equipo de la escuela del estudiante. Manifiesta lo mismo que la acompañante con respecto a las crisis de Juan, se lo nota angustiado debido a una situación familiar que esta atravesando. Se la citó desde el colegio a la mamá para poder charlar al respecto y actualizar los datos de las terapias de Juan. Sandra del equipo de orientación se compromete en avisar sobre la reunión. ",
+                "fecha": "3/6/2022, 11:36:09",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se le realiza la llamada pertinente a Rosana, la mamá de Juan Ignacio preguntándole acerca del acompañamiento. Comenta que ella se encuentra muy conforme con el desarrollo de Juli con Juan ya que sabe que a veces se ocupa de cosas que van más allá del acompañamiento como lo es la contención que a veces le brinda. Agrega que el día martes 14 tuvo una Reunión en el colegio donde se habló de la situación puntual que ocurrió con el portazo que el estudiante realizó, en la cual la madre dejo en claro que el niño no se iba a lastimar ya que las puertas están hechas de vidrios blindados que son difíciles de romper con un golpe. También comenta que aún no tuvo oportunidad de hablar sobre lo ocurrido con Julieta, más allá de todo comenta que de Juli solo puede decir cosas buenas.",
+                "fecha": "15/6/2022, 17:03:01",
+                "autor": "YO"
+            }
+        ],
+        "id": "80f76e16-c524-4f13-9aad-43dafbcc5338",
+        "nombre": "Perez Juan Ignacio",
+        "dni": "52.422.501"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "DANA RODRIGUEZ",
+        "alta": "2022-05-11",
+        "escuela": "ENRIQUE DE OSSÓ",
+        "diagnostico": "",
+        "obraSocial": "OSPIA",
+        "gradoTurno": "5TO PRIMARIA TT",
+        "observaciones": [
+            {
+                "texto": "14/06/2022 \n\nConversación con la madre de Juan. Refiere que \"Hubo un periodo en el que estuvo enfermo Juan, estuvieron ambos enfermos, hay cosas que pulir todavía, tuvieron una reunión con las maestras del niño donde se comentó que al ser un niño que le interesa mucho lo lúdico y todavía la AE no puede manejar esos tiempos de no dejarlo hacer todavía todo lo que el quiere\". Refieren que se necesita que se ponga un poco más firme, usar lo lúdico como ultimo recurso, para fomentar su atención. Están en un periodo de adaptación y conocimiento en no ser tan flexibles con el. No tienen tanta comunicación. Por ej: el va a pedir el celular pero esta prohibido. Hace más de un mes el niño esta sin psicopedagoga desde el Centro Integral la Huella.",
+                "fecha": "14/6/2022, 15:09:50",
+                "autor": "YO"
+            }
+        ],
+        "id": "da713c8f-152d-485e-bacc-9d0ecd99e4d2",
+        "nombre": "PONCE DE LEON JUAN SEBASTIAN",
+        "dni": 50737675
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "kusmeluk katherine",
+        "alta": "2022-11-16",
+        "escuela": "Colegio San Ignacio",
+        "obraSocial": "OSPOCE",
+        "diagnostico": "Trastornos generalizados del desarrollo",
+        "gradoTurno": "1° sección/ TM",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [
+            {
+                "texto": "16/11 inicia AT Katherine",
+                "fecha": "23/11/2022, 8:53:24",
+                "autor": "YO"
+            }
+        ],
+        "id": "519d2d44-8599-41bc-832b-07d286fcf284",
+        "nombre": "OLIVETO OCTAVIO",
+        "dni": "57.555.700"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "ELIZABETH MONTENEGRO",
+        "alta": "2022-04-21",
+        "escuela": "ESCUELA RURAL 12 T. SUAREZ",
+        "diagnostico": "",
+        "obraSocial": "IOSFA",
+        "gradoTurno": "4 AÑO PRIMARIO TM",
+        "observaciones": [
+            {
+                "texto": "Comunicación con padre el dia 13/06\nEstán muy conformes con Elizabeth,  refieren que \"es la mejor que tuvo en todos los años\". El vínculo va super bien, le costaba la entrada de la escuela ahora esta mejor. Es muy atenta, le responde y avisa todo. No faltó nunca, llega siempre temprano. ",
+                "fecha": "13/6/2022, 12:00:07",
+                "autor": "YO"
+            },
+            {
+                "texto": [],
+                "fecha": "15/6/2022, 11:13:24",
+                "autor": "YO"
+            }
+        ],
+        "id": "0c75e457-25a7-44df-8dd7-5b0e748a0f2e",
+        "nombre": "MOLINA MATEO",
+        "dni": 53245974
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "Lorena Cabrera",
+        "alta": "2022-09-19",
+        "escuela": "JARDIN DE INFANTES JUAN MIRO ",
+        "obraSocial": "Accord Salud",
+        "diagnostico": "",
+        "gradoTurno": "1° SECCIÓN",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "be3812de-2830-4986-9ff1-6e5cd061025f",
+        "nombre": "ABDUL HADI GIOVANA",
+        "dni": 0
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "JULIEN VALERIA",
+        "escuela": "COLEGIO ALVEAR MG",
+        "diagnostico": "",
+        "obraSocial": "OSDEPYM",
+        "gradoTurno": "3°SECCIÓN/INICIAL/TM",
+        "observaciones": [
+            {
+                "texto": "Llamado a la familia, 2/06. La madre refiere que se llevan bien, al principio le costaba bastante, pero ahora tienen buena comunicación y relación. La familia esta conforme, el niño está mejor avanzó en relación con su comportamiento en el comienzo del año, pero tambien lo ayudaron las demás terapias. Consultan por el horario de asistencia de la acompañante si es correcto de 8 a 12.  A su vez, comenta que le \"gusta\" que la AE le cuenta todo lo que hacen en la escuela y cómo estuvo el niño. \n\nLa AE refiere ese mismo día que las terapeutas donde asiste le pidieron cambio de AE a la madre, pero la familia no ha comunicado nada al respecto y refiere estar conforme. ",
+                "fecha": "2/6/2022, 11:35:01",
+                "autor": "YO"
+            },
+            {
+                "texto": [],
+                "fecha": "13/6/2022, 9:13:58",
+                "autor": "YO"
+            },
+            {
+                "texto": "13/06\nLlamado de la madre. La madre refiere que la AE faltó por un trámite personal y solicita que Valeria Julien realice el horario de 08 a 10.30 completo, y si va a faltar que avise con 1 semana de anticipación ya que la madre anticipa al niño y luego si ella no va el no asiste. Por otro lado, no tiene problema con la supervisión si no que estas cuestiones personales sean fuera de horario ya que el tambien se enfermó y asiste muy poco tiempo al colegio. ",
+                "fecha": "16/6/2022, 9:22:29",
+                "autor": "YO"
+            }
+        ],
+        "id": "27062d89-72c4-4d6b-8b65-ba349624122b",
+        "nombre": "ADORNO QUINTANA TADEO",
+        "dni": "56,227,386"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "",
+        "escuela": "Escuela Primaria Nº 29",
+        "diagnostico": "Trastorno Generalizado del Desarollo",
+        "obraSocial": "OSECAC",
+        "gradoTurno": "3º Grado",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "8759c105-d0d6-4103-9fa3-4f4f82803a5a",
+        "nombre": "Fiorini Villalba Agustin ",
+        "dni": "54.145.401"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Araceli Leguizamon",
+        "alta": "2022-04-20",
+        "escuela": "EP N° 21 - Ezeiza",
+        "diagnostico": "Trastorno de la recepción del lenguaje",
+        "obraSocial": "SPF",
+        "gradoTurno": "primario/3° (M)",
+        "observaciones": [
+            {
+                "texto": "Se le realiza la llamada correspondiente a Verónica, la mamá de Lisandro, en la cual ella comenta que se encuentra muy conforme con el acompañamiento ya que Lisandro conoce a Araceli desde hace 3 años ya porque comenzaron a trabajar con ella en la pandemia por videollamada y por lo tanto tienen una relación super linda. En la actualidad Lisandro es autónomo con respecto a la rutina escolar y Araceli le brinda ayuda solo en los momentos que el lo precisa. Comenta que antes sucedía que el venia con las actividades sin copiar, entonces debían estar pidiendo las actividades para completar en el domicilio, pero ahora logra hacer todo dentro del horario escolar y gracias a Araceli. Agrega que ella es super responsable y comprometida con su labor. ",
+                "fecha": "15/6/2022, 16:46:02",
+                "autor": "YO"
+            }
+        ],
+        "id": "593f90d7-9876-4fab-8773-a9dd9586a41f",
+        "nombre": "Martínez Valenzuela Lisandro",
+        "dni": 53816996
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "SOFIA BLAIN",
+        "alta": "2022-03-17",
+        "escuela": "EPN° 17 EL JAGUEL",
+        "diagnostico": "",
+        "obraSocial": "OSPOCE",
+        "gradoTurno": "6 AÑO PRIMARIO/TM",
+        "observaciones": [
+            {
+                "texto": "LLAMADO 13/06\nSofia habla con los profesores va todos los días, el va bien solo. Matemática es la que mas le cuesta. Es muy responsable; pero el equipo escolar sugiere que ella no esté con el para generar autonomía. Hasta ahora pareciera segun dice la mama que no necesita el acompañamiento pero ella lo sugiere sostener hasta la secundaria para que logre estar bien en la escuela de manera autonoma. ",
+                "fecha": "13/6/2022, 11:26:11",
+                "autor": "YO"
+            }
+        ],
+        "id": "5bc46188-c624-41b0-b40e-ff0b13075032",
+        "nombre": "SACK SANTIAGO SEBASTIAN",
+        "dni": "50,737,717"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Iris San Martin",
+        "alta": "2022-04-04",
+        "escuela": "ESCUELA PRIMARIA N° 12 \"CECILIA GRIERSON\"",
+        "obraSocial": "ANDAR",
+        "diagnostico": "T. especifico del desarrollo del habla y del lenguaje. TEA.",
+        "gradoTurno": "4º Grado TM",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se le envía un mensaje a la familia de Mateo para saber si se encontraban disponibles para poder realizar la llamada correspondiente y comenta que en ese momento no me pueden atender, por lo tanto se le envía un mensaje más tarde preguntándole acerca del momento más adecuado para poder realizarla y no se obtuvo respuesta.",
+                "fecha": "16/6/2022, 14:28:15",
+                "autor": "YO"
+            }
+        ],
+        "id": "9b2823dc-6741-450a-b674-13786ec4afba",
+        "nombre": "Farias Sandoval Mateo",
+        "dni": 53982074
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "GABRIELA QUINTANA",
+        "alta": "2022-04-25",
+        "escuela": "PATITO COLORADO",
+        "diagnostico": "",
+        "obraSocial": "ELEVAR",
+        "gradoTurno": "1° SECCIÓN TT",
+        "observaciones": [
+            {
+                "texto": "El dia 3/6 se llamo a la familia via telefono, la familia refiere que la niña le dice TIA a la AE que ya el vinculo esta casi formado aunque sea poco tiempo. La niña logra entrar sola, pero aun asiste unicamente asta las 16:00 hs por recomendación de su Psicologa. Se verá con el colegio, AE, y sus terapias para lograr la carga horaria. Hasta el día de la fecha refieren estar contentos con el trabajo y no presetan dificultades en el acompañamiento. ",
+                "fecha": "3/6/2022, 11:23:48",
+                "autor": "YO"
+            }
+        ],
+        "id": "5badd4ba-4abc-4f86-b4fc-df6a8c80699c",
+        "nombre": "CRESPI ISABELLA",
+        "dni": "57,590,894"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "BIANCA BRAVO",
+        "escuela": "EPN°12 GUERNICA",
+        "diagnostico": "AUTISMO EN LA NIÑEZ",
+        "obraSocial": "OSECAC",
+        "gradoTurno": "",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [],
+        "id": "ce93c550-f684-4e83-b5f0-71f0c2987a20",
+        "nombre": "GONZALEZ BENJAMÍN LUIS",
+        "dni": "54.913.014"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Paula Castillo",
+        "alta": "2022-06-21",
+        "escuela": "Escuela Primaria Nº 26 Jagüel",
+        "obraSocial": "MAESTRANZA",
+        "diagnostico": "Autismo en la niñez",
+        "gradoTurno": "3º Grado TM",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se realiza el llamado correspondiente a la familia para comentarles que se hablo con el equipo de orientación del colegio para preguntarles acerca de la aprobación del legajo, Ana del equipo nos comenta que aún siguen a la espera de la aprobación y que se lo reiteraron en varias ocasiones a la inspectora ya que saben que Dante lo precisa. La familia comenta que seguirán aguardando a las novedades. ",
+                "fecha": "16/6/2022, 14:34:54",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se comunica Ana del equipo de orientación para comunicarnos que ya esta la aprobación del acompañamiento por lo tanto la semana entrante ya podrían comenzar. ",
+                "fecha": "16/6/2022, 14:50:08",
+                "autor": "YO"
+            }
+        ],
+        "id": "64ccab73-0385-4036-9d0d-6e2879529f6f",
+        "nombre": "Gomez Peralta Dante",
+        "dni": 54733241
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Camila Estanislao",
+        "alta": "2022-04-11",
+        "escuela": "JI 927",
+        "diagnostico": "Autismo en la niñez.",
+        "obraSocial": "TV SALUD",
+        "gradoTurno": "3ER SECCIÓN TM",
+        "observaciones": [
+            {
+                "texto": "Se le realiza la llamada correspondiente a la madre , donde ella comenta que se encuentra conforme con el acompañamiento ya que Federico ahora permanece en el jardín sin necesidad de que la llamen a ella para que lo vaya a retirar ya que el niño no tolera estar la carga horaria completa. Agrega que esta semana el niño no va a asistir ya que el padre se encuentra con covid, aunque Federico se encuentra bien no lo esta mandando por una cuestión de responsabilidad. Volviendo al acompañamiento cuenta que la docente le comenta que hasta la deambulación disminuyó y eso favoreció a que él pueda participar aún más en las diferentes propuestas que la docente le va brindando. ",
+                "fecha": "14/6/2022, 14:38:27",
+                "autor": "YO"
+            }
+        ],
+        "id": "bf575321-df0e-4af2-a4ae-287cf8a98e6c",
+        "nombre": "Katzestein Federico",
+        "dni": 55747177
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "EVELIN ALTAMIRANO",
+        "alta": "2022-06-15",
+        "escuela": "JARDIN DE INFANTES LATINOAMERICANO t. suarez",
+        "obraSocial": "OSDE",
+        "diagnostico": "",
+        "gradoTurno": "3 SECCIÓN/TM",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "La escuela solicita el psicofísico para elevar a inspección, la AE se encuentra enferma y no responde los mensajes. Se la llama pero no responde, se avisa de esta situación que demorará el inicio de la AE a la escuela. La obra social está aprobada. ",
+                "fecha": "8/6/2022, 9:01:34",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se le avisa a la madre tambien de la situación, y consulta para cuando estará el Psicofisico, tenemos que seguir intentando comunicarnos con la AE. ",
+                "fecha": "8/6/2022, 9:02:22",
+                "autor": "YO"
+            },
+            {
+                "texto": "La familia consulta por el apto psicofisico de la AE, se vuelve a consultar a Evelin si lo tiene, ya se ha enviado el resto de la documentación. ",
+                "fecha": "13/6/2022, 8:41:51",
+                "autor": "YO"
+            },
+            {
+                "texto": "La acompañante presentó la documentación en el día 13/06. La misma fue enviada de manera online a la dirección del Jardín. En el día 14/06 se avisa que el 15/06 ya puede comenzar la acompañante Evelin el acompañamiento en la institución escolar, a su vez se conversa con la familia y se acuerda el ingreso para el día de mañana. ",
+                "fecha": "14/6/2022, 13:44:12",
+                "autor": "YO"
+            }
+        ],
+        "id": "3e2809b9-8f94-4749-afa9-227284510d4d",
+        "nombre": "ZARATE JOAQUIN IVAN",
+        "dni": 55757695
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "GRECO ANABELLA",
+        "alta": "2022-03-16",
+        "escuela": "NUEVO COLEGIO M.G.",
+        "obraSocial": "OSPECON",
+        "diagnostico": "",
+        "gradoTurno": "3° AÑO PRIMARIO/TT",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se comunico el equipo SAIE con la familia, la cual indica que \"Mía se siente bien con la acompañante y nosotros como familia estamos muy conformes\". La niña, posee dificultades motrices, por lo cual el acompañamiento es más asistencial que pedagogico o terapeutico. ",
+                "fecha": "8/6/2022, 8:58:30",
+                "autor": "YO"
+            }
+        ],
+        "id": "7f450362-b1e9-4c00-9042-722c61521be7",
+        "nombre": "HERNANDEZ CALCERRADA MIA NAHIARA",
+        "dni": "53,237,699"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Sofia Eguias ",
+        "alta": "2022-08-16",
+        "escuela": "E.P. N° 1 / EZEIZA",
+        "obraSocial": "OSUOMRA",
+        "diagnostico": "Autismo en la niñez",
+        "gradoTurno": "6°/TM/Primario",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Melanie pudo establecer un buen vinculo, el nene habla todo el tiempo de ella, se llevan muy bien, Melanie  lo acompaña mucho, dentro de la escuela esta super bien, el nene tiene dificultades con el dictado, lo ayuda! lo esta acompañando en la alfabetizando. Tuvo una situación de crisis y ella pudo intervenir de manera correcta, tiene muy buena comunicación con la mamá , están conformes porque es muy atenta.",
+                "fecha": "13/6/2022, 12:35:11",
+                "autor": "YO"
+            }
+        ],
+        "id": "13ddbe33-0b04-4f70-a527-0b2eedb80e0c",
+        "nombre": "GONZÁLEZ GUSTAVO BRAIAN LAUTARO",
+        "dni": 51058491
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "ANDREA ARANDA ",
+        "escuela": "Jardin 928 ",
+        "diagnostico": "",
+        "obraSocial": "GALENO",
+        "gradoTurno": "2da sección",
+        "observaciones": [
+            {
+                "texto": "Comunicación desde el número de SAIE con la familia de Rojas Noha Se informa que continuaré siendo la referente, y que estamos en la búsqueda de AE pero con demoras. Nos comunicaremos apenas tengamos AE.",
+                "fecha": "1/6/2022, 8:30:25",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se le informa a la familia el día 7/6 que hay acompañante para Rojas Noha. La familia refiere estar contenta, el encuentro será el día lunes 13/6 por la mañana. ",
+                "fecha": "8/6/2022, 9:04:42",
+                "autor": "YO"
+            },
+            {
+                "texto": "Comunicación con la familia: Se informa que tenemos nueva acompañante, Andrea ARANDA. Se coordina el encuentro para el día 14/06.",
+                "fecha": "15/6/2022, 8:56:14",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se realiza el encuentro correspondiente, el día 14/06, en el mismo se menciona el rol de la acompañante y se establece un vínculo con la familia. Se deja asentado las problematicas anteriores que mantuvo la familia, para poder con la nueva AE abstenerse de comentarios relacionados con PAGOS, OBRAS SOCIALES,y caracteristicas que no competen al rol de AE y función con el niño, se hace enfásis en la exclusividad del contacto por el acompañamiento que lo administrativo sea conversado con el centro. ",
+                "fecha": "15/6/2022, 8:57:51",
+                "autor": "YO"
+            }
+        ],
+        "id": "ed504faa-ac96-4ed0-948e-a448a340c2e6",
+        "nombre": "ROJAS NOHA FACUNDO",
+        "dni": "55762090"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "ORTIZ CLAUDIA",
+        "alta": "2022-03-14",
+        "escuela": "E.P. N°71 / LLAVALLOL",
+        "diagnostico": "Trastorno generalizado del desarrollo no especificado.",
+        "obraSocial": "GALENO",
+        "gradoTurno": "6°/TM/Primario",
+        "observaciones": [
+            {
+                "texto": "La mamá manifiesta que estan muy conformes, hay buena comunicacion, hablan todos los dias de las cosas que van surgiendo. Ellos vienen trabajando desde tercer grado, el año que viene habria que realizar un cambio. El nene la ama, trabajan el desapego, acompaña en lo pedagogico y lo social. ",
+                "fecha": "14/6/2022, 16:59:07",
+                "autor": "YO"
+            },
+            {
+                "texto": "La acompañante envia el siguiente mensaje \"Quería avisar que por razones de salud ( me deben realizar una punzación en el pecho derecho) los días 29/6-30/6 y 1/7 no voy a concurrir al establecimiento.\nYa lo hablé con los papás del menor, la docente y directivos los cuales no me plantearon ningún tipo de inconveniente.\"",
+                "fecha": "24/6/2022, 8:26:54",
+                "autor": "YO"
+            }
+        ],
+        "id": "6a2990fc-023a-4123-8c2d-7b90b27a9784",
+        "nombre": "NIEVA BENICIO MANUEL",
+        "dni": 51124014
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Sandra Pereira",
+        "alta": "2022-10-17",
+        "escuela": "N° 64 ALMIRANTE BROWN",
+        "obraSocial": "OSPACA CERVEZA",
+        "diagnostico": "Trastornos generalizados del desarrollo",
+        "gradoTurno": "3 ° / TURNO MAÑANA",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "La familia asistia a la admisión con una posible AE",
+                "fecha": "8/9/2022, 15:36:17",
+                "autor": "YO"
+            },
+            {
+                "texto": "22/09 se envia el legajo de manera virtual",
+                "fecha": "22/9/2022, 15:56:38",
+                "autor": "YO"
+            },
+            {
+                "texto": "hoy inicia la Ae",
+                "fecha": "17/10/2022, 9:22:02",
+                "autor": "YO"
+            }
+        ],
+        "id": "dcddcf21-af03-4c69-b89e-ccb9d3c86e67",
+        "nombre": "ARRIOLA STRADI JEREMIAS BENJAMÍN",
+        "dni": "53.760.354"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Soledad Bravo ",
+        "alta": "2022-03-18",
+        "escuela": "Escuela Primaria Nº 41°- Monte Grande",
+        "obraSocial": "MAESTRANZA",
+        "diagnostico": "TGD",
+        "gradoTurno": "3º Grado TM",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se le realiza el llamado correspondiente a la madre y comenta que se encuentra conforme con el acompañamiento de Soledad, que vio avances en Marcos pero que posee una duda con respecto a la implicancia que ella puede tener dentro de lo pedagógico, porque la acompañante anterior solía llevarle dibujos para pintar cuando el no quería hacer las actividades que la docente le proponía, entonces se le vuelve a recordar que las configuraciones de actividades tiene que estar a cargo de la docente, en cambio Soledad lo que puede realizar es una guía en la realización o brindarle determinadas estrategias para que pueda concretarlas. Entonces ella agrega que lo que quiere es eso, alguien que lo guie porque suele perderse en el dictado o en determinadas actividades. Luego con respecto a Leila comenta que esta conforme porque es muy responsable con la asistencia.",
+                "fecha": "14/6/2022, 17:42:02",
+                "autor": "YO"
+            }
+        ],
+        "id": "d8c2e5bc-0925-41ce-bfbc-435739efbb65",
+        "nombre": "Aguilar Chiri Marcos",
+        "dni": "54.420.026"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "S/A",
+        "escuela": "EP N° 23/ EL JAGUEL",
+        "diagnostico": "Trastorno del desarrollo del habla y del lenguaje no especificado.Retraso mental, no especificado.",
+        "obraSocial": "SANIDAD",
+        "gradoTurno": "1°/ TM",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "449645fd-b7f9-42a4-92c6-ba5b3700c001",
+        "nombre": "ROJAS ZANTINO MAICOL",
+        "dni": "55.568.636"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "AYALA VIVIANA",
+        "alta": "2022-03-02",
+        "escuela": "E.P. N° 53/TM/MONTE GRANDE",
+        "diagnostico": "",
+        "obraSocial": "OSMATA",
+        "gradoTurno": "5°AÑO/TM/PRIMARIO",
+        "observaciones": [
+            {
+                "texto": "La mamá manifiesta que estan super conformes, el cambio de docente tambien lo ayudo, la ae es muy amorosa, le resalta lo que hace muy bien,lo ayuda mucho al autoestima.En los examenes escritos, Viviana pudo coordinar con la señorita que lo haga oral, lo evaluaron y pudo responder super bien. La AE y el niño comenzaron juntos este año,  tienen un buen vinculo y buen dialogo, con los papás tambien hay comunicacion constante. ",
+                "fecha": "14/6/2022, 15:30:51",
+                "autor": "YO"
+            }
+        ],
+        "id": "2114d1ab-60c2-40d5-8b60-7c4195df5a35",
+        "nombre": "MEDINA BENICIO GAEL",
+        "dni": "52.142.067"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Mariela Gonzalez",
+        "alta": "2022-08-02",
+        "escuela": "J.I. MARIA DE LA CONCEPCIÓN VILLA",
+        "obraSocial": "SPF",
+        "diagnostico": "",
+        "gradoTurno": "3º SECCIÓN TT",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se habla con la familia para informarles que ya tenemos una posible acompañante pero que aún nos encontramos esperando el okey de la misma para poder iniciar con el legajo y pactar fecha para el encuentro.",
+                "fecha": "16/6/2022, 14:56:47",
+                "autor": "YO"
+            }
+        ],
+        "id": "43ffe2b9-b54f-4222-a101-9f51ea4c1194",
+        "nombre": "Blanco Dominguez Danilo",
+        "dni": "57.182.605"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Maria Celia Saucedo",
+        "alta": "2022-03-21",
+        "escuela": "JI 901",
+        "diagnostico": "Autismo en la niñez",
+        "obraSocial": "UP",
+        "gradoTurno": "2DA SECCIÓN TM",
+        "observaciones": [
+            {
+                "texto": "Se realiza el llamado a la familia para conversar acerca del estado actual del acompañamiento. Vanina, la madre de Noah, comenta que esta muy conforme con Maria y que puede ver que desde que se formó el vinculo entre ellos dos, el niño tuvo avances significativos. También pregunta acerca de la continuidad de Maria el año entrante, aclarando que quiere que ella siga con él. Vanesa tambien pregunta acerca de como puede hacer el tramite para solicitar una MAI ya que desde el jardin la solicitan, se le comenta que la misma puede ser solicitada a través del estado o desde la obra social con un recurso de amparo. Comento que se va a asesorar mejor con su abogada ya que no quiere perder a Maria, para realizar dicho tramite. Quedo en ponerse en contacto para comentar las novedades. ",
+                "fecha": "9/6/2022, 12:35:31",
+                "autor": "YO"
+            }
+        ],
+        "id": "cf25481a-a3df-47b7-bbc9-49d5a4a87073",
+        "nombre": "Herrera Gomez Noah",
+        "dni": 56416106
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "DANIELA OLIVEIRO",
+        "alta": "2022-07-04",
+        "escuela": "JARDIN 923 BURZACO TT",
+        "diagnostico": "",
+        "obraSocial": "OSECAC",
+        "gradoTurno": "2°SECCION",
+        "observaciones": [
+            {
+                "texto": "Se realizó el encuentro con la AE Daniela Oliveiro. Previamente nos comunicamos con el jardín el cual solicito que la madre lleve la documentación de la AE. Se explicó el tema de la aprobación de ambos legajos para su comienzo, el mismo día del encuentro la AE y la Familia iban a ir al jardín por la tarde a entregar el legajo al jardín.\nLa obra social se encuentra aprobada. ",
+                "fecha": "14/6/2022, 15:56:25",
+                "autor": "YO"
+            }
+        ],
+        "id": "9e39c276-8bf6-4a25-9148-b9e426c34bec",
+        "nombre": "DANIEL LUCIANO IBRAHIM (apellido Daniel)",
+        "dni": "56,796,867"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Gabriela Quintana",
+        "alta": "2022-06-08",
+        "escuela": "N. DE BELEN /Spegazzini",
+        "diagnostico": "Trastorno del lenguaje expresivo Retraso mental leve",
+        "obraSocial": "OSPL",
+        "gradoTurno": "6°/TM/Primario",
+        "observaciones": [
+            {
+                "texto": "Llamar a la mamá por cambio de AE",
+                "fecha": "29/5/2022, 23:59:25",
+                "autor": "YO"
+            },
+            {
+                "texto": "NUEVA AE. GABRIELA QUINTANA",
+                "fecha": "1/6/2022, 17:15:13",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se da el alta a la acompañante en el dia de hoy 08/06/2022",
+                "fecha": "8/6/2022, 11:11:30",
+                "autor": "YO"
+            },
+            {
+                "texto": "14/06 La mamá manifiesta que es muy amable la AE, Thiago tiene mucho caracter, hay que reforzar con ella un poco el tema de la autoridad , igual la mamá esta conforme,realiza todas las tareas,tienen buena comunicación.",
+                "fecha": "14/6/2022, 15:02:48",
+                "autor": "YO"
+            }
+        ],
+        "id": "211486a7-e815-4797-8d68-530bd81ce341",
+        "nombre": "CHOQUE FLORES THIAGO",
+        "dni": "50.250.402"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "GOMEZ LIA",
+        "alta": "2022-03-03",
+        "escuela": "EPN N° 39 MG",
+        "diagnostico": "",
+        "obraSocial": "OSDEPYM",
+        "gradoTurno": "4° AÑO PRIMARIO/TT",
+        "observaciones": [
+            {
+                "texto": "15/06  Madre: están trabajando muy bien, estuvo con problemas de conducta, sin ganas de hacerse. Tiene MAI de 503 pero ahora se la sacaron. Se llevan muy bien, ya se conocen. Con lo pedagógico esta complicado. Cuando no lo quiere hacer no lo hace. Esta gritando mucho. Están muy conformes, no falta. Esta muy presente, es muy amorosa. ",
+                "fecha": "15/6/2022, 10:54:25",
+                "autor": "YO"
+            }
+        ],
+        "id": "84d070c1-0c9f-4bef-95d2-ce7a62b4ee07",
+        "nombre": "GONZALEZ CARDOZO SOL ABIGAIL",
+        "dni": "53,204,695"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Yanina Ramirez",
+        "alta": "2022-04-26",
+        "escuela": "ESC. DE HOY",
+        "diagnostico": "Autismo en la niñez",
+        "obraSocial": "OSPAGA",
+        "gradoTurno": "1ER AÑO PRIMARIO TT",
+        "observaciones": [
+            {
+                "texto": "Se le realiza el llamado correspondiente a Erica, la madre de Gino. Comenta que se encuentra muy conforme con el cambio de AE ya que ahora ve en Gino ganas de asistir al colegio, antes se encontraba negado. Así mismo agrega que el vinculo con la acompañante se conformó super rápido y que eso facilito otras cosas, como por ejemplo la participación de él en un acto del colegio, cosa que antes no había querido hacer nunca. Por lo tanto esta contenta con Yanina ya que considera que es muy predispuesta y tiene paciencia a las diferentes manifestaciones propias de Gino. ",
+                "fecha": "15/6/2022, 16:25:02",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se realiza un llamado a la directora de la escuela de Hoy para charlar sobre la situación actual de Gino. Comenta que evaluaron el pase a especial, los padres aceptaron esto. Se comenzó el papeleo y con la búsqueda de escuela especial. La madre se acerco a Epen en donde le recomendaron que busque una escuela emocional. También comenta que la semana entrante iba a realizar una reunión con los terapeutas del estudiante para charlar sobre la situación actual ya que ella observa que en el ultimo periodo acrecentaron las manifestaciones físicas de él hacia los compañeros y la AE y que los pares están teniendo miedo de relacionarse con él. Agrega que pasa 4 hs fuera del aula y que no es favorable para él mas que nada porque conocen la historia escolar del estudiante. ",
+                "fecha": "7/7/2022, 14:13:13",
+                "autor": "YO"
+            }
+        ],
+        "id": "62489b6f-bfcf-4aa9-beeb-24ba14c8f41c",
+        "nombre": "Dominguez Gino",
+        "dni": 54958204
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Villanueva Angela ",
+        "alta": "2022-07-05",
+        "escuela": "JARDÍN 904",
+        "obraSocial": "PRIVAMED/OSEN",
+        "diagnostico": "Autismo en la niñez. Trastorno de la recepción del lenguaje.",
+        "gradoTurno": "1º Grado TM",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se le realiza la llamada correspondiente a la familia de Dante para comentarles que ya tenemos un posible reemplazo pero nos encontramos en la espera de que acepte el acompañamiento, que ni bien nos de el Okey, vamos a plantear una fecha para el encuentro así también se envía el legajo al jardín lo antes posible. ",
+                "fecha": "16/6/2022, 15:02:22",
+                "autor": "YO"
+            }
+        ],
+        "id": "04745d4e-9213-40a2-be66-997a72220f6f",
+        "nombre": "Melian Di Pietro Dante Jeremias",
+        "dni": 56347143
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "LILIANA MOLINA",
+        "alta": "2022-03-17",
+        "escuela": "JARDIN DE INFANTES 924",
+        "diagnostico": "",
+        "obraSocial": "SPF",
+        "gradoTurno": "3 SECCIÓN/TT",
+        "observaciones": [
+            {
+                "texto": "15/06\nLlamado con la familia. Ya es el segundo año con Liliana. La madre refiere que se llevan muy bien, lo ayuda mucho con el niño. Conectan super bien. En el jardín asiste de manera correcta, disminuyeron los berrinches. No tienen quejas al respecto, se encuentra conforme con el trabajo, reitera estar muy satisfecha con Liliana, tienen buena comunicación. Por ahora no hay faltas o llegadas tarde. ",
+                "fecha": "15/6/2022, 11:33:05",
+                "autor": "YO"
+            }
+        ],
+        "id": "a8f745d4-d4ae-43f9-b8c4-a099e91d19be",
+        "nombre": "LOPEZ LAZARTE BAUTISTA",
+        "dni": 55676993
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "ANTONELA MADEO",
+        "escuela": "JARDIN N°902",
+        "diagnostico": "",
+        "obraSocial": "OSPIF",
+        "gradoTurno": "TARDE",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "b57469e8-49e8-4fd1-b07e-627e8194a29b",
+        "nombre": "RAMIREZ MIQUEAS",
+        "dni": "57.245.081"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "MARCELA GOMEZ",
+        "escuela": "ESCUELA PRIMARIA N 26",
+        "diagnostico": "Trastorno del lenguaje expresivo. Trastorno de la recepción del lenguaje. Epilepsia.",
+        "obraSocial": "SPF",
+        "gradoTurno": "1° A / TURNO MAÑANA",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "el dia 14/06 hable con la escuela, la mama ya firmo el acta acuerdo de la o.s",
+                "fecha": "4/7/2022, 8:44:00",
+                "autor": "YO"
+            },
+            {
+                "texto": "La AE Sofia Loto ya hizo entrega de la documentación, aún estamos a la espera de la aprobacion del legajo escolar.",
+                "fecha": "24/8/2022, 8:41:23",
+                "autor": "YO"
+            }
+        ],
+        "id": "57c94ab3-cc9d-4264-bc3e-af4201d2061e",
+        "nombre": "LOPEZ MIA VICTORIA ",
+        "dni": "55.262.951"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "BLANES LUCILA",
+        "alta": "2022-03-02",
+        "escuela": "JORGE NEWBERY EZEIZA",
+        "diagnostico": "",
+        "obraSocial": "ACCORD SALUD",
+        "gradoTurno": "2° AÑO PRIMARIO/TM",
+        "observaciones": [
+            {
+                "texto": "La madre refiere que le está yendo muy bien, ahora entra corriendo a la escuela. Ella lo espera en la puerta, tienen muy buen vinculo, Ahora le dice que van al colegio con Lucila y el se pone muy contento. Entra predispuesto, y cuando ella se va a las 12 le anticipa y deja alguna actividad organizada con la seño. Desde la organización y anticipación. Refiere que es muy cumplidora, predispuesta, y que están muy conformes. Asiste temprano y no tiene faltas graves. El sale a las 12:20. Son 20' solo pero ahora mas la medicación lo puede tolerar. Solicita que por favor sean los lunes o miércoles la supervisión ya que el niño no asiste sin la acompañante y esos días lo pueden manejar y acompañar de otros modos.  ",
+                "fecha": "14/6/2022, 13:38:14",
+                "autor": "YO"
+            }
+        ],
+        "id": "824f7e3f-7391-4d39-84c5-4bc8988bd5fb",
+        "nombre": "NOCITTI ASPRELLA VALENTINO FRANCISCO",
+        "dni": "54,696,447"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "CAMILA MARTINEZ",
+        "alta": "2022-08-03",
+        "escuela": "EP N° 24 DR RENE FAVAROLO/ Tristan suarez",
+        "obraSocial": "OSECAC",
+        "diagnostico": "Retraso mental leve. Trastorno de la recepción del lenguaje",
+        "gradoTurno": "5° AÑO/ TT/ PRIMARIA",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Me comunique con la familia para informar que nos encontramos en la busqueda de acompañante.",
+                "fecha": "31/5/2022, 14:37:22",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se asigna el caso a Camila Martinez, queda pendiente ele encuentro.",
+                "fecha": "13/6/2022, 11:52:02",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se da aviso a la familia que el niño ya tiene acompañante, se programa encuentro para la semana que viene.",
+                "fecha": "15/6/2022, 8:47:54",
+                "autor": "YO"
+            },
+            {
+                "texto": "Ya se realizo el encuentro, la acompañante retiro toda la documentación, a la espera del acta acuerdo",
+                "fecha": "24/6/2022, 8:19:23",
+                "autor": "YO"
+            },
+            {
+                "texto": "el dia 13/07 me comunico con la escuela para consultar si tienen alguna novedad sobre la aprobación y Erika del equipo de orientacion manifiesta que no tienen novedad.",
+                "fecha": "13/7/2022, 9:06:57",
+                "autor": "YO"
+            },
+            {
+                "texto": "28/07 Aviso a la familia de la aprobación de la O.S",
+                "fecha": "29/7/2022, 9:28:13",
+                "autor": "YO"
+            }
+        ],
+        "id": "88561b41-5ea2-474a-91f4-a2371ab1423e",
+        "nombre": "MONTENEGRO THIAGO BENJAMÍN",
+        "dni": "51.435.142"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "VARELA KARINA",
+        "alta": "2022-03-02",
+        "escuela": "ESCUELA DE HOY/EL JAGUEL",
+        "diagnostico": "",
+        "obraSocial": "PFA",
+        "gradoTurno": "3° AÑO/TM/PRIMARIO",
+        "observaciones": [
+            {
+                "texto": "La mamá manifiesta que el nene esta contento con la acompañante, al principio chocaron un poco porque ella le estaba poniendo limites, pero ahora se llevan super bien. Actualmente esta enferma y se estaba ausentando, el niño asiste igual cuando ella no está . El nene sale 5.15 y la AE se retira a las 5 . En algunas ocasiones el niño puede trabajar solo, cuando necesita ayuda acude a la acompañante.",
+                "fecha": "14/6/2022, 16:11:50",
+                "autor": "YO"
+            }
+        ],
+        "id": "365b0c83-1360-4dc0-b23c-1c52a92c5c25",
+        "nombre": "LUNA AARON ELIEL",
+        "dni": "033333333"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "CHAPIAN CECILIA",
+        "alta": "2022-03-02",
+        "escuela": "EPN° 13 BURZACO",
+        "diagnostico": "",
+        "obraSocial": "OSPECON",
+        "gradoTurno": "5° AÑO PRIMARIO/TM",
+        "observaciones": [
+            {
+                "texto": "Se intentó comunicar con la familia el día 14/06/2022; la familia se encuentra ocupada y no puede recibir llamados durante los siguientes días y solicita que se acuerde la próxima llamada con días de anticipación por lo cual se procede a que responda cuestiones vinculares y de calidad sobre el acompañamiento, sobre esto mismo la madre refiere estar super conforme con Cecilia, este es el 4to año del acompañamiento, dice que no tiene más que agradecer sobre su trabajo. Hay buen vínculo de todas las partes, se encuentra muy conforme y satisfecha con la labor de la AE. ",
+                "fecha": "14/6/2022, 14:46:41",
+                "autor": "YO"
+            }
+        ],
+        "id": "10d201ec-d928-4baa-be92-e9402a0d1fd8",
+        "nombre": "MONSALVO VILLALBA ABRIL MIA",
+        "dni": "52,772,679"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Silvia Otero",
+        "alta": "2022-03-08",
+        "escuela": "COLEGIO J.NEWBERY",
+        "obraSocial": "OSPOCE",
+        "diagnostico": "T. especifico del desarrollo del habla y del lenguaje. T. Hipercinetico no especificado.",
+        "gradoTurno": "4º Grado TM",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se le realiza el llamado correspondiente a la madre, donde comenta que el niño tiene muchas ausencias debido a enfermedad, en la actualidad no esta asistiendo desde la semana anterior debido a Broncoespasmo. Comenta que cada vez que se enferma le cuesta mucho retomar la rutina escolar nuevamente y eso intercede en lo pedagógico y en el vinculo con su AE. Y con respecto a lo avances, pudo ir notándolos pero cada vez que se enferma se los tiene que volver a trabajar y/o reforzar ya que suele perder la continuidad de la rutina escolar. Al referirse a Silvia comenta que se la observa predispuesta y que ve ganas en ella en que el avance. ",
+                "fecha": "14/6/2022, 15:40:40",
+                "autor": "YO"
+            }
+        ],
+        "id": "cf65631a-c395-4cd4-95ad-005ea5536c90",
+        "nombre": "Di Spalatro Erick",
+        "dni": "53.876.892"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "ALICIA TKACZUK",
+        "alta": "2022-06-09",
+        "escuela": "JI N° 903 / ezeiza",
+        "obraSocial": "OSPADEP",
+        "diagnostico": "Trastorno generalizado del desarrollo no especificado",
+        "gradoTurno": "2° S. TInicial / MAÑANA",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "La acompañante puede continuar unos dias más, la familia ya está al tanto",
+                "fecha": "31/5/2022, 13:28:03",
+                "autor": "YO"
+            },
+            {
+                "texto": "El dia 07/06 la acompañante entrego la documentacion en la escuela. El dia 8/06 se comunica que ya esta autorizada para comenzar.",
+                "fecha": "8/6/2022, 11:12:21",
+                "autor": "YO"
+            },
+            {
+                "texto": "09/06 Alicia comenzo en el dia de hoy con el acompañamiento de Catalina",
+                "fecha": "13/6/2022, 11:54:41",
+                "autor": "YO"
+            }
+        ],
+        "id": "63229fa8-1757-420d-a107-6897e3e6ba0e",
+        "nombre": "BELIZAN CATALINA",
+        "dni": 56497971
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "",
+        "escuela": "Jardin de Infantes Nº 925",
+        "diagnostico": "Trastorno Generalizado del Desarrollo.",
+        "obraSocial": "HOMINIS",
+        "gradoTurno": "2º Sección / TT",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "c5fb96dd-eb3f-4d17-ae54-cc829e3308e3",
+        "nombre": "Di Benedetto Milena Abigail",
+        "dni": "57.631.262"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Flavia Martinez",
+        "alta": "2022-03-10",
+        "escuela": "EP N° 20 - Máximo Paz",
+        "diagnostico": "T. específicos del desarrollo del habla y del lenguaje. Trastornos hipercinéticos",
+        "obraSocial": "PRIVAMED / OSEN",
+        "gradoTurno": "primario/2° (T)",
+        "observaciones": [
+            {
+                "texto": "Se le realiza el llamado correspondiente a la madre de Valentino, la cual comenta que se encuentra muy conforme con el acompañamiento ya que Flavia tiene muy buena predisposición para trabajar con Valen. En la actualidad ella se encuentra poniendo a prueba pictogramas que le brindaron las terapeutas del niño para ir moldeando la conducta dentro del aula. Así mismo agrega que al comienzo del ciclo, el vinculo costó ya que Valen estaba acostumbrado a su anterior acompañante, llamaba a Flavia por el nombre de ella y se lo notaba negado a la compañía de ella, hasta que se pudo acostumbrar y comenzó a avanzar. La madre pregunta si seria posible que el centro se comunique con la directora o el equipo de orientación escolar para preguntar acerca de como ven ellas al niño, se le responde que si, que esto se iba a realizar. Agrega que la semana que viene le entregan el boletín entonces también va a tener una devolución del niño. ",
+                "fecha": "14/6/2022, 16:04:58",
+                "autor": "YO"
+            }
+        ],
+        "id": "53e1dd69-4da0-47d2-9a89-6f7054a0202c",
+        "nombre": "Lucero Pinola Valentino Agustin",
+        "dni": 54292406
+    },
+    {
+        "referente": "",
+        "acompañante": "",
+        "escuela": "EPN°12",
+        "diagnostico": "",
+        "obraSocial": "",
+        "gradoTurno": "",
+        "observaciones": [],
+        "id": "f11c53bd-666b-4943-9e9f-7acb40f33359",
+        "nombre": "GONZALEZ BENJAMÍN",
+        "dni": 0
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Belén Truyén",
+        "alta": "2022-03-15",
+        "escuela": "E.P. N°  10 - Ezeiza",
+        "diagnostico": "Autismo en la niñez.",
+        "obraSocial": "OSMMEDET",
+        "gradoTurno": "primaria/4°  (M)",
+        "observaciones": [
+            {
+                "texto": "Se le realiza el llamado correspondiente a la madre de Darius, donde comenta que se encuentra muy conforme con Belén ya que ve que su hijo realiza cosas que antes por si solo no hacia, como por ejemplo participar en los actos escolares. Ahora nota que el se encuentra muy enganchado y que asiste al colegio con ganas y que eso posibilita que avance en lo pedagógico. Al referirse a este aspecto, cuenta que tuvo hace poco una reunión en el colegio donde se charlo de esto con la docente y la directora, las cuales le plantearon que tanto ellas como desde el equipo no consideran que precise de una Maestra de Apoyo a la Inclusión porque no tiene dificultades con la realización de actividades, simplemente precisa de la guía y de la ayuda en determinados momentos cuando se fatiga, por lo tanto lo que Belén realiza es copiarle los enunciados de las actividades para priorizar la resolución antes que la copia. ",
+                "fecha": "15/6/2022, 17:22:16",
+                "autor": "YO"
+            }
+        ],
+        "id": "0332ddb2-e071-4577-8886-9ac9c666f5fe",
+        "nombre": "Rodríguez Darius",
+        "dni": 52665763
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "Sin acompañante",
+        "escuela": "EPN°13 EZEIZA",
+        "diagnostico": "Retraso mental no especificado, deterioro del comportamiento de grado no especificado. Retraso del desarrollo, microcefalia. ",
+        "obraSocial": "UP",
+        "gradoTurno": "1° GRADO",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "b4a26dd5-0a8e-4a26-bfa9-14faa8de3a99",
+        "nombre": "MENCIA BANEGAS",
+        "dni": "54.896.185"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Yesica Angel",
+        "alta": "2022-10-04",
+        "escuela": "JI 932",
+        "obraSocial": "OSPIA",
+        "diagnostico": "Trastorno generalizado del desarrollo",
+        "gradoTurno": "2° sección/TM",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se aprobo el ingreso en el jardín, mañana comienza la AE (4/10)",
+                "fecha": "3/10/2022, 10:18:10",
+                "autor": "YO"
+            }
+        ],
+        "id": "2359f3f3-2968-4090-a076-d37b53392463",
+        "nombre": "GRAMAJO ARGAÑARAZ NOAH",
+        "dni": "57.083.737"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Ayelen Brizuela",
+        "alta": "2022-09-14",
+        "escuela": "Escuela Primaria Nº 16 San Vicente",
+        "obraSocial": "OSPECON",
+        "diagnostico": "Anormalidades de la marcha y de la movilidad. Retraso mental, no especificado. Parálisis cerebral. ",
+        "gradoTurno": "1º Grado TT",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [
+            {
+                "texto": [],
+                "fecha": "13/9/2022, 13:45:27",
+                "autor": "YO"
+            }
+        ],
+        "id": "a98d01ff-7f91-4b04-a08c-cf24f8a27efc",
+        "nombre": "Banegas Tiziano ",
+        "dni": "55815372"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "CABEDA SABRINA",
+        "alta": "2022-04-06",
+        "escuela": "EPN° 13 DE EZEIZA",
+        "diagnostico": "",
+        "obraSocial": "SPF",
+        "gradoTurno": "4 AÑO PRIMARIO/TT",
+        "observaciones": [
+            {
+                "texto": "A fines del mes de mayo se realizó la presentación con la familia vía whatsapp sobre el nuevo medio de comunicación, no hubo respuesta del mismo. A principios del mes de junio me comuniqué para llamarlos, no hubo respuesta de los padres sino unos audios de un niño. Luego, me comuniqué 3 veces más con la familia y no respondió procedí a llamarlos, me atendió el abuelo de la niña y me comentó que el no está al tanto y que le avisará a la madre para que me llame. Por este motivo me comuniqué tambien con su acompañante la cual refiere que está en comunicación con la madre y que están en pleno momento de posible pase a escuela especial y refiere que \" la semana pasada la evaluaron por parte del equipo y ayer tuvieron reunión con la familia, a mi no me citaron ayer por parte del colegio, y ahora le pregunte a la mamá que se charlo en la reunión\" tambien, que \"Por otro lado, del cole le iban a ofrecer que la puedan pasar a un centro de día, pero la MAI no estaba tan de acuerdo con eso. Así que no sé que habrán charlado ayer en la reunión, pero ni bien me responda, te comento.\" \nNos informará al respecto y pedirá a la madre poder comunicarse con nosotros. ",
+                "fecha": "16/6/2022, 10:17:32",
+                "autor": "YO"
+            }
+        ],
+        "id": "a092159c-ca3a-47d0-bd29-e92228c07d42",
+        "nombre": "TORRES CENTENO CONSTANZA MELINA",
+        "dni": "53,648,225"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "XIMENA ROJAS",
+        "alta": "2022-04-08",
+        "escuela": "EPNº27 DE EZEIZA",
+        "diagnostico": "",
+        "obraSocial": "OSPERYH",
+        "gradoTurno": "2 AÑO PRIMARIO/TM",
+        "observaciones": [
+            {
+                "texto": "La madre tuvo una operación de peritonitis de urgencia, por lo que el niño se reincorpora la primera semana de junio. Se consultará a la familia dentro de unas semanas para brindarle su espacio, y tiempo al acompañamiento para evaluar la calidad del mismo. ",
+                "fecha": "8/6/2022, 9:00:25",
+                "autor": "YO"
+            }
+        ],
+        "id": "1bd8bcb8-4526-4474-8a59-5b6b97f52bcc",
+        "nombre": "MENDOZA GERMAN",
+        "dni": 54251215
+    },
+    {
+        "referente": "Barbara",
+        "bajaAlumno": true,
+        "escuela": "EP N° 13 / EZEIZA",
+        "obraSocialSituacion": "Aprobado",
+        "nombre": "SENA ELISEO ULISES",
+        "acompañante": "PALAVECINO MARIA",
+        "alta": "2022-04-11",
+        "obraSocial": "OSFE",
+        "diagnostico": "Retraso mental leve Trastornos generalizados del desarrollo",
+        "gradoTurno": "5°/TM/Primario",
+        "baja": "2022-06-07",
+        "observaciones": [
+            {
+                "texto": "La supervisora Gabriela se comunica con el papá de Eliseo por el tema de la obra social, en esa comunicación, le manifiesta que se encuentra muy conforme por lo trabajado por parte de la acompañante para con el niño, actualmente se encuentra a la espera de una nueva acompañante, en principio no entraba al aula y ella logro que permanezca en el salón.",
+                "fecha": "15/6/2022, 8:16:13",
+                "autor": "YO"
+            },
+            {
+                "texto": "el padre da aviso de que a partir del 2/8 comienzan con la adaptacion en escuela especial",
+                "fecha": "8/8/2022, 8:51:30",
+                "autor": "YO"
+            }
+        ],
+        "id": "749da52b-3fd8-4eb9-9a4d-1f70bb596c2e",
+        "dni": 52024149
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Bianca Bravo",
+        "alta": "2022-11-16",
+        "escuela": "Escuela Primaria N° 13",
+        "obraSocial": "OSECAC",
+        "diagnostico": "Trastorno generalizado del desarrollo",
+        "gradoTurno": "3° / TM / BURZACO",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se realiza la admision el 26/07/2022",
+                "fecha": "26/7/2022, 15:57:04",
+                "autor": "YO"
+            },
+            {
+                "texto": "Presentación con la familia, aviso de que estamos en busqueda de AE",
+                "fecha": "29/7/2022, 9:30:43",
+                "autor": "YO"
+            },
+            {
+                "texto": "La mamá da cuenta de que la Ae comenzo con el acompañamiento el 19/09 y que esta todo bien",
+                "fecha": "22/9/2022, 15:57:17",
+                "autor": "YO"
+            },
+            {
+                "texto": "16/11 comienza at bianca bravo",
+                "fecha": "23/11/2022, 8:54:22",
+                "autor": "YO"
+            }
+        ],
+        "id": "fb8f64e2-df3b-4697-b985-09d5c7b62ac2",
+        "nombre": "CASTELL DONATO GABRIEL",
+        "dni": "53535853"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "AGUSTINA RIVERO",
+        "alta": "2022-10-03",
+        "escuela": "COLEGIO SAPERI/Mte Gde",
+        "obraSocial": "MAESTRANZA",
+        "diagnostico": "Trastornos generalizados del desarrollo",
+        "gradoTurno": "6°/TM/ Secundario",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "08/06/2022 comunicación con la familia, manifiesta que hay dias que la ae no asiste porque esta la MAI, la MAI va dos horas. Solicita que la AE asista igual, charlar con Laura este tema. Hay buena comunicacion estan muy conformes con el trabajo, le gustaria que sea mas intensa, es muy tranquila.",
+                "fecha": "8/6/2022, 11:56:01",
+                "autor": "YO"
+            }
+        ],
+        "id": "20ba05bf-b770-44d5-b4d9-bdc81af901d7",
+        "nombre": "ARIAS GAITAN URIEL",
+        "dni": 45151345
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Flavia Flores",
+        "alta": "2022-09-20",
+        "escuela": "JARDIN 911/ T SUAREZ",
+        "obraSocial": "HOMINIS",
+        "diagnostico": "Trastornos generalizados del desarrollo",
+        "gradoTurno": "1° SECCION/INICIAL/ MAÑANA",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Me comunique con la familia para informar que nos encontramos en la busqueda de acompañante.",
+                "fecha": "31/5/2022, 14:38:48",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se da inicio a la prestacion",
+                "fecha": "23/8/2022, 13:12:12",
+                "autor": "YO"
+            },
+            {
+                "texto": "El dia 20/09 flavia comienza con el acompañamiento, la mama manifiesta que esta todo bien.",
+                "fecha": "22/9/2022, 15:56:20",
+                "autor": "YO"
+            }
+        ],
+        "id": "a904c805-efea-4ffa-8288-0bc4af8c8bea",
+        "nombre": "BARBERAN JOAQUIN MARCELO",
+        "dni": 57606696
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "DELGADO ROXANA",
+        "alta": "2022-03-03",
+        "escuela": "COLEGIO MAITEN 9 DE ABRIL",
+        "diagnostico": "",
+        "obraSocial": "OSPECON",
+        "gradoTurno": "5° AÑO PRIMARIO/TM",
+        "observaciones": [
+            {
+                "texto": "La madre informa que siguen como siempre, bien, ya serían casi 3 años. Le pidieron a la coordinadora anterior si podía seguir ella el acompañamiento durante este ciclo. Roxana lo contiene, lo sabe manejar y la escuela había solicitado que ella continúe, avanzó mucho. Axel está mas grande, expresa más sus emociones y quejas, esta \"rebelándose\". Logró una mayor comprensión de las cosas. Las tareas las realiza en la escuela y no en la casa. \n",
+                "fecha": "14/6/2022, 15:40:42",
+                "autor": "YO"
+            }
+        ],
+        "id": "1ba681fc-260c-41cf-a291-b9a3b3f5261b",
+        "nombre": "SEGOVIA AXEL ARIEL",
+        "dni": "51,439,660"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "SANDRA GONZALEZ",
+        "escuela": "Colegio Latinoamericano/ TRISTAN SUAREZ",
+        "diagnostico": "Autismo en la niñez",
+        "obraSocial": "OSTIG",
+        "gradoTurno": "3° año/ TT / PRIMARIA",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Me comunique con la familia para informar que nos encontramos en la busqueda de acompañante.",
+                "fecha": "31/5/2022, 14:34:40",
+                "autor": "YO"
+            },
+            {
+                "texto": "Martes 7/06  se realiza el encuentro con la aocmpañante y la familia, la Ae llevo la documentación a la escuela, nos encontramos a la espera de la aprobación.",
+                "fecha": "13/6/2022, 11:27:09",
+                "autor": "YO"
+            },
+            {
+                "texto": "15/06 comunicacion con la familia para saber si hay alguna novedad de la aprobacion en la escuela, nos informan que quien firma se encuentra atrasada pero pronto será aprobado.",
+                "fecha": "15/6/2022, 9:06:20",
+                "autor": "YO"
+            },
+            {
+                "texto": "Se aprueba el ingreso de la AE en la institución escolar el dia 22",
+                "fecha": "21/6/2022, 13:24:21",
+                "autor": "YO"
+            }
+        ],
+        "id": "c1269df6-d80f-4a58-ac07-a632861826cc",
+        "nombre": "VEGA SANCHEZ IGNACIO",
+        "dni": 53691541
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "JARA MARIA FLORENCIA",
+        "alta": "2022-06-06",
+        "escuela": "EPN°2 TRISTAN SUAREZ",
+        "diagnostico": "",
+        "obraSocial": "MAESTRANZA",
+        "gradoTurno": "4TO AÑO/TM",
+        "observaciones": [
+            {
+                "texto": "14/06/2022\nLa madre refiere que le está yendo mas o menos, debido a que el niño no está yendo a  la escuela.  Por recomendación del gabinete escolar, no saben como manejarlo ni tratarlo, esta conforme con la acompañante pero nadie puede controlar su conducta. Se frustra mucho, estaba gritando tirando,  rompiendo cosas, su comportamiento es así desde este año que comenzó con esas conductas. El no está asistiendo a las terapias. Solicitó las terapias acá en la huella. Retomará el día lunes con el equipo y la acompañante. Rompe las cosas, se pone peor ante el no, se pone desafiante. ",
+                "fecha": "14/6/2022, 13:58:24",
+                "autor": "YO"
+            }
+        ],
+        "id": "290688ea-7e73-4688-b18f-1dd27632dc75",
+        "nombre": "FERRI KEVIN LEONARDO",
+        "dni": 52829529
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "XIMENA ROJAS",
+        "alta": "2022-05-11",
+        "escuela": "EPNº27 DE EZEIZA",
+        "diagnostico": "",
+        "obraSocial": "OSPECON",
+        "gradoTurno": "5 AÑO PRIMARIO/TT",
+        "observaciones": [
+            {
+                "texto": "En el día 30/05 Se habló con la familia y se consultó por el acompañamiento debido a un tema de horarios la familia habló con la escuela y acordaron intentar extender el horario. La familia refiere estar conforme con el acompañamiento, debido a que también el año pasado no lograron tener aprobación de inspección. Este año se entregó en febrero y comenzó a fines de MAYO.",
+                "fecha": "31/5/2022, 20:04:10",
+                "autor": "YO"
+            },
+            {
+                "texto": "FONTAN BENJAMIN En el día 30/05 Se habló con la familia y se consultó por el acompañamiento debido a un tema de horarios la familia habló con la escuela y acordaron intentar extender el horario. La familia refiere estar conforme con el acompañamiento, debido a que también el año pasado no lograron tener aprobación de inspección. Este año se entregó en febrero y comenzó a fines de MAYO.",
+                "fecha": "1/6/2022, 8:26:29",
+                "autor": "YO"
+            },
+            {
+                "texto": "En el día 15/06 hubo reunión con el padre de Benjamín, para acordar criterios sobre la finalización del acompañamiento en el mes de Diciembre debido a que la obra social aprobó la prestación de MAYO A DIC. La familia estuvo de acuerdo sin problemas. La acompañante Ximena había entregado la documentación en tiempo y forma, pero fue la misma escuela la cual no quería firmar el acta acuerdo sin que esté la aprobación de inspección. La dirección ha puesto trabas en los dos acompañamientos que tenemos desde el Centro. \nPor otro lado, en la reunión el padre manifestó estar muy conforme con Ximena, que están logrando un buen vinculo con Benjamín y que están esperando el pase a escuela especial. ",
+                "fecha": "15/6/2022, 8:46:40",
+                "autor": "YO"
+            }
+        ],
+        "id": "65778be3-f760-4b15-88a5-cdb122521564",
+        "nombre": "FONTAN BENJAMIN FACUNDO",
+        "dni": "51,183,696"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "JULIETA CARRICABURO",
+        "alta": "2022-08-08",
+        "escuela": "JARDÍN N°904 MAXIMO PAZ",
+        "obraSocial": "OSPEDYC",
+        "diagnostico": "AUTISMO EN LA NIÑEZ ",
+        "gradoTurno": "2° SECCIÓN",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "fe31723c-1522-4c4d-a032-d7bafe82cb16",
+        "nombre": "GOMEZ BRUNO MATHEO",
+        "dni": "56.707.340"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "BOGADO ROMINA",
+        "alta": "2022-04-04",
+        "escuela": "EP N°1 / EZEIZA",
+        "diagnostico": "Autismo en la niñez Trastorno de la recepción del lenguaje",
+        "obraSocial": "MAESTRANZA",
+        "gradoTurno": "1°/TT/Primario",
+        "observaciones": [
+            {
+                "texto": "Me comunique con la familia, la mamá manifiesta que tiene un hermoso vinculo con la acompañante, ella nunca falta, avanzo un montón, el niño ingresa al aula y antes no lo hacia. Estan conformes con el acompañamiento.",
+                "fecha": "13/6/2022, 9:21:03",
+                "autor": "YO"
+            }
+        ],
+        "id": "53b74f54-f3b4-45cf-97fd-a70ea6722ab9",
+        "nombre": "AVALOS ELIAS EMANNUEL",
+        "dni": 55418794
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "VALERIA D´AGOSTINO",
+        "alta": "2022-06-10",
+        "escuela": "E. P. N° 29 SAN VICENTE",
+        "obraSocial": "OSPEDYC",
+        "diagnostico": "Trastornos generalizados del desarrollo.",
+        "gradoTurno": "2° Año/ TM/Primaria",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Documentación enviada en formato digital",
+                "fecha": "30/5/2022, 0:07:46",
+                "autor": "YO"
+            },
+            {
+                "texto": "08/06 El abuelo nos comunica que desde el colegio se solicita el comprobante de la aprobación de la O.S, se envia ese dia.",
+                "fecha": "13/6/2022, 10:11:13",
+                "autor": "YO"
+            },
+            {
+                "texto": "08/06 Se autoriza a la AE que pueda iniciar con el acompañamiento de manera virtual, se envia la planilla virtual.",
+                "fecha": "13/6/2022, 10:12:05",
+                "autor": "YO"
+            },
+            {
+                "texto": "10/06 comienzan a trabajar de manera virtual, la AE y el niño.",
+                "fecha": "13/6/2022, 10:31:00",
+                "autor": "YO"
+            },
+            {
+                "texto": "14/06 La abuela venia hablando con la acompañante para conocer sobre el niño. En el día de hoy se contacto por primera vez Fabricio con la acompañante, el la recibio muy bien, le dijo que la iba a extrañar, tuvo un buen primer acercamiento.",
+                "fecha": "14/6/2022, 15:11:09",
+                "autor": "YO"
+            },
+            {
+                "texto": "26/08 se envia la documentacion de Gloria ,la escuela le dijo que mandaron todo a la 501 de guernica estamos a la espera de la aprobacion",
+                "fecha": "8/9/2022, 15:43:30",
+                "autor": "YO"
+            }
+        ],
+        "id": "134e7cd6-340e-403f-a18c-8436b4ad2475",
+        "nombre": "CARLOS FABRICIO EMANUEL",
+        "dni": "54.673.905"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "",
+        "escuela": "St. Mary's ",
+        "diagnostico": "Trastorno del Lenguaje Expresivo. Trastornos Hipercinéticos. ",
+        "obraSocial": "SANCOR SALUD",
+        "gradoTurno": "1º Grado",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "9629f4c1-bb5a-4dd0-bf88-a8e4e3fd56ed",
+        "nombre": "Alí Isaías Rafael",
+        "dni": "55.100.290"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "",
+        "escuela": "Jardin de Infantes Nº 915",
+        "diagnostico": "Trastorno Generalizado del Desarrollo. Microcefalia. ",
+        "obraSocial": "ANDAR",
+        "gradoTurno": "3º Sección",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "7e19b69f-db03-48b7-af62-d9fd34a2a996",
+        "nombre": "Rivero Mangas Luna Abril ",
+        "dni": "56.627.458"
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "TULA SILVIA ",
+        "alta": "2022-10-27",
+        "escuela": "J.I. SAN IGNACIO",
+        "obraSocial": "OSPAGA",
+        "diagnostico": "",
+        "gradoTurno": "INICIAL (3º SECCION)/TM",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [],
+        "id": "2f0e4b09-f6b5-4d33-bca7-fadd0711e915",
+        "nombre": "DAGNINO FELIPE JOAQUIN",
+        "dni": "55.893.679."
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Ruth Catalan",
+        "alta": "2022-10-04",
+        "escuela": "JARDIN DE INFANTES 932",
+        "obraSocial": "OSPOCE",
+        "diagnostico": "Trastorno generalizado del desarrollo no especificado",
+        "gradoTurno": "2° SECCIÓN/ TURNO MAÑANA",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se aprobo el ingreso de la AE, mañana mismo comenzaria. (4/10)",
+                "fecha": "3/10/2022, 10:17:02",
+                "autor": "YO"
+            }
+        ],
+        "id": "6fb45227-a743-4e49-abb0-fc296d2b3009",
+        "nombre": "BARTHOLDY MATEO",
+        "dni": "56.631.495"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "Aldana Caporale",
+        "alta": "2022-03-15",
+        "escuela": "E.P. N° 16 - La Unión",
+        "obraSocial": "GALENO/OSOSS",
+        "diagnostico": "Autismo en la niñez",
+        "gradoTurno": "4° Grado TM",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "Se le envía el mensaje correspondiente a la madre, preguntando si se encuentra disponible para llamarla. No se obtuvo respuesta del mensaje. ",
+                "fecha": "16/6/2022, 13:33:22",
+                "autor": "YO"
+            }
+        ],
+        "id": "8f410af9-90b5-445e-b8bf-c713ecc816fa",
+        "nombre": "Correa Benjamín Lionel",
+        "dni": "53.876.876"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "CELASCO BÁRBARA",
+        "alta": "2022-03-21",
+        "escuela": "ESC. SEC. \"COLEGIO DE HOY\"",
+        "diagnostico": "",
+        "obraSocial": "OSECAC",
+        "gradoTurno": "5°/TM/Secundario",
+        "observaciones": [
+            {
+                "texto": "La mamá manifiesta que está super bien, es nueva la acompañante y pudieron establecer un buen vinculo, esta todo el tiempo presente, se preocupa, tienen una buena comunicación. En cuanto la asistencia, va super bien, Barbara asiste siempre, Agostina no falta nunca tampoco. La mamá está muy conforme.",
+                "fecha": "13/6/2022, 12:49:09",
+                "autor": "YO"
+            }
+        ],
+        "id": "d5d3f79e-dd13-4a33-87a1-0dd6645d685d",
+        "nombre": "LEIVA AGOSTINA",
+        "dni": 46989550
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "MALVAREZ TAMARA",
+        "alta": "2022-03-15",
+        "escuela": "C. NTRA. SEÑORA MTE GDE",
+        "diagnostico": "Autismo en la niñez",
+        "obraSocial": "OSCRAIA",
+        "gradoTurno": "2°S/TM/ Inicial",
+        "observaciones": [
+            {
+                "texto": "Los papás manifiestan que viene todo bien, ellos vienen trabajando desde el año pasado, lo ayuda un monton, el año pasado cuando estaba solo deambulaba y no participaba, este año logro integrarse mucho más , ven avances en  el jardin. Se notan mucho los cambios, el quiere entrar y salir siempre con ella.",
+                "fecha": "15/6/2022, 9:13:57",
+                "autor": "YO"
+            }
+        ],
+        "id": "0a1000e0-2ef7-4367-bea6-a8e580e530a3",
+        "nombre": "RIOS VALENTIN ROMAN",
+        "dni": 56946760
+    },
+    {
+        "referente": "Bahiana",
+        "acompañante": "FLORENCIA GOMEZ",
+        "alta": "2022-03-07",
+        "escuela": "COLEGIO BADEN POWEL",
+        "diagnostico": "",
+        "obraSocial": "UP",
+        "gradoTurno": "3 AÑO PRIMARIO/TM",
+        "observaciones": [
+            {
+                "texto": "Llamado el día 14/06, Se habló con la mamá. Comenta  bárbaro ya se conocen, sus tiempos, su humor y carácter. Estuvieron con exámenes lo contiene cada vez que se frustra y se enoja. Generaron el vínculo muy rápido, se conecto bastante bien. Llega un poquito tarde por el tránsito, pero con eso no hay problemas, llega bien. Siempre están contacto. ",
+                "fecha": "14/6/2022, 13:23:05",
+                "autor": "YO"
+            }
+        ],
+        "id": "cf27a97b-798d-4b45-9567-31374ae33351",
+        "nombre": "POPP URUNAGA IVAN",
+        "dni": "53,684,708"
+    },
+    {
+        "referente": "Jimena",
+        "acompañante": "",
+        "escuela": "Escuela Primaria Nº 901",
+        "diagnostico": "Trastorno generalizado del Desarrollo. Problemas relacionados con habilidades sociales Inadecuadas, no clasificados en otra parte. ",
+        "obraSocial": "UNION PERSONAL",
+        "gradoTurno": "5º Grado",
+        "obraSocialSituacion": "A la espera",
+        "observaciones": [],
+        "id": "5aa4cc87-f33f-45e5-8c23-6ee48796044b",
+        "nombre": "San José Enrique",
+        "dni": "52.427.909"
+    },
+    {
+        "referente": "Barbara",
+        "acompañante": "Genesis Pelaez ",
+        "alta": "2022-09-22",
+        "escuela": "E. SECUNDARI 13/Mte Gde",
+        "obraSocial": "OSMATA",
+        "diagnostico": "Trastorno generalizado del desarrollo no especificado. Epilepsia. Secuelas de encefalitis viral.",
+        "gradoTurno": "2°/TT/Secundario",
+        "obraSocialSituacion": "Aprobado",
+        "observaciones": [
+            {
+                "texto": "EL 04/06 la mamá se comunica con la anterior coordinadora. Se dió nuevamente de alta el 06/06. El dia 08/06 se consigue nueva acompañante  Paula y se le cuenta del caso.",
+                "fecha": "8/6/2022, 11:24:26",
+                "autor": "YO"
+            },
+            {
+                "texto": "el dia 14/07 la AE Genesis Pelaez confirma tomar el acompañamiento",
+                "fecha": "14/7/2022, 13:40:13",
+                "autor": "YO"
+            },
+            {
+                "texto": "El dia jueves 22 la AE Genesis Pelaez comenzo con el acompañamiento",
+                "fecha": "23/9/2022, 10:24:06",
+                "autor": "YO"
+            }
+        ],
+        "id": "0a003b11-d282-4539-b752-5a12bc1b467a",
+        "nombre": "PEREYRA FRANCO",
+        "dni": "48806683"
+    }
+]
