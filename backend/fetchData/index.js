@@ -2,6 +2,7 @@ const { DynamoDBClient, ScanCommand } = require("@aws-sdk/client-dynamodb");
 const { unmarshall } = require("@aws-sdk/util-dynamodb");
 
 exports.handler = async function (params) {
+  console.log(params)
   if (!params?.headers["api-key"] === process.env.API_KEY)
     return {
       statusCode: 403,
@@ -18,6 +19,6 @@ exports.handler = async function (params) {
   console.log("Se busca en base de datos");
   return {
     statusCode: 200,
-    body: dataTransform,
+    body: dataTransform
   };
 };
