@@ -8,7 +8,7 @@ export const fetchData = async (tableName) => {
       headers: { "api-key": process.env.REACT_APP_API_KEY },
     }
   );
-  return await response.data;
+  return  response.data;
 };
 
 export const fetchById = async (tableName, id) => {
@@ -19,7 +19,7 @@ export const fetchById = async (tableName, id) => {
       headers: { "api-key": process.env.REACT_APP_API_KEY },
     }
   );
-  return await response.data;
+  return  response.data;
 };
 export const putData = async (tableName, item) => {
   const response = await axios.post(
@@ -29,7 +29,7 @@ export const putData = async (tableName, item) => {
       headers: { "api-key": process.env.REACT_APP_API_KEY },
     }
   );
-  return await response.data;
+  return  response.data;
 };
 
 export const deleteById = async (tableName, id) => {
@@ -38,5 +38,5 @@ export const deleteById = async (tableName, id) => {
     { tableName, id },
     { headers: { "api-key": process.env.REACT_APP_API_KEY } }
   );
-  return await response.json();
+  return response.data;
 };

@@ -32,8 +32,8 @@ export default function StudentsDown() {
     <div style={{ height: "85%", width: "70%" }}>
       <Tabs value={value} onChange={handleChange} centered indicatorColor="secondary"  textColor="secondary">
       {
-    referentesDefault.map(r => (
-      <Tab value={r.value} label={r.label}/>
+    referentesDefault.map((r,i) => (
+      <Tab value={r.value} label={r.label} key={`${i}-${r.value}`}/>
     ))
    }
         <Tab value={"todos"} label={`todos`}/>

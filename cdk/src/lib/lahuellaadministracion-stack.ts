@@ -2,26 +2,26 @@ import {  FunctionUrlAuthType,  Code, Function, Runtime } from 'aws-cdk-lib/aws-
 import {  Duration,  Stack, StackProps } from 'aws-cdk-lib';
 import { RetentionDays } from 'aws-cdk-lib/aws-logs';
 import { Construct } from 'constructs';
-import { Secret } from 'aws-cdk-lib/aws-secretsmanager';
 import { Table } from 'aws-cdk-lib/aws-dynamodb';
 
 export class HuellaAdministracion extends Stack {
   constructor(scope: Construct, id: string, props: StackProps) {
     super(scope, id, props);
 
-    const secretName = `secret-apikey`;
-    const secretManager = new Secret(this, secretName, {
-      secretName: secretName,
-      generateSecretString: {
-        excludePunctuation: true,
-        passwordLength: 30
-      }
-    });
+    // const secretName = `secret-apikey`;
+    // const secretManager = new Secret(this, secretName, {
+    //   secretName: secretName,
+    //   generateSecretString: {
+    //     excludePunctuation: true,
+    //     passwordLength: 30
+    //   }
+    // });
+    const secret = this.node.tryGetContext("API_KEY");
     //Lambdas
     const fetchAll = `lambda-fetchall`;
     const fetchAllLambda = new Function(this, fetchAll, {
       environment: {
-        API_KEY: secretManager.secretValue.toString()
+        API_KEY: secret
       },
       runtime: Runtime.NODEJS_16_X,
       handler: "index.handler",
@@ -35,7 +35,7 @@ export class HuellaAdministracion extends Stack {
 
     const fetchById= new Function(this, "fetchbyid", {
       environment: {
-        API_KEY: secretManager.secretValue.toString()
+        API_KEY: secret
       },
       runtime: Runtime.NODEJS_16_X,
       handler: "index.handler",
@@ -49,7 +49,7 @@ export class HuellaAdministracion extends Stack {
 
     const putData= new Function(this, "putdata", {
       environment: {
-        API_KEY: secretManager.secretValue.toString()
+        API_KEY: secret
       },
       runtime: Runtime.NODEJS_16_X,
       handler: "index.handler",
@@ -63,7 +63,7 @@ export class HuellaAdministracion extends Stack {
 
     const deleteById= new Function(this, "deletebyid", {
       environment: {
-        API_KEY: secretManager.secretValue.toString()
+        API_KEY: secret
       },
       runtime: Runtime.NODEJS_16_X,
       handler: "index.handler",
