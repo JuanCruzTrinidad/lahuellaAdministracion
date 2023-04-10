@@ -18,6 +18,9 @@ exports.handler = async function (params) {
   const dataTransform = data.Items.map((i) => unmarshall(i));
   console.log("Se busca en base de datos");
   return {
+    headers: {
+      'Content-Type': 'application/json'
+    },
     statusCode: 200,
     body: dataTransform
   };
