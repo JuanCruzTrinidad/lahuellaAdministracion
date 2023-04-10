@@ -1,0 +1,21 @@
+{
+  "name": "stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Juan Cruz Trinidad",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.8.0",
+    "aws-cdk": "^2.43.1"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.43.1",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21",
+    "typescript": "^4.8.4"
+  }
+}
