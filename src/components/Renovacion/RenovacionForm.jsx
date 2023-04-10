@@ -16,12 +16,8 @@ import { useNavigate, useParams } from "react-router-dom";
 import { buttonStyle } from "../styles";
 import { useSnackbar } from "notistack";
 import DeleteIcon from "@mui/icons-material/Delete";
+import {referentesDefault} from '../../variables';
 
-const referentesDefault = [
-  { value: "Barbara", label: "Barbara" },
-  { value: "Bahiana", label: "Bahiana" },
-  { value: "Jimena", label: "Jimena" },
-];
 
 const ReneovacionForm = () => {
   const params = useParams();

@@ -5,6 +5,7 @@ import { fetchData } from "../helpers/actions";
 import { useNavigate } from "react-router-dom";
 import { reportOneStudent, reportStudents } from "../helpers/excel";
 import VisibilityIcon from "@mui/icons-material/Visibility";
+import { referentesDefault } from "../variables";
 
 export default function StudentsDown() {
   const navigate = useNavigate();
@@ -30,9 +31,11 @@ export default function StudentsDown() {
   return (
     <div style={{ height: "85%", width: "70%" }}>
       <Tabs value={value} onChange={handleChange} centered indicatorColor="secondary"  textColor="secondary">
-        <Tab value={"Barbara"} label={`Barbara`} />
-        <Tab value={"Bahiana"} label={`Bahiana`} />
-        <Tab value={"Jimena"} label={`Jimena`}/>
+      {
+    referentesDefault.map(r => (
+      <Tab value={r.value} label={r.label}/>
+    ))
+   }
         <Tab value={"todos"} label={`todos`}/>
       </Tabs>
       <Stack

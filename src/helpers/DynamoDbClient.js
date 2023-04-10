@@ -1,5 +1,6 @@
 const { DynamoDBClient } = require("@aws-sdk/client-dynamodb");
 
+console.log("Aparecio la variable", process.env.REACT_APP_VARIABLE)
 export const dynamoDbClient = () => new DynamoDBClient({   
   region: 'us-east-2',
   credentials: {
