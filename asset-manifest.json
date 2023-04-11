@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lahuellaAdministracion/static/css/main.d8224b6f.css",
-    "main.js": "/lahuellaAdministracion/static/js/main.a0351e8e.js",
+    "main.js": "/lahuellaAdministracion/static/js/main.31acf020.js",
     "static/media/lahuella.png": "/lahuellaAdministracion/static/media/lahuella.5a19703608020e676f39.png",
     "index.html": "/lahuellaAdministracion/index.html",
     "main.d8224b6f.css.map": "/lahuellaAdministracion/static/css/main.d8224b6f.css.map",
-    "main.a0351e8e.js.map": "/lahuellaAdministracion/static/js/main.a0351e8e.js.map"
+    "main.31acf020.js.map": "/lahuellaAdministracion/static/js/main.31acf020.js.map"
   },
   "entrypoints": [
     "static/css/main.d8224b6f.css",
-    "static/js/main.a0351e8e.js"
+    "static/js/main.31acf020.js"
   ]
 }
