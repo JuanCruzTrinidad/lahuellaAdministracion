@@ -14,11 +14,13 @@ export default function BasicCard({content, fecha, color = "#8dd853", autor = 'Y
 
   const onClickDelete = (e, id) => {
     e.preventDefault()
-    deleteById("notas", id).then(s => console.log("Se elimino."))
-    setRefresh(!refresh) 
-    enqueueSnackbar("Se elimino correctamente la nota.", { 
-      variant: 'info',
-  })
+    deleteById("notas", id).then(s => { 
+      console.log("Se elimino.")
+      setRefresh(!refresh) 
+      enqueueSnackbar("Se elimino correctamente la nota.", { 
+        variant: 'info',
+    })
+    } )
   }
   const newColors = {
     "#8dd853": "#DAF7A6",

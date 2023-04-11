@@ -25,7 +25,7 @@ export class HuellaAdministracion extends Stack {
       timeout: Duration.seconds(10),
       code: Code.fromAsset("../backend/fetchData/")
     });
-    fetchAllLambda.addFunctionUrl({ authType: FunctionUrlAuthType.NONE , cors: {allowCredentials: true, allowedMethods: [HttpMethod.GET], allowedOrigins: ["http://localhost:3000", "https://juancruztrinidad.github.io"]}})
+    fetchAllLambda.addFunctionUrl({ authType: FunctionUrlAuthType.NONE , cors: {allowCredentials: true, allowedMethods: [HttpMethod.GET, HttpMethod.POST], allowedOrigins: ["http://localhost:3000", "https://juancruztrinidad.github.io"], allowedHeaders: ["Content-Type", "api-key"]}})
 
     const nameFetchById = `fetchbyid-${project}`;
     const fetchById= new Function(this,nameFetchById, {
@@ -40,7 +40,7 @@ export class HuellaAdministracion extends Stack {
       timeout: Duration.seconds(10),
       code: Code.fromAsset("../backend/fetchById/")
     });
-    fetchById.addFunctionUrl({ authType: FunctionUrlAuthType.NONE,  cors: {allowCredentials: true, allowedMethods: [HttpMethod.GET], allowedOrigins: ["http://localhost:3000", "https://juancruztrinidad.github.io"]} })
+    fetchById.addFunctionUrl({ authType: FunctionUrlAuthType.NONE,  cors: {allowCredentials: true, allowedMethods: [HttpMethod.GET, HttpMethod.POST], allowedOrigins: ["http://localhost:3000", "https://juancruztrinidad.github.io"], allowedHeaders: ["Content-Type", "api-key"]} })
 
     const namePutData = `putdata-${project}`;
     const putData= new Function(this, namePutData, {
@@ -55,7 +55,7 @@ export class HuellaAdministracion extends Stack {
       timeout: Duration.seconds(10),
       code: Code.fromAsset("../backend/putData/")
     });
-    putData.addFunctionUrl({ authType: FunctionUrlAuthType.NONE,  cors: {allowCredentials: true, allowedMethods: [HttpMethod.POST, HttpMethod.PUT], allowedOrigins: ["http://localhost:3000", "https://juancruztrinidad.github.io"]}})
+    putData.addFunctionUrl({ authType: FunctionUrlAuthType.NONE,  cors: {allowCredentials: true, allowedMethods: [HttpMethod.POST, HttpMethod.PUT], allowedOrigins: ["http://localhost:3000", "https://juancruztrinidad.github.io"], allowedHeaders: ["Content-Type", "api-key"]}})
 
     const nameDeleteById = `deletebyid-${project}`;
     const deleteById= new Function(this,nameDeleteById , {
@@ -70,7 +70,7 @@ export class HuellaAdministracion extends Stack {
       timeout: Duration.seconds(10),
       code: Code.fromAsset("../backend/deleteById/")
     });
-    deleteById.addFunctionUrl({ authType: FunctionUrlAuthType.NONE,  cors: {allowCredentials: true, allowedMethods: [HttpMethod.DELETE, HttpMethod.GET], allowedOrigins: ["http://localhost:3000", "https://juancruztrinidad.github.io"] }})
+    deleteById.addFunctionUrl({ authType: FunctionUrlAuthType.NONE,  cors: {allowCredentials: true, allowedMethods: [HttpMethod.POST], allowedOrigins: ["http://localhost:3000", "https://juancruztrinidad.github.io"], allowedHeaders: ["Content-Type", "api-key"] }})
 
     const dynamoDbAlumnos = Table.fromTableArn(
       this,
