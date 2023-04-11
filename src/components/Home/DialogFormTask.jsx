@@ -27,7 +27,10 @@ export default function FormTask({ open, handleClose }) {
       values["date"] = new Date().toLocaleDateString();
       values["color"] = getRandomColor();
       putData("notas", values)
-        .then((data) => console.log("Se guardo correctamente"))
+        .then((data) =>  {
+          console.log("Se guardo correctamente") 
+          handleClose()
+        })
         .catch((e) => {
             console.log(e)
             enqueueSnackbar("Ocurrio un error", { 
@@ -37,7 +40,6 @@ export default function FormTask({ open, handleClose }) {
         enqueueSnackbar("Se guardo la nota correctamente", { 
           variant: 'success',
       })
-        handleClose()
     },
   });
   return (

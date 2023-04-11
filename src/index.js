@@ -9,7 +9,6 @@ import ObraSociales from "./pages/ObraSocial";
 import Personas from "./pages/Personas";
 import ObraSocial from "./components/ObraSocial/ObraSocialForm";
 import Persona from "./components/Personas/AcompañanteForm";
-import { Auth0Provider } from "@auth0/auth0-react";
 import { SnackbarProvider } from "notistack";
 import  Home  from "./pages/Home";
 import Search from "./pages/Search";
@@ -17,14 +16,8 @@ import StudentsDown from "./pages/StudentsDown";
 import ReneovacionForm from "./components/Renovacion/RenovacionForm";
 import Renovaciones from "./pages/Renovaciones";
 
-const domainAuth = process.env.REACT_APP_AUTH0_DOMAIN;
-const clientIdAuth = process.env.REACT_APP_AUTH0_CLIENT_ID;
 ReactDOM.render(
-  <Auth0Provider
-    domain={domainAuth}
-    clientId={clientIdAuth}
-    redirectUri={"http://localhost:3000/lahuellaAdministracion"}
-  >
+
     <SnackbarProvider maxSnack={3}>
       <BrowserRouter basename="lahuellaAdministracion">
         <Routes>
@@ -47,8 +40,7 @@ ReactDOM.render(
           </Route>
         </Routes>
       </BrowserRouter>
-    </SnackbarProvider>
-  </Auth0Provider>,
+    </SnackbarProvider>,
   document.getElementById("root")
 );
 

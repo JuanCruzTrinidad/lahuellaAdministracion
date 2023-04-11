@@ -14,12 +14,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { buttonStyle } from "../styles";
 import DeleteIcon from '@mui/icons-material/Delete';
 import { useSnackbar } from 'notistack';
-
-const referentesDefault = [
-  { value: "Barbara", label: "Barbara" },
-  { value: "Bahiana", label: "Bahiana" },
-  { value: "Jimena", label: "Jimena" },
-];
+import {referentesDefault} from '../../variables';
 
 const Persona = () => {
   const params = useParams();

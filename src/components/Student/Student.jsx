@@ -22,12 +22,8 @@ import { buttonStyle } from "../styles";
 import { useAuth0 } from "@auth0/auth0-react";
 import { useSnackbar } from "notistack";
 import DeleteIcon from "@mui/icons-material/Delete";
+import {referentesDefault} from '../../variables';
 
-const referentesDefault = [
-  { value: "Barbara", label: "Barbara" },
-  { value: "Bahiana", label: "Bahiana" },
-  { value: "Jimena", label: "Jimena" },
-];
 
 const estadosSituacionObraSocial = [
   { value: "Aprobado", label: "Aprobado" },
